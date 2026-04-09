@@ -1,0 +1,12 @@
+#!/bin/sh
+
+branch=$(git symbolic-ref --short HEAD 2>/dev/null || echo "")
+
+if [ "$branch" = "main" ] || [ "$branch" = "master" ]; then
+  echo "Direct commits on $branch are blocked. Create or switch to dev and commit there first." >&2
+  echo "Override only if absolutely necessary: ALLOW_MAIN_COMMIT=1 git commit ..." >&2
+  [ "$ALLOW_MAIN_COMMIT" = "1" ] && exit 0
+  exit 1
+fi
+
+exit 0

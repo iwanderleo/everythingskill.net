@@ -1,0 +1,20 @@
+#!/bin/sh
+
+remote_name="$1"
+remote_url="$2"
+
+while read -r local_ref local_sha remote_ref remote_sha
+do
+  case "$remote_ref" in
+    refs/heads/main|refs/heads/master)
+      if [ "$ALLOW_MAIN_PUSH" != "1" ]; then
+        echo "Pushing directly to ${remote_ref#refs/heads/} is blocked for this repo." >&2
+        echo "Push your work to dev and merge to main after verification." >&2
+        echo "Override only if absolutely necessary: ALLOW_MAIN_PUSH=1 git push $remote_name ${remote_ref#refs/heads/}" >&2
+        exit 1
+      fi
+      ;;
+  esac
+done
+
+exit 0

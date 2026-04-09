@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --page-bg: #fcfcfa;
+    --surface-bg: #ffffff;
+    --surface-muted: #f5f5f5;
+    --text-primary: #242424;
+    --text-secondary: #898989;
+    --ring-color: rgba(34, 42, 53, 0.08);
+    --card-shadow: rgba(19, 19, 22, 0.7) 0px 1px 5px -4px, rgba(34, 42, 53, 0.08) 0px 0px 0px 1px, rgba(34, 42, 53, 0.04) 0px 4px 8px 0px;
+  }
+
+  html[data-theme='dark'] {
+    color-scheme: dark;
+    --page-bg: #0d0f12;
+    --surface-bg: #14181d;
+    --surface-muted: #1c2128;
+    --text-primary: #f4f1eb;
+    --text-secondary: #97a0ad;
+    --ring-color: rgba(255, 255, 255, 0.08);
+    --card-shadow: rgba(0, 0, 0, 0.6) 0px 18px 40px -20px, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px, rgba(8, 10, 14, 0.5) 0px 8px 20px 0px;
+  }
+
+  body {
+    @apply antialiased;
+    background: var(--page-bg);
+    color: var(--text-primary);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  ::selection {
+    @apply bg-charcoal/10;
+  }
+
+  html[data-theme='dark'] ::selection {
+    background: rgba(255, 255, 255, 0.16);
+  }
+
+  /* Cal Sans for all headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cal Sans', 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+  }
+}
+
+@layer components {
+  .status-chip {
+    @apply inline-flex items-center rounded-pill px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.14em];
+    color: var(--text-primary);
+    background: color-mix(in srgb, var(--surface-bg) 78%, #c9b88b 22%);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--ring-color) 65%, #c9b88b 35%);
+  }
+
+  .subtle-divider-top {
+    border-top: 1px solid color-mix(in srgb, var(--ring-color) 90%, transparent);
+  }
+
+  .detail-panel {
+    background: var(--surface-bg);
+    box-shadow: 0 0 0 1px var(--ring-color), 0 12px 30px -22px rgba(0, 0, 0, 0.28);
+  }
+
+  .detail-panel-soft {
+    background: color-mix(in srgb, var(--surface-bg) 88%, var(--surface-muted) 12%);
+  }
+
+  .detail-copy {
+    color: color-mix(in srgb, var(--text-primary) 82%, var(--text-secondary) 18%);
+  }
+
+  .detail-tab-group {
+    box-shadow: 0 0 0 1px var(--ring-color);
+    background: color-mix(in srgb, var(--surface-bg) 88%, var(--surface-muted) 12%);
+  }
+
+  .detail-step-dot {
+    background: color-mix(in srgb, var(--surface-muted) 88%, var(--surface-bg) 12%);
+  }
+
+  .detail-chart-surface {
+    background: color-mix(in srgb, var(--surface-muted) 86%, var(--surface-bg) 14%);
+  }
+
+  .readme-shell {
+    scrollbar-color: color-mix(in srgb, var(--text-secondary) 40%, transparent) transparent;
+  }
+
+  /* Cards — multi-layered shadow system, no CSS borders */
+  .skill-card {
+    @apply relative rounded-lg p-7 transition-all duration-200;
+    background: var(--surface-bg);
+    box-shadow: var(--card-shadow);
+  }
+  .skill-card:hover {
+    box-shadow:
+      rgba(19, 19, 22, 0.7) 0px 2px 8px -4px,
+      rgba(34, 42, 53, 0.12) 0px 0px 0px 1px,
+      rgba(34, 42, 53, 0.10) 0px 12px 24px -4px;
+    transform: translateY(-1px);
+  }
+  html[data-theme='dark'] .skill-card:hover {
+    box-shadow:
+      rgba(0, 0, 0, 0.7) 0px 24px 40px -24px,
+      rgba(255, 255, 255, 0.12) 0px 0px 0px 1px,
+      rgba(5, 8, 12, 0.8) 0px 16px 28px -18px;
+  }
+
+  html[data-theme='dark'] .status-chip {
+    background: rgba(235, 230, 220, 0.1);
+    box-shadow: 0 0 0 1px rgba(235, 230, 220, 0.16);
+    color: #f4f1eb;
+  }
+
+  /* Dark Primary Button — charcoal bg, white text */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-2.5
+           text-sm font-medium text-white transition-all duration-200 cursor-pointer;
+    background: #242424;
+    font-family: 'Inter', system-ui, sans-serif;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 0px inset;
+  }
+  .btn-primary:hover {
+    opacity: 0.7;
+  }
+
+  /* Ghost/White Button — white bg, shadow border */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-2.5
+           text-sm font-medium transition-all duration-200 cursor-pointer;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--text-primary);
+    background: var(--surface-bg);
+    box-shadow: var(--card-shadow);
+  }
+  .btn-secondary:hover {
+    box-shadow:
+      rgba(19, 19, 22, 0.7) 0px 2px 8px -4px,
+      rgba(34, 42, 53, 0.12) 0px 0px 0px 1px,
+      rgba(34, 42, 53, 0.08) 0px 8px 16px 0px;
+  }
+  html[data-theme='dark'] .btn-secondary:hover {
+    box-shadow:
+      rgba(0, 0, 0, 0.7) 0px 18px 34px -20px,
+      rgba(255, 255, 255, 0.12) 0px 0px 0px 1px,
+      rgba(5, 8, 12, 0.7) 0px 8px 20px 0px;
+  }
+
+  /* Pill badge */
+  .badge {
+    @apply inline-flex items-center rounded-pill px-3 py-1 text-xs font-medium;
+    color: var(--text-secondary);
+    background: var(--surface-bg);
+    box-shadow: 0 0 0 1px var(--ring-color);
+  }
+
+  /* Category badge variants — all grayscale per design, differentiated by subtle weight */
+  .badge-workplace { @apply bg-white text-charcoal; }
+  .badge-media { @apply bg-white text-charcoal; }
+  .badge-persona { @apply bg-white text-charcoal; }
+  .badge-relationship { @apply bg-white text-charcoal; }
+  .badge-celebrity { @apply bg-white text-charcoal; }
+  .badge-education { @apply bg-white text-charcoal; }
+  .badge-mystical { @apply bg-white text-charcoal; }
+  .badge-tool { @apply bg-white text-charcoal; }
+  .badge-defense { @apply bg-white text-charcoal; }
+
+  /* Form inputs — shadow border, 8px radius */
+  .form-input {
+    @apply w-full rounded-md px-4 py-3 text-sm placeholder:text-mid-gray/50
+           focus:outline-none transition-shadow;
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--surface-bg);
+    color: var(--text-primary);
+    box-shadow: 0 0 0 1px var(--ring-color);
+  }
+  .form-input:focus {
+    box-shadow: rgba(34, 42, 53, 0.08) 0px 0px 0px 1px, 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+
+  html[data-theme='dark'] .form-input:focus {
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 0 0 2px rgba(96, 165, 250, 0.45);
+  }
+}
+
+html[data-theme='dark'] .bg-white {
+  background-color: var(--surface-bg) !important;
+}
+
+html[data-theme='dark'] .bg-white\/80 {
+  background-color: rgba(13, 15, 18, 0.82) !important;
+}
+
+html[data-theme='dark'] .bg-light-gray,
+html[data-theme='dark'] .hover\:bg-light-gray:hover {
+  background-color: var(--surface-muted) !important;
+}
+
+html[data-theme='dark'] .text-charcoal,
+html[data-theme='dark'] .text-midnight,
+html[data-theme='dark'] .hover\:text-charcoal:hover {
+  color: var(--text-primary) !important;
+}
+
+html[data-theme='dark'] .text-mid-gray,
+html[data-theme='dark'] .text-mid-gray\/70,
+html[data-theme='dark'] .text-mid-gray\/80,
+html[data-theme='dark'] .text-charcoal\/70,
+html[data-theme='dark'] .text-charcoal\/72,
+html[data-theme='dark'] .text-charcoal\/82,
+html[data-theme='dark'] .text-mid-gray\/60,
+html[data-theme='dark'] .text-mid-gray\/50,
+html[data-theme='dark'] .text-mid-gray\/40,
+html[data-theme='dark'] .text-mid-gray\/30 {
+  color: var(--text-secondary) !important;
+}
+
+html[data-theme='dark'] [style*='box-shadow'] {
+  box-shadow: var(--card-shadow) !important;
+}
+
+html[data-theme='dark'] [style*='border-top'] {
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+html[data-theme='dark'] [style*='background: #fafafa'] {
+  background: #0f1318 !important;
+}
+
+html[data-theme='dark'] [style*='background: #fcfcfc'] {
+  background: #151a20 !important;
+}
+
+html[data-theme='dark'] [style*='background: #f0f0f0'] {
+  background: #20262e !important;
+}
+
+/* ── README: github-markdown-css overrides ── */
+
+/* Scope and constrain inside our card */
+.readme-content.markdown-body {
+  font-size: 13px !important;
+  line-height: 1.75;
+  font-weight: 450;
+  background: transparent;
+}
+
+/* Headings — use Cal Sans */
+.readme-content.markdown-body :is(h1, h2, h3, h4, h5, h6) {
+  font-family: 'Cal Sans', 'Inter', system-ui, sans-serif;
+}
+
+.readme-content.markdown-body pre code,
+.readme-content.markdown-body pre tt {
+  background: transparent;
+  color: inherit;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Inline code */
+.readme-content.markdown-body code,
+.readme-content.markdown-body tt {
+  font-family: 'Roboto Mono', monospace;
+}
+

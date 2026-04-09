@@ -1,0 +1,89 @@
+<template>
+  <div class="bg-white">
+    <div class="mx-auto max-w-container px-6 py-section">
+      <!-- Header -->
+      <div class="mb-10">
+        <h1 class="font-display text-display-section text-charcoal" style="line-height: 1.10;">{{ $t('skills.title') }}</h1>
+        <p class="text-mid-gray mt-3" style="line-height: 1.50; font-weight: 300;">{{ $t('skills.subtitle') }}</p>
+        <p class="mt-3 flex items-center gap-1.5 text-xs text-mid-gray/60">
+          <Icon name="lucide:refresh-cw" class="w-3 h-3" />
+          {{ $t('skills.syncedAt', { date: lastSyncedAt }) }}
+        </p>
+      </div>
+
+      <!-- Search -->
+      <div class="relative mb-6">
+        <Icon name="lucide:search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-mid-gray" />
+        <input
+          v-model="searchQuery"
+          type="text"
+          :placeholder="$t('skills.searchPlaceholder')"
+          class="w-full rounded-md bg-white pl-12 pr-4 py-3 text-sm text-charcoal placeholder:text-mid-gray/60 focus:outline-none transition-shadow"
+          style="box-shadow: rgba(34, 42, 53, 0.08) 0px 0px 0px 1px; font-family: Inter, system-ui, sans-serif;"
+          @focus="($event.target as HTMLInputElement).style.boxShadow = 'rgba(34, 42, 53, 0.08) 0px 0px 0px 1px, 0 0 0 2px rgba(59, 130, 246, 0.5)'"
+          @blur="($event.target as HTMLInputElement).style.boxShadow = 'rgba(34, 42, 53, 0.08) 0px 0px 0px 1px'"
+        >
+      </div>
+
+      <!-- Category Filter -->
+      <div class="mb-10">
+        <CategoryFilter v-model="selectedCategory" />
+      </div>
+
+      <!-- Results count -->
+      <div class="mb-6 text-sm text-mid-gray">
+        {{ $t('skills.resultsCount', { count: filteredSkills.length }) }}
+      </div>
+
+      <!-- Grid -->
+      <div v-if="filteredSkills.length" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <SkillCard v-for="skill in filteredSkills" :key="skill.id" :skill="skill" />
+      </div>
+
+      <!-- Empty state -->
+      <div v-else class="text-center py-section">
+        <Icon name="lucide:search-x" class="w-12 h-12 text-mid-gray/40 mx-auto mb-4" />
+        <p class="text-mid-gray">{{ $t('skills.noResults') }}</p>
+        <button class="text-sm text-charcoal font-semibold hover:opacity-70 mt-3 cursor-pointer" @click="searchQuery = ''; selectedCategory = undefined">
+          {{ $t('skills.clearFilters') }}
+        </button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { skills, searchSkills, lastSyncedAt, type SkillCategory } from '~/data/skills'
+
+const route = useRoute()
+
+const searchQuery = ref('')
+const selectedCategory = ref<SkillCategory | undefined>(
+  route.query.category as SkillCategory | undefined
+)
+
+watch(() => route.query.category, (val) => {
+  selectedCategory.value = val as SkillCategory | undefined
+})
+
+const filteredSkills = computed(() => {
+  let result = searchQuery.value ? searchSkills(searchQuery.value) : [...skills]
+
+  if (selectedCategory.value) {
+    result = result.filter(s => s.category === selectedCategory.value)
+  }
+
+  return result
+})
+
+useHead({
+  title: 'Skill 目录 — 全部 42 个开源 AI Skill | EverythingSkill',
+  meta: [
+    { name: 'description', content: '浏览 EverythingSkill 收录的全部开源 AI Skill，覆盖职场同事、名人思维、人格蒸馏、人际情感等 9 大分类，42 个精选 Skill 一键获取。' },
+    { property: 'og:title', content: 'Skill 目录 — EverythingSkill' },
+    { property: 'og:description', content: '42 个精选开源 AI Skill，9 大分类，免费使用。' },
+    { property: 'og:url', content: 'https://everythingskill.net/skills' },
+  ],
+  link: [{ rel: 'canonical', href: 'https://everythingskill.net/skills' }],
+})
+</script>

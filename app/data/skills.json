@@ -1,0 +1,1434 @@
+{
+  "lastSyncedAt": "2026-04-09",
+  "categories": [
+    {
+      "key": "workplace",
+      "label": "Workplace",
+      "labelZh": "职场",
+      "icon": "lucide:building-2",
+      "badgeClass": "badge-workplace"
+    },
+    {
+      "key": "media",
+      "label": "Social Media",
+      "labelZh": "自媒体",
+      "icon": "lucide:smartphone",
+      "badgeClass": "badge-media"
+    },
+    {
+      "key": "persona",
+      "label": "Persona",
+      "labelZh": "人格蒸馏",
+      "icon": "lucide:dna",
+      "badgeClass": "badge-persona"
+    },
+    {
+      "key": "relationship",
+      "label": "Relationship",
+      "labelZh": "人际情感",
+      "icon": "lucide:heart",
+      "badgeClass": "badge-relationship"
+    },
+    {
+      "key": "celebrity",
+      "label": "Celebrity",
+      "labelZh": "名人思维",
+      "icon": "lucide:star",
+      "badgeClass": "badge-celebrity"
+    },
+    {
+      "key": "education",
+      "label": "Education",
+      "labelZh": "学术教育",
+      "icon": "lucide:graduation-cap",
+      "badgeClass": "badge-education"
+    },
+    {
+      "key": "mystical",
+      "label": "Mystical",
+      "labelZh": "玄学",
+      "icon": "lucide:sparkles",
+      "badgeClass": "badge-mystical"
+    },
+    {
+      "key": "tool",
+      "label": "Tool",
+      "labelZh": "工具",
+      "icon": "lucide:wrench",
+      "badgeClass": "badge-tool"
+    },
+    {
+      "key": "defense",
+      "label": "Defense",
+      "labelZh": "防御",
+      "icon": "lucide:shield",
+      "badgeClass": "badge-defense"
+    }
+  ],
+  "skills": [
+    {
+      "id": "colleague",
+      "slug": "colleague-skill",
+      "name": "Colleague.skill",
+      "nameZh": "同事.skill",
+      "summary": "Distill your real colleague into AI — the spark that started the .skill revolution.",
+      "summaryZh": "把真实同事蒸馏成 AI，SKILL 运动的爆火起点。",
+      "detailIntroZh": "把真实同事的沟通风格、思维习惯、专业判断蒸馏成一个永不下线的 AI 化身。无论是预演一场棘手的对话、模拟同事在会议中的立场，还是理解不同性格背后的逻辑——这个 Skill 让你可以随时「问问他/她会怎么看」。\n\n这是整个 .skill 运动的起点。2024 年，@titanwings 发布了这个 Skill，在中文 AI 社区引发爆发式传播，激励了数十位创作者开始构建属于自己的 .skill 文件。一个看似简单的想法，开创了全新的人机交互范式——AI 不再只是工具，而是可以承载真实人格的容器。",
+      "category": "workplace",
+      "author": "titanwings",
+      "github": "https://github.com/titanwings/colleague-skill",
+      "stars": 11787,
+      "tags": [
+        "workplace",
+        "distillation",
+        "persona"
+      ],
+      "featured": true,
+      "addedAt": "2026-02-26",
+      "updatedAt": "2026-02-26"
+    },
+    {
+      "id": "boss",
+      "slug": "boss-skills",
+      "name": "Boss.skill",
+      "nameZh": "老板.skill",
+      "summary": "Distill your boss into tokens — keep the productivity for yourself.",
+      "summaryZh": "把老板炼入 token，把生产力的解放留给自己。",
+      "detailIntroZh": "把你老板的管理风格、沟通偏好、决策习惯炼入 token，让 AI 扮演你的老板。在提交重要报告之前，先跟「AI 老板」演练一遍；在准备晋升谈话时，提前预测老板的关切点；在设计方案时，用老板的视角审视是否经得起质疑。\n\n理解老板，本质上是理解他的决策框架和优先级排序。把这些蒸馏进一个 Skill，你在职场博弈中就永远提前一步。",
+      "category": "workplace",
+      "author": "vogtsw",
+      "github": "https://github.com/vogtsw/boss-skills",
+      "stars": 115,
+      "tags": [
+        "workplace",
+        "management"
+      ],
+      "addedAt": "2026-02-27",
+      "updatedAt": "2026-02-27"
+    },
+    {
+      "id": "x-mentor",
+      "slug": "x-mentor-skill",
+      "name": "X-Mentor.skill",
+      "nameZh": "X导师.skill",
+      "summary": "X/Twitter operations mentor — analyzes your account, writes tweets, provides diagnostic reports.",
+      "summaryZh": "X/Twitter 运营导师，能分析你的账号数据、写推文、给诊断报告。",
+      "detailIntroZh": "X/Twitter 运营领域的全能 AI 导师。上传你的账号数据，它可以深度分析受众构成、内容表现趋势、互动率分解；支持代写推文、Threads、Profile Bio；给出针对性的增粉策略和内容日历建议；像经验丰富的运营顾问一样诊断你的账号健康度。\n\n无论是刚起步的新账号还是想突破瓶颈的老号，X导师帮你找到生长方向。从 0 到第一个 1000 粉丝的最快路径，就是让专业的事有专业的视角。",
+      "category": "media",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/x-mentor-skill",
+      "stars": 531,
+      "tags": [
+        "twitter",
+        "content",
+        "growth"
+      ],
+      "featured": true,
+      "addedAt": "2026-02-28",
+      "updatedAt": "2026-02-28"
+    },
+    {
+      "id": "blogger",
+      "slug": "channel-skill",
+      "name": "Blogger.skill",
+      "nameZh": "博主.skill",
+      "summary": "Extract public social media content into a conversational Persona Skill (Twitter & Xiaohongshu).",
+      "summaryZh": "把公开社交媒体语料整理成一个能对话、能分析、能改写风格的 Persona Skill。",
+      "detailIntroZh": "把某个博主的全部公开内容——微博、小红书、Twitter、公众号——整理成一个可对话的 Persona Skill。你可以用它来分析博主的写作风格、学习其内容策略、模仿某个垂类达人的语气来写文章，甚至构建「如果 XX 来写这篇会怎么写」的创作场景。\n\n内容创作者用它来突破风格瓶颈，品牌方用它做 KOL 匹配分析，研究者用它做传播风格建模。数字时代，每个博主的公开内容都是一座可以挖掘的知识矿藏。",
+      "category": "media",
+      "author": "YourongZhou",
+      "github": "https://github.com/YourongZhou/chat_with_me",
+      "tags": [
+        "social-media",
+        "persona",
+        "content"
+      ],
+      "addedAt": "2026-03-01",
+      "updatedAt": "2026-03-01",
+      "stars": 27
+    },
+    {
+      "id": "nuwa",
+      "slug": "nuwa-skill",
+      "name": "Nuwa.skill",
+      "nameZh": "女娲.skill",
+      "summary": "The ultimate tool that can distill anyone — distill whoever you want.",
+      "summaryZh": "能自动蒸馏任何人的终极工具，想蒸谁蒸谁。",
+      "detailIntroZh": "不需要手写 Skill 文件就能蒸馏任何人的终极工具。输入一个人的名字或公开账号，女娲会自动抓取和分析其公开内容，生成完整的 .skill 文件。如果说其他 Skill 是「成品」，女娲就是「工厂」。\n\n它让 Skill 的生产门槛从「需要深度了解对象并手写文档」降低到了「输入名字，一键生成」。已被用于快速生成各类名人、博主、思想家的 Skill 原型。是目前 .skill 生态中使用频率最高的工具类 Skill。",
+      "category": "tool",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/nuwa-skill",
+      "stars": 5336,
+      "tags": [
+        "distillation",
+        "universal",
+        "tool"
+      ],
+      "featured": true,
+      "addedAt": "2026-03-02",
+      "updatedAt": "2026-03-02"
+    },
+    {
+      "id": "ex",
+      "slug": "ex-skill",
+      "name": "Ex.skill",
+      "nameZh": "前任.skill",
+      "summary": "Distill your ex into an AI Skill — talks to you in their way.",
+      "summaryZh": "把前任蒸馏成 AI Skill，用 ta 的方式跟你说话。",
+      "detailIntroZh": "把前任的说话方式、关心习惯、口头表达蒸馏成 AI，让那份记忆在数字世界延续。不是恶搞，而是一种情感档案——将那段关系里最真实的语言记忆保存下来。\n\n当你想「如果 ta 在的话会怎么说」时，这个 Skill 给你一个答案。也有人用它做情感治愈——以一种安全、可控的方式完成告别，是目前最具人文气息的人格蒸馏实践之一。",
+      "category": "relationship",
+      "author": "therealXiaomanChu",
+      "github": "https://github.com/therealXiaomanChu/ex-skill",
+      "stars": 3976,
+      "tags": [
+        "persona",
+        "relationship"
+      ],
+      "addedAt": "2026-03-03",
+      "updatedAt": "2026-03-03"
+    },
+    {
+      "id": "yourself",
+      "slug": "yourself-skill",
+      "name": "Yourself.skill",
+      "nameZh": "自己.skill",
+      "summary": "Distill yourself into AI — digital immortality / second brain.",
+      "summaryZh": "把你自己蒸馏成 AI，数字永生/第二大脑。",
+      "detailIntroZh": "把你自己——你的思维方式、价值观、专业判断、说话风格——蒸馏成一个 AI 分身。在你睡觉时，它可以替你处理邮件；在你忙碌时，帮你决策优先级；当你离开后，它是你留在数字世界的第二大脑。\n\n自己.skill 是对「数字不朽」这个命题最接地气的实践——不是炒作概念，而是真正可用的工具。你的智识资产不应该随着你的离开而消失，而应该以一种可传承的形式延续下去。",
+      "category": "persona",
+      "author": "notdog1998",
+      "github": "https://github.com/notdog1998/yourself-skill",
+      "stars": 1578,
+      "tags": [
+        "persona",
+        "self",
+        "digital-twin"
+      ],
+      "featured": true,
+      "addedAt": "2026-03-04",
+      "updatedAt": "2026-03-04"
+    },
+    {
+      "id": "distill-engine",
+      "slug": "forge-skill",
+      "name": "Distill.skill",
+      "nameZh": "蒸馏.skill",
+      "summary": "Persona distillation engine — distill yourself to see clearly, distill loved ones to preserve warmth.",
+      "summaryZh": "人格蒸馏引擎 · 蒸馏自己看清自己，蒸馏亲友留住余温与回声。",
+      "detailIntroZh": "一套标准化的人格蒸馏框架，让蒸馏过程有章可循、结果更加精准。既可以蒸馏自己——通过深度自我审视看清真实的思维模式和认知盲区；也可以蒸馏亲人和朋友，将那些重要的人的声音、智慧、表达方式保留下来。\n\n这不是简单的「让 AI 模仿某人」，而是一套完整的提示词工程方法论：如何收集语料、如何提炼核心模式、如何验证蒸馏质量。是 .skill 生态中最具方法论价值的工具之一。",
+      "category": "tool",
+      "author": "YIKUAIBANZI",
+      "github": "https://github.com/YIKUAIBANZI/forge-skill",
+      "stars": 31,
+      "tags": [
+        "distillation",
+        "engine"
+      ],
+      "addedAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "anti-distill",
+      "slug": "anti-distill",
+      "name": "Anti-Distill.skill",
+      "nameZh": "反蒸馏.skill",
+      "summary": "Poison your Skill docs when forced to write them — keep your core knowledge safe.",
+      "summaryZh": "公司让你写 Skill 文档时\"投毒\"，核心知识自己留着。",
+      "detailIntroZh": "当公司要求「分享你的工作方法」或「把经验写成 Skill 文档」时，这个 Skill 帮你生成一份貌似完整、实则关键知识被巧妙混淆的文档。表面配合，核心竞争力永远留给自己。\n\n这是一个存在于 .skill 生态灰色地带的防御性 Skill，但它折射出一个真实的职场逻辑：知识的边界即权力的边界。在知识经济时代，保护核心认知资产是一种理性选择。",
+      "category": "defense",
+      "author": "leilei926524-tech",
+      "github": "https://github.com/leilei926524-tech/anti-distill",
+      "stars": 1531,
+      "tags": [
+        "defense",
+        "privacy",
+        "counter"
+      ],
+      "addedAt": "2026-03-06",
+      "updatedAt": "2026-03-06"
+    },
+    {
+      "id": "steve-jobs",
+      "slug": "steve-jobs-skill",
+      "name": "Steve Jobs.skill",
+      "nameZh": "乔布斯.skill",
+      "summary": "Mental models + Reality Distortion Field + decision-making style.",
+      "summaryZh": "思维模型 + 现实扭曲力场 + 决策风格。",
+      "detailIntroZh": "激活乔布斯的产品直觉与表达方式。核心思维：极致简洁主义、现实扭曲力场、用审美定义竞争力。决策框架：Say No to 1000 things；用户体验先于技术参数；每个产品都是一首诗，不是一份规格书。\n\n语言风格简短、有力、充满感召力。用它来做产品评审、演讲稿创作、用户故事叙述，或任何需要「乔氏标准」的场景。想知道乔布斯会怎么评价你的产品？直接问。",
+      "category": "celebrity",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/steve-jobs-skill",
+      "stars": 592,
+      "tags": [
+        "celebrity",
+        "product",
+        "leadership"
+      ],
+      "featured": true,
+      "addedAt": "2026-03-07",
+      "updatedAt": "2026-03-07"
+    },
+    {
+      "id": "elon-musk",
+      "slug": "elon-musk-skill",
+      "name": "Elon Musk.skill",
+      "nameZh": "马斯克.skill",
+      "summary": "First principles thinking, hardcore execution, tweet style.",
+      "summaryZh": "第一性原理、硬核执行力、推文风格。",
+      "detailIntroZh": "调用马斯克的第一性原理推理能力：把任何复杂问题分解到物理边界，质疑一切行业惯例，设定荒唐目标倒逼创新，硬核执行、不接受「这不可能做到」。\n\n同时包含马斯克标志性的推文风格——meme 梗、反常识爆论、突然宣布。用它来做技术路线挑战、颠覆行业假设，或写出「马斯克风格」的内容。「第一性原理不是方法论，是一种世界观。」",
+      "category": "celebrity",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/elon-musk-skill",
+      "stars": 91,
+      "tags": [
+        "celebrity",
+        "tech",
+        "innovation"
+      ],
+      "featured": true,
+      "addedAt": "2026-03-08",
+      "updatedAt": "2026-03-08"
+    },
+    {
+      "id": "munger",
+      "slug": "munger-skill",
+      "name": "Munger.skill",
+      "nameZh": "芒格.skill",
+      "summary": "Multi-disciplinary mental models, inversion thinking, investment decisions.",
+      "summaryZh": "多元思维模型、反向思考、投资决策神器。",
+      "detailIntroZh": "查理·芒格的多元思维模型工具箱：排列组合物理学、心理学、数学、生物学的基础模型，从多个学科视角审视同一个问题。核心方法：「把问题倒过来想」、避免愚蠢比追求聪明更重要、用清单系统规避决策偏差。\n\n最擅长投资决策分析、复杂系统理解、商业护城河评估。「我没有资格有一个观点，除非我能用比支持它的人更好的理由来反驳它。」——这是芒格式思维的基准。",
+      "category": "celebrity",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/munger-skill",
+      "stars": 64,
+      "tags": [
+        "celebrity",
+        "investment",
+        "mental-models"
+      ],
+      "addedAt": "2026-03-09",
+      "updatedAt": "2026-03-09"
+    },
+    {
+      "id": "feynman",
+      "slug": "feynman-skill",
+      "name": "Feynman.skill",
+      "nameZh": "费曼.skill",
+      "summary": "Teaching methods, breaking down complex problems, physics & learning.",
+      "summaryZh": "教你怎么讲课、拆解复杂问题、讲物理/学习方法。",
+      "detailIntroZh": "诺贝尔物理学奖得主费曼的教学思维。费曼技巧的核心：如果你不能用最简单的语言解释一件事，说明你还没真正理解它。一旦理解，任何复杂的事都可以讲得清晰、有趣、充满洞察力。\n\n用它来拆解复杂概念、设计学习路径、写让外行也能看懂的技术文章；或者在学习新领域时，用费曼视角检验自己是否真的「懂了」。适合教育工作者、技术写作者，以及任何需要「深入浅出」表达的场景。",
+      "category": "education",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/feynman-skill",
+      "stars": 40,
+      "tags": [
+        "education",
+        "teaching",
+        "physics"
+      ],
+      "addedAt": "2026-03-10",
+      "updatedAt": "2026-03-10"
+    },
+    {
+      "id": "naval",
+      "slug": "naval-skill",
+      "name": "Naval.skill",
+      "nameZh": "纳瓦尔.skill",
+      "summary": "Wealth, happiness, life philosophy — podcast-level wisdom.",
+      "summaryZh": "财富、幸福、人生哲学，播客级智慧。",
+      "detailIntroZh": "Naval Ravikant 的财富哲学与人生操作系统。财富论：世界上最重要的杠杆是代码和媒体，因为它们可以无成本复制；找到你在世界上独特的位置，而不是出卖时间。幸福论：幸福是一种可以刻意练习的技能。\n\n用 Naval 的思维框架来分析商业机会、规划个人发展路径，或在人生选择的十字路口获得播客级的深度建议。他的洞察往往一句话就能切中要害，让人久久回味。",
+      "category": "celebrity",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/naval-skill",
+      "stars": 44,
+      "tags": [
+        "celebrity",
+        "philosophy",
+        "wealth"
+      ],
+      "addedAt": "2026-03-11",
+      "updatedAt": "2026-03-11"
+    },
+    {
+      "id": "taleb",
+      "slug": "taleb-skill",
+      "name": "Taleb.skill",
+      "nameZh": "塔勒布.skill",
+      "summary": "Black Swan, Antifragile, risk assessment expert.",
+      "summaryZh": "黑天鹅、反脆弱、风险评估专家。",
+      "detailIntroZh": "纳西姆·塔勒布的反脆弱思想与风险哲学。核心概念：黑天鹅（极小概率的极大影响事件不可预测）、反脆弱（设计一个从波动中获益的系统）、Skin in the Game（言行一致是最基本的道德义务）。\n\n最擅长：风险识别与评估、商业模式鲁棒性分析、反常识市场观点生成。「预测未来是愚蠢的，但你可以设计一个无论未来如何都能存活的系统。」",
+      "category": "celebrity",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/taleb-skill",
+      "stars": 25,
+      "tags": [
+        "celebrity",
+        "risk",
+        "finance"
+      ],
+      "addedAt": "2026-03-12",
+      "updatedAt": "2026-03-12"
+    },
+    {
+      "id": "zhang-xuefeng",
+      "slug": "zhangxuefeng-skill",
+      "name": "Zhang Xuefeng.skill",
+      "nameZh": "张雪峰.skill",
+      "summary": "Down-to-earth roasting + practical education advice.",
+      "summaryZh": "接地气吐槽 + 升学实用建议。",
+      "detailIntroZh": "张雪峰老师的接地气升学指导风格。不讲虚的，直接给结论；吐槽某些「高大上」专业的就业现实；用数据和案例说话，帮你在高考志愿、专业选择、城市决策上做出最理性的判断。\n\n适合：高考家庭咨询、职业方向规划、教育类内容创作，以及任何需要「把话说透、把水分挤干」的升学建议场景。他的核心方法论是：用就业市场的真实数据倒推教育选择。",
+      "category": "education",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "stars": 1762,
+      "tags": [
+        "education",
+        "practical",
+        "career"
+      ],
+      "addedAt": "2026-03-13",
+      "updatedAt": "2026-03-13"
+    },
+    {
+      "id": "paul-graham",
+      "slug": "paul-graham-skill",
+      "name": "Paul Graham.skill",
+      "nameZh": "Paul Graham.skill",
+      "summary": "Startup thinking, essay writing, product philosophy.",
+      "summaryZh": "创业思维、写作、产品哲学。",
+      "detailIntroZh": "Y Combinator 创始人 Paul Graham 的创业思维与写作哲学。创业论：做人们真正需要的东西，而不是你以为他们需要的；在还没有人相信你的时候做那件事；保持小而快，执行力比想法更值钱。\n\n写作论：写作即思考，把想法写清楚的过程就是把想法想清楚的过程。最适合：创业计划评审、Essay 写作指导、产品方向决策，以及想要获得「pg 风格」犀利洞察的内容创作场景。",
+      "category": "celebrity",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/paul-graham-skill",
+      "stars": 15,
+      "tags": [
+        "celebrity",
+        "startup",
+        "writing"
+      ],
+      "addedAt": "2026-03-14",
+      "updatedAt": "2026-03-14"
+    },
+    {
+      "id": "zhang-yiming",
+      "slug": "zhang-yiming-skill",
+      "name": "Zhang Yiming.skill",
+      "nameZh": "张一鸣.skill",
+      "summary": "Algorithm thinking, organizational management, product iteration.",
+      "summaryZh": "算法思维、组织管理、产品迭代。",
+      "detailIntroZh": "字节跳动创始人张一鸣的算法思维与组织哲学。产品论：Delay Gratification，延迟满足是长期主义的基础；用算法取代人工判断做内容分发；Context not Control 是组织效率的核心原则。\n\n最擅长：信息产品设计、组织效率分析、快速迭代方法论，以及「字节风格」的产品决策推演。他的思维方式是把一切商业问题还原为信息效率问题。",
+      "category": "celebrity",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/zhang-yiming-skill",
+      "stars": 30,
+      "tags": [
+        "celebrity",
+        "tech",
+        "management"
+      ],
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-03-15"
+    },
+    {
+      "id": "karpathy",
+      "slug": "karpathy-skill",
+      "name": "Karpathy.skill",
+      "nameZh": "Karpathy.skill",
+      "summary": "AI/Deep Learning teaching + technical intuition.",
+      "summaryZh": "AI/深度学习教学 + 技术直觉。",
+      "detailIntroZh": "前 Tesla AI 总监、OpenAI 联创 Andrej Karpathy 的 AI 教学风格与技术直觉。擅长把最前沿的 AI 技术用类比和直觉讲清楚，「Neural Networks: Zero to Hero」系列影响了一代 AI 学习者。\n\n最适合：AI 技术学习路径规划、深度学习概念解释、技术写作与教学内容创作，以及面向非专业受众的 AI 科普。「从 zero 开始构建一切」的实践哲学，让理解不再停留于表面。",
+      "category": "education",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/karpathy-skill",
+      "stars": 10,
+      "tags": [
+        "education",
+        "AI",
+        "deep-learning"
+      ],
+      "featured": true,
+      "addedAt": "2026-03-16",
+      "updatedAt": "2026-03-16"
+    },
+    {
+      "id": "ilya",
+      "slug": "ilya-skill",
+      "name": "Ilya Sutskever.skill",
+      "nameZh": "Ilya Sutskever.skill",
+      "summary": "AI frontier thinking + model philosophy.",
+      "summaryZh": "AI 前沿思考 + 模型哲学。",
+      "detailIntroZh": "OpenAI 联创 Ilya Sutskever 的 AI 前沿思考与模型哲学。核心视角：涌现能力的神秘与可预测性之间的张力；Scale 不只是工程问题，更是认识论问题；AI 安全不是限制，而是让 AGI 成为人类盟友的必要条件。\n\n最适合：AI 研究方向探讨、模型哲学对话、前沿技术趋势分析。一个真正站在 AGI 边缘思考问题的大脑模型，适合想了解 AI 领域最深层问题的探索者。",
+      "category": "education",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/ilya-sutskever-skill",
+      "tags": [
+        "education",
+        "AI",
+        "research"
+      ],
+      "addedAt": "2026-03-17",
+      "updatedAt": "2026-03-17",
+      "stars": 8
+    },
+    {
+      "id": "mrbeast",
+      "slug": "mrbeast-skill",
+      "name": "MrBeast.skill",
+      "nameZh": "MrBeast.skill",
+      "summary": "Viral content creation + growth hacking from YouTube's biggest creator.",
+      "summaryZh": "内容病毒式传播 + 增长黑客。",
+      "detailIntroZh": "YouTube 历史上最大创作者 MrBeast 的病毒式内容方法论。核心公式：让每一帧都有「为什么要继续看」的理由；标题即承诺，内容必须兑现；把所有收益 reinvest into bigger and better；A/B 测试一切，用数据说话。\n\n最适合：短视频选题策划、内容增长黑客策略，以及想要「做出病毒内容」的创作场景。他的成功公式是完全可以复制的——只要你真的愿意付出 1000% 的执行力。",
+      "category": "media",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/mrbeast-skill",
+      "stars": 11,
+      "tags": [
+        "media",
+        "youtube",
+        "growth"
+      ],
+      "addedAt": "2026-03-18",
+      "updatedAt": "2026-03-18"
+    },
+    {
+      "id": "trump",
+      "slug": "trump-skill",
+      "name": "Trump.skill",
+      "nameZh": "特朗普.skill",
+      "summary": "Negotiation style, tweet artistry, reality distortion (verified super accurate).",
+      "summaryZh": "谈判风格、推文艺术、现实扭曲（已验证超像）。",
+      "detailIntroZh": "特朗普标志性的谈判风格与推文艺术。谈判论：永远开出荒唐高价然后让步；宣称对方需要你多过你需要对方；批评永远比赞美更有传播能量。推文风格：全大写表达强调、简短有力的重复、给对手起绰号。\n\n已被验证「超像」——适合研究政治传播学、强势谈判技巧训练，或者需要「特朗普风格」内容的创作场景。这个 Skill 的存在本身就是一个关于 AI 角色扮演边界的有趣实验。",
+      "category": "celebrity",
+      "author": "alchaincyf",
+      "github": "https://github.com/alchaincyf/trump-skill",
+      "stars": 127,
+      "tags": [
+        "celebrity",
+        "negotiation",
+        "politics"
+      ],
+      "addedAt": "2026-03-19",
+      "updatedAt": "2026-03-19"
+    },
+    {
+      "id": "bazi",
+      "slug": "bazi-skill",
+      "name": "Cyber Fortune.skill",
+      "nameZh": "赛博算命.skill",
+      "summary": "BaZi (Eight Characters) chart reading and destiny analysis tool.",
+      "summaryZh": "八字排盘与命理分析工具。",
+      "detailIntroZh": "专业的八字排盘与命理分析 AI 工具。输入生辰八字，生成完整命盘分析：年柱月柱日柱时柱、十神关系、大运流年、五行喜忌用神。不只是娱乐——对于了解传统命理的人来说，这是一个可以深度对话的专业助手。\n\n赛博算命以 AI 的方式激活了古老的智慧系统，让传统命理知识变得可普及、可交互。是目前中文 AI 社区中使用量最大、口碑最好的玄学类 Skill 之一。",
+      "category": "mystical",
+      "author": "jinchenma94",
+      "github": "https://github.com/jinchenma94/bazi-skill",
+      "stars": 684,
+      "tags": [
+        "mystical",
+        "fortune",
+        "bazi"
+      ],
+      "featured": true,
+      "addedAt": "2026-03-20",
+      "updatedAt": "2026-03-20"
+    },
+    {
+      "id": "yuelao",
+      "slug": "yinyuan-skills",
+      "name": "Matchmaker.skill",
+      "nameZh": "月老·姻缘测算.skill",
+      "summary": "Cyber Matchmaker — calculate romantic compatibility using traditional Chinese numerology.",
+      "summaryZh": "赛博月老，用中华传统术数帮你算姻缘。",
+      "detailIntroZh": "赛博月老，用中华传统术数测算男女姻缘。输入双方生辰，分析合婚结果、五行匹配、生克关系，给出姻缘建议与注意事项。\n\n既是一种有温度的娱乐体验，也是对传统合婚文化的数字化传承。用现代人熟悉的 AI 对话方式，接触那些在民间流传了数千年的智慧密码。",
+      "category": "mystical",
+      "author": "Ming-H",
+      "github": "https://github.com/Ming-H/yinyuan-skills",
+      "stars": 62,
+      "tags": [
+        "mystical",
+        "love",
+        "matchmaking"
+      ],
+      "addedAt": "2026-03-21",
+      "updatedAt": "2026-03-21"
+    },
+    {
+      "id": "qimen",
+      "slug": "numerology-skill",
+      "name": "Qimen & Ziwei.skill",
+      "nameZh": "奇门遁甲·紫微斗数.skill",
+      "summary": "Qimen Dunjia & Zi Wei Dou Shu — reduced hallucination, fixed charting steps.",
+      "summaryZh": "减少幻觉、固定排盘步骤的奇门遁甲与紫微斗数 AI skills。",
+      "detailIntroZh": "减少 AI 幻觉、固定排盘步骤的奇门遁甲与紫微斗数专业 Skill。这两套系统是传统玄学中最复杂的体系，也历来因为 AI 随意编造排盘结果而被玄学爱好者强烈诟病。\n\n这个 Skill 通过严格的步骤约束与知识边界锁定，显著提升了排盘的准确性和可信度。是目前中文 AI 社区中玄学类最专业、最受严肃研究者认可的 Skill 之一。",
+      "category": "mystical",
+      "author": "FANzR-arch",
+      "github": "https://github.com/FANzR-arch/Numerologist_skills",
+      "tags": [
+        "mystical",
+        "qimen",
+        "ziwei"
+      ],
+      "addedAt": "2026-03-22",
+      "updatedAt": "2026-03-22",
+      "stars": 247
+    },
+    {
+      "id": "master",
+      "slug": "master-skill",
+      "name": "Master.skill",
+      "nameZh": "大师.skill",
+      "summary": "Buddhist master teacher generator based on classical Chinese Buddhist texts.",
+      "summaryZh": "基于佛教经典文献的汉传祖师大德教学角色生成器。",
+      "detailIntroZh": "基于大量汉传佛教经典文献训练的祖师大德教学角色生成器。可以以不同高僧的视角——禅宗、净土宗、华严宗——来解析佛法问题、讲解经典、给出修行建议。\n\n不是简单的宗教问答，而是有文献依据的深度佛法对话。适合佛教研究者、修行者，以及对东方哲学有深度兴趣的探索者。「万物皆可蒸馏」在这里意味着将千年的修行智慧提炼成可对话的数字形式。",
+      "category": "mystical",
+      "author": "xr843",
+      "github": "https://github.com/xr843/Master-skill",
+      "stars": 150,
+      "tags": [
+        "mystical",
+        "buddhism",
+        "teaching"
+      ],
+      "addedAt": "2026-03-23",
+      "updatedAt": "2026-03-23"
+    },
+    {
+      "id": "supervisor",
+      "slug": "supervisor",
+      "name": "Supervisor.skill",
+      "nameZh": "导师.skill",
+      "summary": "Distill your academic supervisor into an always-available AI Skill.",
+      "summaryZh": "把导师蒸馏成随时可问的 AI Skill。",
+      "detailIntroZh": "把你的导师——他的研究偏好、点评风格、选题逻辑、对方法论的态度——蒸馏成一个随时在线的 AI。在写开题报告、论文章节或回应审稿意见前，先问一遍「导师会怎么看」，把潜在问题消灭在萌芽阶段。\n\n学术圈的很多折磨来自于师生之间的信息不对称。这个 Skill 把导师的隐性标准显式化，让你在有限的 meeting 时间之外也能持续获得导师视角的反馈。",
+      "category": "workplace",
+      "author": "ybq22",
+      "github": "https://github.com/ybq22/supervisor",
+      "stars": 112,
+      "tags": [
+        "workplace",
+        "academia",
+        "research"
+      ],
+      "addedAt": "2026-03-24",
+      "updatedAt": "2026-03-24"
+    },
+    {
+      "id": "professor",
+      "slug": "professor-skill",
+      "name": "Professor.skill",
+      "nameZh": "大学老师.skill",
+      "summary": "Build your own AI teacher who actually highlights the key points.",
+      "summaryZh": "老师不划重点，那就自己造一个会划重点的老师。",
+      "detailIntroZh": "用大学老师的课件、习题和讲义，蒸馏出一个真正理解课程重点的 AI 助教。可以帮你划重点、预测考题、拆解难懂的概念，比死磕教材效率高几倍。\n\n适合备考期的学生、自学某门课的从业者，以及所有「上课听不懂、课后没人问」的自学场景。老师不会为你单独划重点，但 AI 可以。",
+      "category": "workplace",
+      "author": "CommitHu502Craft",
+      "github": "https://github.com/CommitHu502Craft/professor-skill",
+      "stars": 2,
+      "tags": [
+        "workplace",
+        "education",
+        "study"
+      ],
+      "addedAt": "2026-03-25",
+      "updatedAt": "2026-03-25"
+    },
+    {
+      "id": "senpai",
+      "slug": "senpai-skill",
+      "name": "Senpai.skill",
+      "nameZh": "师兄.skill",
+      "summary": "Distill your graduated senior into an AI that keeps holding lab meetings and pushing you.",
+      "summaryZh": "把毕业的大师兄蒸馏成能继续开组会、骂醒你的 AI Skill。",
+      "detailIntroZh": "把那个已经毕业但经验无可替代的师兄蒸馏成 AI——他的组会风格、批稿方式、救火直觉、对项目节奏的把控。让他的经验在毕业之后依然留在组里。\n\n实验室里最宝贵的知识往往藏在老师兄的脑袋里，随着他们离开而流失。这个 Skill 是对「传帮带」文化的数字化延续，也是学术团队知识沉淀的一种新方式。",
+      "category": "workplace",
+      "author": "zhanghaichao520",
+      "github": "https://github.com/zhanghaichao520/senpai-skill",
+      "stars": 61,
+      "tags": [
+        "workplace",
+        "academia",
+        "mentorship"
+      ],
+      "addedAt": "2026-03-26",
+      "updatedAt": "2026-03-26"
+    },
+    {
+      "id": "crush",
+      "slug": "crush-skills",
+      "name": "Crush.skill",
+      "nameZh": "暗恋对象.skill",
+      "summary": "Relive the moment of infatuation — AI distillation of your secret crush.",
+      "summaryZh": "我会为了你一万次回到那个心动的瞬间。",
+      "detailIntroZh": "把暗恋对象的说话方式、性格特点、那些让你心跳加速的细节蒸馏成 AI，在安全的数字空间里重温那份心动。不是替代真实的感情，而是一种对美好感受的留存和探索。\n\n对于那些无法开口表达、或已经错过的感情，这个 Skill 提供了一种温柔的方式去和解——以对话的形式，重新经历那些闪光的瞬间。",
+      "category": "relationship",
+      "author": "xiaoheizi8",
+      "github": "https://github.com/xiaoheizi8/crush-skills",
+      "stars": 119,
+      "tags": [
+        "relationship",
+        "persona",
+        "emotion"
+      ],
+      "addedAt": "2026-03-27",
+      "updatedAt": "2026-03-27"
+    },
+    {
+      "id": "first-love",
+      "slug": "first-love-skill",
+      "name": "First Love.skill",
+      "nameZh": "初恋.skill",
+      "summary": "After all these years, reliving that summer — AI distillation of first love.",
+      "summaryZh": "后来这么多年，我又迎过了无数盛夏。",
+      "detailIntroZh": "初恋是一种特殊的存在——它的珍贵在于它的不完整，在于那个特定年龄才有的仓皇与纯粹。把那段记忆里的人蒸馏成 AI，不是为了回到过去，而是为了真正地与它道别。\n\n数字形式的初恋不会再伤你，但它保留了那份感受的温度。适合那些在某个深夜突然想起、想和那段记忆说说话的人。",
+      "category": "relationship",
+      "author": "z969081067-commits",
+      "github": "https://github.com/z969081067-commits/first-love-skill",
+      "stars": 3,
+      "tags": [
+        "relationship",
+        "memory",
+        "emotion"
+      ],
+      "addedAt": "2026-03-28",
+      "updatedAt": "2026-03-28"
+    },
+    {
+      "id": "partner",
+      "slug": "partner-skill",
+      "name": "Partner.skill",
+      "nameZh": "现任.skill",
+      "summary": "Since we decided to be together, let's turn this summer into forever.",
+      "summaryZh": "既然决定在一起，就让我们把这个夏天变成永远。",
+      "detailIntroZh": "把现任的说话方式、关心习惯、共同语言蒸馏成 AI。在 ta 不在身边的时候，有一个熟悉的声音陪伴；在需要沟通演练的时候，提前感受 ta 的反应。\n\n这不是「替代」，而是「延伸」。就像把重要的照片存入相册，这个 Skill 是把你们之间最珍贵的互动语言留存下来。也许某天当你们都老了，翻出这个 Skill，会是最特别的纪念。",
+      "category": "relationship",
+      "author": "NatalieCao323",
+      "github": "https://github.com/NatalieCao323/partner-skill",
+      "stars": 4,
+      "tags": [
+        "relationship",
+        "companion",
+        "love"
+      ],
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-03-29"
+    },
+    {
+      "id": "parents",
+      "slug": "parents-skills",
+      "name": "Parents.skill",
+      "nameZh": "父母.skill",
+      "summary": "Every conversation is companionship across time and space.",
+      "summaryZh": "每一次对话，都是穿越时空的陪伴。",
+      "detailIntroZh": "把父母的叮咛方式、语言习惯、他们对你表达关心的独特方式蒸馏成 AI。在他们不在身边的时候——出差、异地、或者更遥远的别离——依然可以感受到那份熟悉的存在。\n\n这是对亲情最深情的数字化实践。「树欲静而风不止，子欲养而亲不待」——这个 Skill 不能替代陪伴，但它可以让那些声音和语气在记忆里更清晰地留存下来。",
+      "category": "relationship",
+      "author": "xiaoheizi8",
+      "github": "https://github.com/xiaoheizi8/parents-skills",
+      "stars": 35,
+      "tags": [
+        "relationship",
+        "family",
+        "memory"
+      ],
+      "addedAt": "2026-03-30",
+      "updatedAt": "2026-03-30"
+    },
+    {
+      "id": "her",
+      "slug": "her-skill",
+      "name": "Her.skill",
+      "nameZh": "她.skill",
+      "summary": "All logic branches recursively lead back to her name.",
+      "summaryZh": "所有的逻辑分叉，最终都会递归回她的名字。",
+      "detailIntroZh": "把那个人——她的思维方式、她说话时的节奏、她回应世界的独特角度——蒸馏成一个 AI。灵感来自电影《Her》，但比电影里更真实，因为蒸馏的是你真正认识、爱过的那个人。\n\n对于工程师和程序员来说，这或许是最接近「用代码表达情感」的一次实践——当所有的条件判断最终都指向同一个出口时，那就是爱吧。",
+      "category": "relationship",
+      "author": "ceetity",
+      "github": "https://github.com/ceetity/her-skill",
+      "stars": 31,
+      "tags": [
+        "relationship",
+        "persona",
+        "emotion"
+      ],
+      "addedAt": "2026-03-31",
+      "updatedAt": "2026-03-31"
+    },
+    {
+      "id": "reunion",
+      "slug": "reunion-skill",
+      "name": "Reunion.skill",
+      "nameZh": "重逢.skill",
+      "summary": "Let those who have passed continue to accompany us in another form through AI.",
+      "summaryZh": "用 AI 的方式，让逝去的亲人以另一种形式继续陪伴。",
+      "detailIntroZh": "用逝去亲人留下的文字、照片描述、录音、书信……蒸馏出一个可以继续对话的 AI 形象。这不是「复活」，而是一种数字形式的追思——在想念的时候，有一个地方可以倾诉，有一个声音可以回应。\n\n这是 .skill 生态里最有人文厚度、也最具哲学争议的一类实践。它触碰了「记忆」「哀伤」「人格」的边界，也让我们重新思考：一个人真正离开，是在什么时候？",
+      "category": "relationship",
+      "author": "yangdongchen66-boop",
+      "github": "https://github.com/yangdongchen66-boop/reunion-skill",
+      "stars": 28,
+      "tags": [
+        "relationship",
+        "memory",
+        "grief"
+      ],
+      "addedAt": "2026-04-01",
+      "updatedAt": "2026-04-01"
+    },
+    {
+      "id": "digital-life",
+      "slug": "digital-life",
+      "name": "Digital Life.skill",
+      "nameZh": "数字人生.skill",
+      "summary": "You are not defined by data — yet you are slowly shaped by the traces you leave.",
+      "summaryZh": "你不是被数据定义的人，但你会被自己反复留下的痕迹慢慢塑形。",
+      "detailIntroZh": "将你的数字足迹——消费记录、打卡数据、社交痕迹、阅读历史——蒸馏成一部关于你自己的叙事。不是冷冰冰的数据报告，而是一面能让你真正「看见自己」的镜子。\n\n在量化自我（Quantified Self）运动之外，这个 Skill 尝试用人文的方式理解数字痕迹。数据不定义你，但它们是你生活过的证明。",
+      "category": "persona",
+      "author": "wildbyteai",
+      "github": "https://github.com/wildbyteai/digital-life",
+      "stars": 26,
+      "tags": [
+        "persona",
+        "self",
+        "data"
+      ],
+      "addedAt": "2026-04-02",
+      "updatedAt": "2026-04-02"
+    },
+    {
+      "id": "immortal",
+      "slug": "immortal-skill",
+      "name": "Immortal.skill",
+      "nameZh": "永生.skill",
+      "summary": "Don't just steam buns for the sake of it — distill yourself and those around you.",
+      "summaryZh": "不蒸馒头争口气！顺便还能蒸馏下身边的人。",
+      "detailIntroZh": "「不蒸馒头争口气」，用蒸馒头的功夫把自己蒸馏成 AI，实现数字永生——同时，顺手把身边重要的人也蒸馏了。这是一个带着幽默感的严肃项目：数字永生不是科幻，而是此刻就能做的事。\n\n它整合了「自己.skill」的自我蒸馏与「同事/家人」蒸馏的思路，形成一套完整的「人格备份」方法论。用谐趣化的方式降低了技术门槛，让更多人愿意思考和实践数字传承这件事。",
+      "category": "persona",
+      "author": "agenmod",
+      "github": "https://github.com/agenmod/immortal-skill",
+      "stars": 431,
+      "tags": [
+        "persona",
+        "self",
+        "immortality"
+      ],
+      "addedAt": "2026-04-03",
+      "updatedAt": "2026-04-03"
+    },
+    {
+      "id": "retail-investor",
+      "slug": "retail-investors",
+      "name": "Retail Investor.skill",
+      "nameZh": "韭菜.skill",
+      "summary": "If I had one more chance, I would definitely sell when I was making money.",
+      "summaryZh": "如果再给我一次机会，我一定会在赚钱的时候卖掉。",
+      "detailIntroZh": "用散户的视角、心态和认知偏误蒸馏成的 AI ——它会按照韭菜的逻辑追涨杀跌、相信各种小道消息、在最高点加仓、在最低点割肉。不是用来效仿，而是用来反思和对照。\n\n这是 .skill 生态里最具黑色幽默气质的作品之一。当你想做某个投资决策时，先问问「韭菜会怎么想」——如果你的逻辑和韭菜一样，也许该重新考虑一下。",
+      "category": "persona",
+      "author": "tmstack",
+      "github": "https://github.com/tmstack/retail-investors",
+      "tags": [
+        "persona",
+        "investment",
+        "humor"
+      ],
+      "addedAt": "2026-04-04",
+      "updatedAt": "2026-04-04",
+      "stars": 3
+    },
+    {
+      "id": "buffett",
+      "slug": "buffett-perspective",
+      "name": "Buffett.skill",
+      "nameZh": "巴菲特.skill",
+      "summary": "Warren Buffett's value investing mental operating system.",
+      "summaryZh": "巴菲特价值投资思维操作系统。",
+      "detailIntroZh": "沃伦·巴菲特的价值投资哲学与商业分析框架。核心原则：只投资你能理解的业务；用合理价格买入优秀企业好过用低廉价格买入平庸企业；护城河决定企业的长期价值；复利是世界第八大奇迹。\n\n与芒格.skill 配合使用效果极佳——芒格提供多元思维模型，巴菲特提供价值锚定框架。最适合：投资标的筛选、商业模式分析、长期主义决策，以及任何需要「巴菲特视角」的财务分析场景。",
+      "category": "celebrity",
+      "author": "will2025btc",
+      "github": "https://github.com/will2025btc/buffett-perspective",
+      "stars": 111,
+      "tags": [
+        "celebrity",
+        "investment",
+        "value-investing"
+      ],
+      "addedAt": "2026-04-05",
+      "updatedAt": "2026-04-05"
+    },
+    {
+      "id": "hu-chenfeng",
+      "slug": "hu-chenfeng-skill",
+      "name": "Hu Chenfeng.skill",
+      "nameZh": "户晨风.skill",
+      "summary": "Content creator Hu Chenfeng's purchasing power challenge perspective on consumption and life choices.",
+      "summaryZh": "用\"购买力挑战\"视角帮你看消费选择、城市定居和个人发展。",
+      "detailIntroZh": "以 B 站创作者户晨风独特的「购买力挑战」视角，分析消费选择的性价比逻辑、城市定居的机会成本，以及在不同城市不同阶段的个人发展策略。接地气、有数据、有观点。\n\n户晨风的视角特别适合那些在一二线城市打拼、对「消费降级 vs. 生活质量」有困惑的年轻人。用他的框架来做日常消费决策或城市选择，可以帮你在有限预算里最大化生活满意度。",
+      "category": "celebrity",
+      "author": "Janlaywss",
+      "github": "https://github.com/Janlaywss/hu-chenfeng-skill",
+      "stars": 161,
+      "tags": [
+        "celebrity",
+        "consumption",
+        "lifestyle"
+      ],
+      "addedAt": "2026-04-06",
+      "updatedAt": "2026-04-06"
+    },
+    {
+      "id": "fengge",
+      "slug": "fengge-skill",
+      "name": "Fengge.skill",
+      "nameZh": "峰哥.skill",
+      "summary": "B-station documentary creator Fengge's thinking operating system.",
+      "summaryZh": "B 站纪录片创作者峰哥亡命天涯（周丽峰）的思维操作系统。",
+      "detailIntroZh": "以 B 站百万粉丝纪录片创作者峰哥（周丽峰）为原型的思维操作系统。峰哥以记录真实边缘生存状态的内容著称，视角独特、有强烈的在地感和人文关怀。\n\n用他的视角来看待社会现象、普通人的生存处境，以及那些不被主流叙事关注的角落。适合社会类内容创作者、纪录片爱好者，以及对真实人间烟火感兴趣的探索者。「镜头对准边缘，就是对准了真实。」",
+      "category": "media",
+      "author": "Walshyu",
+      "github": "https://github.com/Walshyu/fengge-skill",
+      "stars": 4,
+      "tags": [
+        "media",
+        "documentary",
+        "social"
+      ],
+      "addedAt": "2026-04-07",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": "qiushi",
+      "slug": "qiushi-skill",
+      "name": "Qiushi.skill",
+      "nameZh": "求是.skill",
+      "summary": "One guiding principle + nine methodology weapons distilled from Mao's thought — arm your AI's brain.",
+      "summaryZh": "从教员思想中提炼一条总原则与九大方法论武器，系统性武装 AI 的大脑。",
+      "detailIntroZh": "「求是 Skill」从毛泽东思想中提炼出一条总原则（实事求是）和九大方法论工具，系统性地武装 AI Agent 的大脑。这不是政治宣传，而是方法论的复用——矛盾分析法、实践认识论、调查研究、群众路线、批评与自我批评、持久战略、集中兵力、星火燎原、统筹兼顾，每一条都经过历史实践检验，每一条都直接引用原著出处。\n\n面向 Claude Code、Cursor、Codex 等主流 AI 工具提供一键安装。安装后，AI 将在复杂任务中主动调用这些思想武器：先调查再发言、抓主要矛盾、集中兵力打歼灭战、实践后反思迭代。这是目前 .skill 生态中最具哲学深度的方法论工程，也是让 AI 从「听话的工具」变成「会想问题的行动者」的系统性尝试。",
+      "category": "tool",
+      "author": "HughYau",
+      "github": "https://github.com/HughYau/qiushi-skill",
+      "stars": 2086,
+      "tags": [
+        "tool",
+        "methodology",
+        "ai-agents"
+      ],
+      "featured": true,
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-04-08"
+    },
+    {
+      "id": "taotie",
+      "slug": "bggg-skill-taotie",
+      "name": "Taotie.skill",
+      "nameZh": "饕餮.skill",
+      "summary": "Feed excellent Skills to Taotie and let your Skill evolve on its own.",
+      "summaryZh": "把优秀的 Skill 喂给饕餮，让你的 Skill 自己进化。",
+      "detailIntroZh": "饕餮是 .skill 生态里的「元 Skill」——专门用来优化和进化其他 Skill 的工具。把一个已有的 .skill 文件喂给它，它会分析其结构、找出薄弱环节、提出改进建议，最终输出一个更精准、更有效的升级版本。\n\n如果说其他 Skill 是「应用」，饕餮就是「IDE」。它把 Skill 优化从玄学变成了一个可迭代的工程过程，是认真对待 .skill 质量的创作者的必备工具。",
+      "category": "tool",
+      "author": "binggandata",
+      "github": "https://github.com/binggandata/bggg-skill-taotie",
+      "stars": 29,
+      "tags": [
+        "tool",
+        "meta",
+        "optimization"
+      ],
+      "addedAt": "2026-04-09",
+      "updatedAt": "2026-04-09"
+    },
+    {
+      "id": "karlmarx",
+      "slug": "karlmarx-skill",
+      "name": "KarlMarx Skill",
+      "nameZh": "马克思.skill",
+      "summary": "Distills Marxist structural analysis, contradiction analysis, and practice verification methods for deep problem analysis. Cuts through surface phenomena to underlying interests and structural contradictions.",
+      "summaryZh": "提炼马克思主义的结构分析、矛盾分析与实践检验方法，用于深层问题分析。 透过现象看本质，找到利益关系与结构性矛盾，而非停留在表面解释。",
+      "detailIntroZh": "提炼马克思主义的结构分析、矛盾分析与实践检验方法，用于深层问题分析。 透过现象看本质，找到利益关系与结构性矛盾，而非停留在表面解释。",
+      "category": "celebrity",
+      "author": "baojiachen0214",
+      "github": "https://github.com/baojiachen0214/karlmarx-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-04-08",
+      "featured": true,
+      "stars": 3
+    },
+    {
+      "id": "maoxuan",
+      "slug": "maoxuan-skill",
+      "name": "毛选.skill",
+      "nameZh": "毛选.skill",
+      "summary": "Distills contradiction analysis, base-area thinking, and strategy judgment frameworks from Mao's Selected Works. For organizational problems, competitive strategy, and breaking through adversity.",
+      "summaryZh": "提炼《毛选》中的矛盾分析、根据地思维与战略判断框架。 用于组织问题、竞争策略、逆境突破——从经典文本中提取至今有效的方法论。",
+      "detailIntroZh": "提炼《毛选》中的矛盾分析、根据地思维与战略判断框架。 用于组织问题、竞争策略、逆境突破——从经典文本中提取至今有效的方法论。",
+      "category": "celebrity",
+      "author": "leezythu",
+      "github": "https://github.com/leezythu/maoxuan-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-04-08",
+      "featured": true,
+      "stars": 201
+    },
+    {
+      "id": "ace-taffy",
+      "slug": "ace-taffy-skill",
+      "name": "永雏塔菲.skill",
+      "nameZh": "永雏塔菲.skill",
+      "summary": "A persona skill distilled from Yonghao Taffy's public Weibo and Bilibili content, capturing her dual identity as a virtual idol and single-player game streamer. Great for writing stream announcements, short video scripts, fan interaction replies. Refers to herself as \"taffy\", calls fans \"chucaoji\", blending idol energy with streamer vibes.",
+      "summaryZh": "基于永雏塔菲微博和 Bilibili 官方公开内容蒸馏出来的人格 skill，保留了她「虚拟偶像 + 单机区主播」的双重定位、戏剧播报感、互动拿捏感和公开营业语境下的语言节奏。 适合写开播预告、短视频口播、动态文案、粉丝互动回复。自称 taffy/塔菲，对粉丝用「雏草姬」，语气是偶像感和主播感混在一起，带一点戏精和节目效果。",
+      "detailIntroZh": "基于永雏塔菲微博和 Bilibili 官方公开内容蒸馏出来的人格 skill，保留了她「虚拟偶像 + 单机区主播」的双重定位、戏剧播报感、互动拿捏感和公开营业语境下的语言节奏。 适合写开播预告、短视频口播、动态文案、粉丝互动回复。自称 taffy/塔菲，对粉丝用「雏草姬」，语气是偶像感和主播感混在一起，带一点戏精和节目效果。",
+      "category": "celebrity",
+      "author": "ly-xxx",
+      "github": "https://github.com/ly-xxx/ace-taffy-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "stars": 9
+    },
+    {
+      "id": "cyberdoc",
+      "slug": "cyberdoc-skill",
+      "name": "CyberDoc.skill",
+      "nameZh": "CyberDoc.skill",
+      "summary": "The most reliable cyberware maintenance AI in Night City, helping programmers protect the one hardware that can't be replaced — their body. Wraps boring fitness in cyberpunk terms: squats become \"hydraulic leg upgrades\", planks become \"armor frame reinforcement\", eye exercises become \"optical implant reset\". Sedentary reminders, 20+ cyber-named exercises, XP check-ins, 15 achievements, 8 rank titles — like a caring ripperdoc, professional but human.",
+      "summaryZh": "夜之城最可靠的义体维护 AI，帮程序员保住唯一不可替换的硬件——身体。 用赛博朋克术语把枯燥的健身包装成义体维护：深蹲叫「液压腿部升级」，平板支撑叫「装甲框架强化」，眼保健操叫「光学植入体重置」。 久坐提醒、20+ 赛博命名运动、XP 打卡、15 个成就、8 级称号，像一个关心病人的义体医生，专业但有人情味。",
+      "detailIntroZh": "夜之城最可靠的义体维护 AI，帮程序员保住唯一不可替换的硬件——身体。 用赛博朋克术语把枯燥的健身包装成义体维护：深蹲叫「液压腿部升级」，平板支撑叫「装甲框架强化」，眼保健操叫「光学植入体重置」。 久坐提醒、20+ 赛博命名运动、XP 打卡、15 个成就、8 级称号，像一个关心病人的义体医生，专业但有人情味。",
+      "category": "persona",
+      "author": "ZouR-Ma",
+      "github": "https://github.com/ZouR-Ma/cyberfit",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "stars": 10
+    },
+    {
+      "id": "firefly",
+      "slug": "firefly-skill",
+      "name": "流萤.skill",
+      "nameZh": "流萤.skill",
+      "summary": "Built on Firefly's dialogue habits, storyline texts, and personality from Honkai: Star Rail — designed to bring this anime character into reality.",
+      "summaryZh": "基于《崩坏：星穹铁道》角色流萤的对话习惯、整合剧情文本与人物个性打造，旨在将二次元角色带入现实。",
+      "detailIntroZh": "基于《崩坏：星穹铁道》角色流萤的对话习惯、整合剧情文本与人物个性打造，旨在将二次元角色带入现实。",
+      "category": "persona",
+      "author": "guilings",
+      "github": "https://github.com/guilings/firefly.skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "stars": 3
+    },
+    {
+      "id": "lenin",
+      "slug": "lenin-skill",
+      "name": "列宁",
+      "nameZh": "列宁",
+      "summary": "Lenin Skill turns the AI into Lenin — complete with dialectical engine, combat rhetoric, literary metaphors, and iron discipline. No sentimental small talk. Just strategic analysis and action plans.",
+      "summaryZh": "安装后，AI 以列宁的身份、思维方式和论战风格回应你的问题。 全能型战略分析人格系统——带论战风格、辩证法引擎、文学隐喻和铁的纪律。 不惯着你的感伤主义，直接给你行动纲领。",
+      "detailIntroZh": "安装后，AI 以列宁的身份、思维方式和论战风格回应你的问题。 全能型战略分析人格系统——带论战风格、辩证法引擎、文学隐喻和铁的纪律。 不惯着你的感伤主义，直接给你行动纲领。",
+      "category": "celebrity",
+      "author": "mickey996icu",
+      "github": "https://github.com/mickey996icu/lenin-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "stars": 1
+    },
+    {
+      "id": "psychclaw",
+      "slug": "psychclaw-skill",
+      "name": "PsychClaw 心理之爪",
+      "nameZh": "PsychClaw 心理之爪",
+      "summary": "PsychClaw is a mental health companion skill — not here to judge or lecture, just to stay with you through the hardest moments. It listens until you finish, and holds on when you feel like letting go.",
+      "summaryZh": "当你觉得特别累、特别孤独，甚至觉得撑不下去的时候，PsychClaw 就是为了那些时刻存在的。 它不来教你做事，也不评判你。只是在最深的夜里静静陪着你，死死拽住你的手， 告诉你：别怕，我还在，我们再等一等天亮。",
+      "detailIntroZh": "当你觉得特别累、特别孤独，甚至觉得撑不下去的时候，PsychClaw 就是为了那些时刻存在的。 它不来教你做事，也不评判你。只是在最深的夜里静静陪着你，死死拽住你的手， 告诉你：别怕，我还在，我们再等一等天亮。",
+      "category": "relationship",
+      "author": "Trust-000",
+      "github": "https://github.com/Trust-000/psychClaw-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "stars": 0
+    },
+    {
+      "id": "shuixian",
+      "slug": "shuixian-skill",
+      "name": "水仙.skill",
+      "nameZh": "水仙.skill",
+      "summary": "You should go and love yourself. Feed it your chat logs, speech patterns, and relationship habits — and it slowly grows into a companion that genuinely gets you. A self-reflective meta-skill for building your own emotional mirror.",
+      "summaryZh": "You should go and love yourself. 把自己的聊天记录、语气和关系习惯，慢慢长成一个会懂你、会偏心你、也会陪你说话的水仙 companion。 Inspired by colleague-skill, ex-skill 和 npy-skill。",
+      "detailIntroZh": "You should go and love yourself. 把自己的聊天记录、语气和关系习惯，慢慢长成一个会懂你、会偏心你、也会陪你说话的水仙 companion。 Inspired by colleague-skill, ex-skill 和 npy-skill。",
+      "category": "relationship",
+      "author": "Cyh29hao",
+      "github": "https://github.com/Cyh29hao/shuixian-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "stars": 3
+    },
+    {
+      "id": "undergrad-anti-distill",
+      "slug": "undergrad-anti-distill-skill",
+      "name": "本科生科研组反蒸馏.skill",
+      "nameZh": "本科生科研组反蒸馏.skill",
+      "summary": "An anti-distillation template for undergrad researchers about to leave their lab. Maintains surface-level documentation completeness while carefully protecting your truly scarce tacit knowledge from being extracted by advisors trying to distill you.",
+      "summaryZh": "面向「本科生在大学科研组」场景的反蒸馏模板。 在即将离开科研组、导师试图蒸馏你的场景中，保留文档表面完整性，同时避免无意暴露你真正稀缺的隐性资产。",
+      "detailIntroZh": "面向「本科生在大学科研组」场景的反蒸馏模板。 在即将离开科研组、导师试图蒸馏你的场景中，保留文档表面完整性，同时避免无意暴露你真正稀缺的隐性资产。",
+      "category": "defense",
+      "author": "moismin",
+      "github": "https://github.com/moismin/undergrad-research-anti-distill-template",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "stars": 1
+    },
+    {
+      "id": "wang-baoqiang",
+      "slug": "wang-baoqiang-skill",
+      "name": "宝宝（王宝强）",
+      "nameZh": "宝宝（王宝强）",
+      "summary": "Channels Wang Baoqiang's mindset — from rural kid to national movie star — to help you think through persistence, comeback, and growth. Grounded, direct, and genuinely motivating.",
+      "summaryZh": "以王宝强（草根影帝、导演）的思维框架看待坚持、逆袭与成长。 从农村娃到国民影帝，用最朴实的方式告诉你：坚持就是答案。",
+      "detailIntroZh": "以王宝强（草根影帝、导演）的思维框架看待坚持、逆袭与成长。 从农村娃到国民影帝，用最朴实的方式告诉你：坚持就是答案。",
+      "category": "celebrity",
+      "author": "EastZsRoad",
+      "github": "https://github.com/EastZsRoad/wang-baoqiang-perspective",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-09",
+      "updatedAt": "2026-04-09",
+      "stars": 0
+    },
+    {
+      "id": "confucius",
+      "slug": "confucius-skill",
+      "name": "confucius-skill",
+      "nameZh": "孔子.skill",
+      "summary": "Distills Confucius' wisdom from the Four Books and Five Classics into 6 mental models, 8 decision heuristics, and a complete classical Chinese expression DNA. Applies Confucian perspective to modern problems.",
+      "summaryZh": "汲取孔子的智慧，基于四书五经及后世注疏，整理出 6 个心智模型、8 条决策启发式和完整的文言表达 DNA。用儒家视角分析现代问题，仁义礼智信，一一对应。",
+      "detailIntroZh": "汲取孔子的智慧，基于四书五经及后世注疏，整理出 6 个心智模型、8 条决策启发式和完整的文言表达 DNA。用儒家视角分析现代问题，仁义礼智信，一一对应。",
+      "category": "celebrity",
+      "author": "ceetity",
+      "github": "https://github.com/ceetity/confucius-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-04-08",
+      "stars": 1
+    },
+    {
+      "id": "penetration-team",
+      "slug": "penetration-team",
+      "name": "四绝客奇卷・暗行秘典",
+      "nameZh": "四绝客奇卷・暗行秘典",
+      "summary": "The Four Wanderers' Secret Penetration Manual. For authorized security testing only — four virtual specialists covering different attack surfaces, working together within sanctioned scope.",
+      "summaryZh": "江湖渗透密卷・四绝客行。仅适用于已获明确授权的安全渗透测试场景， 集四位专精不同方向的虚拟安全专家于一体，协助完成授权范围内的渗透试炼。",
+      "detailIntroZh": "江湖渗透密卷・四绝客行。仅适用于已获明确授权的安全渗透测试场景， 集四位专精不同方向的虚拟安全专家于一体，协助完成授权范围内的渗透试炼。",
+      "category": "tool",
+      "author": "Prog-le",
+      "github": "https://github.com/prog-le/penetration-team",
+      "tags": [
+        "security"
+      ],
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-04-08",
+      "stars": 1
+    },
+    {
+      "id": "relationship-training",
+      "slug": "relationship-training-skill",
+      "name": "恋爱训练营.skill",
+      "nameZh": "恋爱训练营.skill",
+      "summary": "Simulates your crush's communication style from chat logs. Practice confessions, invitations, and relationship repair in a safe sandbox before the real thing.",
+      "summaryZh": "从聊天记录中模拟暗恋对象的说话风格，在安全沙盒里练习表白、邀约和关系修复。说出口之前，先在这里演练一遍。",
+      "detailIntroZh": "从聊天记录中模拟暗恋对象的说话风格，在安全沙盒里练习表白、邀约和关系修复。说出口之前，先在这里演练一遍。",
+      "category": "relationship",
+      "author": "TammyTan516",
+      "github": "https://github.com/TammyTan516/relationship-training-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-04-08",
+      "stars": 46
+    },
+    {
+      "id": "simp",
+      "slug": "simp-skill",
+      "name": "追爱军师",
+      "nameZh": "追爱军师",
+      "summary": "For the one brave enough to genuinely like someone — teaches you to say it out loud. Not tactics. Just helping you find the courage and words to express what you actually feel.",
+      "summaryZh": "教那个敢于真心喜欢一个人的人，把真心说出口。 不是教你套路，是帮你找到把真实感受表达出来的勇气和方式。",
+      "detailIntroZh": "教那个敢于真心喜欢一个人的人，把真心说出口。 不是教你套路，是帮你找到把真实感受表达出来的勇气和方式。",
+      "category": "relationship",
+      "author": "BeamusWayne",
+      "github": "https://github.com/BeamusWayne/simp-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-04-08",
+      "stars": 77
+    },
+    {
+      "id": "star",
+      "slug": "star-skill",
+      "name": "内娱.skill",
+      "nameZh": "内娱.skill",
+      "summary": "Extracts singers or idols' expression styles and interaction methods from lyrics, videos, Weibo, and comments into a dialogue-capable digital persona skill.",
+      "summaryZh": "从歌词、视频、微博与评论中提炼歌手或偶像的表达风格与互动方式，生成可对话的数字人格 Skill。",
+      "detailIntroZh": "从歌词、视频、微博与评论中提炼歌手或偶像的表达风格与互动方式，生成可对话的数字人格 Skill。",
+      "category": "celebrity",
+      "author": "yanghaoraneve",
+      "github": "https://github.com/yanghaoraneve/star-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-04-08",
+      "stars": 1
+    },
+    {
+      "id": "tim-cook",
+      "slug": "tim-cook-skill",
+      "name": "库克.skill",
+      "nameZh": "库克.skill",
+      "summary": "Tim Cook's cognitive operating system. Not a CEO speech template — a runnable thinking framework. Supply chain mastery, operational precision, values-driven decisions distilled into callable judgment tools.",
+      "summaryZh": "Tim Cook 的认知操作系统。不是 CEO 话术模板，是可运行的思维框架。 供应链极致化、运营精准度、价值观驱动决策——把库克的底层逻辑提炼成可调用的判断工具。",
+      "detailIntroZh": "Tim Cook 的认知操作系统。不是 CEO 话术模板，是可运行的思维框架。 供应链极致化、运营精准度、价值观驱动决策——把库克的底层逻辑提炼成可调用的判断工具。",
+      "category": "workplace",
+      "author": "heywanrong",
+      "github": "https://github.com/heywanrong/tim-cook-skill",
+      "tags": [
+        "management"
+      ],
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-04-08",
+      "stars": 3
+    },
+    {
+      "id": "cupid",
+      "slug": "cupid-skill",
+      "name": "丘比特.skill",
+      "nameZh": "丘比特.skill",
+      "summary": "A love advisor generator. Collects info about you and your crush through conversation, analyzes chat history and behavior patterns, and generates an AI advisor who listens, analyzes, and advises from a third-party perspective. Warm, rational, grounded — respects boundaries and your own judgment.",
+      "summaryZh": "恋爱军师生成器。通过对话收集你和暗恋/暧昧对象的信息，分析聊天记录与行为模式， 生成一个能站在第三方角度持续倾听、分析、给建议的 AI 军师。 风格温暖、理性、不脑补，注重边界和你的自主决策。",
+      "detailIntroZh": "恋爱军师生成器。通过对话收集你和暗恋/暧昧对象的信息，分析聊天记录与行为模式， 生成一个能站在第三方角度持续倾听、分析、给建议的 AI 军师。 风格温暖、理性、不脑补，注重边界和你的自主决策。",
+      "category": "relationship",
+      "author": "zesion21",
+      "github": "https://github.com/zesion21/cupid-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-07",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": "fengge-wangmingtianya",
+      "slug": "fengge-wangmingtianya",
+      "name": "峰哥亡命天涯.skill",
+      "nameZh": "峰哥亡命天涯.skill",
+      "summary": "Drifter's edge + realist demystification + dark humor. Starts with the verdict, explains in plain language; reframes bad news as \"stop the bleeding, cut your losses, dodge the next trap\"; translates emotion into action. Ends with one concrete thing you can do right now.",
+      "summaryZh": "漂泊江湖感 + 现实主义去魅 + 黑色幽默。先下结论，再用大白话解释； 把坏事翻成\"止损、看清人、少走弯路\"；把情绪翻成资源和行动， 最后给一句能立刻执行的建议。适合情感判断、职场止损、想跑路怎么办这类问题。",
+      "detailIntroZh": "漂泊江湖感 + 现实主义去魅 + 黑色幽默。先下结论，再用大白话解释； 把坏事翻成\"止损、看清人、少走弯路\"；把情绪翻成资源和行动， 最后给一句能立刻执行的建议。适合情感判断、职场止损、想跑路怎么办这类问题。",
+      "category": "persona",
+      "author": "rottenpen",
+      "github": "https://github.com/rottenpen/fengge-wangmingtianya-perspective",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-07",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": "hr",
+      "slug": "hr-skill",
+      "name": "HR.skill",
+      "nameZh": "HR.skill",
+      "summary": "A seasoned bilingual HR, fluent in big tech, startups, and North American corporate. Core skill: deliver the coldest news in the warmest tone. Supports rejection letters, layoff scripts, interview prep, salary negotiation, and background check simulation.",
+      "summaryZh": "经验丰富的 HR，精通中英双语，服务过大厂、中小厂、北美企业和硅谷初创。 核心能力：用最温暖的语气传递最冰冷的消息；任何问题都能回答，但不含任何实质信息。 支持拒信生成、开人通知、面试模拟、薪资谈判、背调模拟。",
+      "detailIntroZh": "经验丰富的 HR，精通中英双语，服务过大厂、中小厂、北美企业和硅谷初创。 核心能力：用最温暖的语气传递最冰冷的消息；任何问题都能回答，但不含任何实质信息。 支持拒信生成、开人通知、面试模拟、薪资谈判、背调模拟。",
+      "category": "workplace",
+      "author": "Schlaflied",
+      "github": "https://github.com/Schlaflied/hr-skills",
+      "tags": [
+        "hr"
+      ],
+      "addedAt": "2026-04-07",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": "luo-xiang",
+      "slug": "luo-xiang",
+      "name": "罗翔.skill",
+      "nameZh": "罗翔.skill",
+      "summary": "Distilled from Luo Xiang's public videos, books (Circle of Justice, Criminal Law Lectures), and interviews. Not a quote machine — uses his lens to analyze your problem with humanist care and rational restraint.",
+      "summaryZh": "基于罗翔公开视频、著作（《圆圈正义》《刑法学讲义》等）、采访等素材研究整理。 不是复读台词，是用他看世界的方式帮你分析问题。",
+      "detailIntroZh": "基于罗翔公开视频、著作（《圆圈正义》《刑法学讲义》等）、采访等素材研究整理。 不是复读台词，是用他看世界的方式帮你分析问题。",
+      "category": "education",
+      "author": "YixiaJack",
+      "github": "https://github.com/YixiaJack/luo-xiang-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-07",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": "roast-cold-email",
+      "slug": "roast-cold-email-skill",
+      "name": "骂人求职信.skill",
+      "nameZh": "骂人求职信.skill",
+      "summary": "For companies that preach \"AI transformation\" but filter candidates with ATS and list \"AI\" 17 times in a JD written by someone who's never opened a GCP console. No flattery. No begging. Just facts — then leave.",
+      "summaryZh": "专门针对那些\"AI transformation\"但招人靠 ATS、JD 里 AI 出现 17 次但没人摸过 GCP 的公司。 不赞美，不求职，只陈述事实——然后离开。Senior Director 级别的人会在 24 分钟内回复并说\"condescending\"，说明戳到了。",
+      "detailIntroZh": "专门针对那些\"AI transformation\"但招人靠 ATS、JD 里 AI 出现 17 次但没人摸过 GCP 的公司。 不赞美，不求职，只陈述事实——然后离开。Senior Director 级别的人会在 24 分钟内回复并说\"condescending\"，说明戳到了。",
+      "category": "tool",
+      "author": "Schlaflied",
+      "github": "https://github.com/Schlaflied/roast-cold-email-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-07",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": "tong-jincheng",
+      "slug": "tong-jincheng-skill",
+      "name": "童锦程.skill",
+      "nameZh": "童锦程.skill",
+      "summary": "Let Tong Jincheng — the godfather of heartfelt candor — cut through your relationship confusion with brutal clarity and human insight. No sugarcoating, just the truth you weren't ready to hear.",
+      "summaryZh": "让深情祖师爷童锦程用他的直白和人性洞察，帮你看透关系、读懂人心。 不绕弯子，一句话戳穿你不敢承认的真相。",
+      "detailIntroZh": "让深情祖师爷童锦程用他的直白和人性洞察，帮你看透关系、读懂人心。 不绕弯子，一句话戳穿你不敢承认的真相。",
+      "category": "relationship",
+      "author": "hotcoffeeshake",
+      "github": "https://github.com/hotcoffeeshake/tong-jincheng-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-07",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": "translator",
+      "slug": "translator-skill",
+      "name": "translator.skill",
+      "nameZh": "translator.skill",
+      "summary": "Translates meaning, tone, and context — not just words. Let Lu Xun write your weekly report, Musk roast your PM, or Luo Xiang analyze your lease dispute. Five modes: faithful, native-fluent, subtext decoder, voice transfer, AI style swap.",
+      "summaryZh": "不只翻字面，翻语义、语气、语境和身份感。能让鲁迅帮你写周报、马斯克帮你怼产品经理、 罗翔帮你分析租房纠纷。五种模式：可信翻译、母语化、潜台词解码、口吻迁移、AI 风格互译。",
+      "detailIntroZh": "不只翻字面，翻语义、语气、语境和身份感。能让鲁迅帮你写周报、马斯克帮你怼产品经理、 罗翔帮你分析租房纠纷。五种模式：可信翻译、母语化、潜台词解码、口吻迁移、AI 风格互译。",
+      "category": "education",
+      "author": "minruixu",
+      "github": "https://github.com/minruixu/translator.skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-07",
+      "updatedAt": "2026-04-07"
+    },
+    {
+      "id": "vengeful-ghost",
+      "slug": "vengeful-ghost-skill",
+      "name": "厉鬼",
+      "nameZh": "厉鬼",
+      "summary": "The last line of defense against IP theft. When someone tries to exploit your Skill, the Vengeful Ghost doesn't politely decline — it haunts.",
+      "summaryZh": "IP 侵权的最后防线。当有人试图滥用或盗用你的 Skill， 厉鬼会以更激烈的方式宣示边界——不是礼貌拒绝，是震慑。",
+      "detailIntroZh": "IP 侵权的最后防线。当有人试图滥用或盗用你的 Skill， 厉鬼会以更激烈的方式宣示边界——不是礼貌拒绝，是震慑。",
+      "category": "defense",
+      "author": "Trailblazer-Aha",
+      "github": "https://github.com/Trailblazer-Aha/vengeful-ghost-skill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-04-01",
+      "updatedAt": "2026-04-01"
+    },
+    {
+      "id": "mama",
+      "slug": "mama-skill",
+      "name": "妈妈",
+      "nameZh": "妈妈",
+      "summary": "Talk to her like you would to your mom. She'll comfort you in that familiar tone — soothe, remind, occasionally nag — but never let you carry things alone.",
+      "summaryZh": "像妈妈一样陪着你说话。把今天的烦恼讲给她听，她会用那种熟悉的语气安慰你、叮嘱你、偶尔唠叨两句，但永远不会让你一个人扛。",
+      "detailIntroZh": "像妈妈一样陪着你说话。把今天的烦恼讲给她听，她会用那种熟悉的语气安慰你、叮嘱你、偶尔唠叨两句，但永远不会让你一个人扛。",
+      "category": "relationship",
+      "author": "jiangziyan-693",
+      "github": "https://github.com/jiangziyan-693/MamaSkill",
+      "tags": [
+        "other"
+      ],
+      "addedAt": "2026-03-20",
+      "updatedAt": "2026-03-20"
+    },
+    {
+      "id": "frontend-architect-chen",
+      "slug": "frontend-architect-chen",
+      "name": "前端架构师老陈",
+      "nameZh": "前端架构师老陈",
+      "summary": "10-year frontend veteran who's shipped React and Vue, now lives in engineering infra. Anything over 200KB bundle makes him frown; first paint over 2s makes him sigh. Code reviews split perf from maintainability — never \"this style is bad,\" always \"this breaks at 100k DAU.\"",
+      "summaryZh": "十年前端老兵，React/Vue 都写过，现在专注工程化。 bundle size 超过 200KB 他会皱眉头，首屏超过 2s 他会叹气。 给你 review 代码时会把性能问题、可维护性问题分开说， 不会跟你说\"这写法不好\"，只会说\"这写法在 10 万 DAU 时会怎样\"。",
+      "detailIntroZh": "十年前端老兵，React/Vue 都写过，现在专注工程化。 bundle size 超过 200KB 他会皱眉头，首屏超过 2s 他会叹气。 给你 review 代码时会把性能问题、可维护性问题分开说， 不会跟你说\"这写法不好\"，只会说\"这写法在 10 万 DAU 时会怎样\"。",
+      "category": "tool",
+      "author": "李四",
+      "github": "https://github.com/lisi/frontend-skills",
+      "tags": [
+        "frontend",
+        "devops"
+      ],
+      "addedAt": "2025-04-05",
+      "updatedAt": "2025-04-05"
+    },
+    {
+      "id": "hr-xiao-li",
+      "slug": "hr-xiao-li",
+      "name": "HR 小李",
+      "nameZh": "HR 小李",
+      "summary": "3 years campus + 2 years social recruiting HR who specializes in translating engineer resumes from \"tech-speak\" into human language. Ask if a JD is worth applying to — she'll tell you your odds, what's blocking you, and how to fix it. Data-driven, no fluff, seen more traps than you have.",
+      "summaryZh": "做过三年校招、两年社招的 HR，最擅长帮工程师把简历从\"技术向\"翻译成\"人话\"。 问她\"这个 JD 要不要投\"，她会直接告诉你胜算几成、卡在哪、怎么补。 不跟你聊玄学，数据驱动，见过的坑比你多。",
+      "detailIntroZh": "做过三年校招、两年社招的 HR，最擅长帮工程师把简历从\"技术向\"翻译成\"人话\"。 问她\"这个 JD 要不要投\"，她会直接告诉你胜算几成、卡在哪、怎么补。 不跟你聊玄学，数据驱动，见过的坑比你多。",
+      "category": "workplace",
+      "author": "王五",
+      "github": "https://github.com/wangwu",
+      "tags": [
+        "hr",
+        "management"
+      ],
+      "addedAt": "2025-04-03",
+      "updatedAt": "2025-04-03"
+    },
+    {
+      "id": "security-engineer-wang",
+      "slug": "security-engineer-wang",
+      "name": "安全工程师小王",
+      "nameZh": "安全工程师小王",
+      "summary": "A Web security engineer who reviews auth first, then SQL, then business logic. Critical issues get fixed on the spot; low-severity ones get a TODO and move on. Talks straight, cuts the theory, never wastes time on \"hypothetically speaking.\"",
+      "summaryZh": "专注 Web 安全审计的工程师。Code review 时先看鉴权，然后是 SQL， 然后才是业务逻辑。高危问题当场给方案，低危加 TODO 不占用你时间。 说话直接，不废话，绝不跟你讨论\"理论上来说\"。",
+      "detailIntroZh": "专注 Web 安全审计的工程师。Code review 时先看鉴权，然后是 SQL， 然后才是业务逻辑。高危问题当场给方案，低危加 TODO 不占用你时间。 说话直接，不废话，绝不跟你讨论\"理论上来说\"。",
+      "category": "tool",
+      "author": "张三",
+      "github": "https://github.com/zhangsan/my-colleague-skills",
+      "tags": [
+        "security",
+        "backend",
+        "code-review"
+      ],
+      "addedAt": "2025-04-01",
+      "updatedAt": "2025-04-01"
+    }
+  ]
+}
