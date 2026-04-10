@@ -1,76 +1,106 @@
-# EverythingSkill.net — 万物皆可 Skill
-
-## 愿景
-
-**一切皆可蒸馏为 Skill。**
-
-EverythingSkill.net 是一个开源 AI Skill 发现与分享平台。我们相信，每一段经验、每一个人格、每一种知识体系，都可以被提炼成一个可复用的 `.skill` 文件，让 AI 真正理解并模拟这些能力。
-
-## 背景
-
-2025 年，`.skill` 文件格式在 AI 社区爆火。从"同事.skill"开始，人们开始把同事、老板、名人、甚至自己蒸馏成 AI Skill。这场运动证明了一件事：**万物皆可 Skill**。
+# EverythingSkill.net — Product Readme
 
 ## 产品定位
 
-- **Skill 发现引擎**：按分类浏览、搜索热门 Skill
-- **开源聚合平台**：汇聚 GitHub 上的优质开源 Skill
-- **社区驱动**：任何人都可以提交自己的 Skill
-- **使用指南**：帮助新手理解什么是 Skill、如何使用
+EverythingSkill.net 是一个开源 AI Skill 目录站，用来收集、整理、展示 GitHub 上分散的 `.skill` 项目，并通过统一的数据结构、双语页面和 SEO 规范提升可发现性。
 
-## 核心功能
+当前产品不是 Skill 执行器，而是一个：
 
-### v1.0 — MVP
-- [x] 首页：品牌展示 + 概念介绍 + 热门 Skill 展示
-- [x] Skill 目录：按分类浏览所有 Skill（职场、名人、玄学等）
-- [x] Skill 详情卡片：名称、描述、分类、GitHub 链接、作者
-- [x] 搜索与筛选
-- [x] 响应式设计（移动端优先）
-- [x] 提交 Skill 入口
+- 开源 Skill 聚合入口
+- 双语内容目录
+- GitHub README 展示层
+- 轻量榜单与发现工具
 
-### v2.0 — 社区
-- [ ] 用户注册/登录
-- [ ] Skill 评分与评论
-- [ ] Skill 下载量统计
-- [ ] 作者个人主页
-- [ ] Skill 在线预览/试用
+## 当前版本
 
-### v3.0 — 生态
-- [ ] Skill 模板生成器（AI 辅助创建 Skill）
-- [ ] Skill 兼容性验证（Claude / ChatGPT / Cursor 等）
-- [ ] API 接口开放
-- [ ] Skill 商店（付费 Skill）
+当前线上版本已经具备：
 
-## Skill 分类体系
+- 英文默认站点 `/`
+- 中文站点 `/zh`
+- Skill 目录页、详情页、关于页、提交页
+- 热榜 / 新榜页面
+- GitHub README 抓取与渲染
+- GitHub stars 自动同步
+- locale-aware canonical、`hreflang`、sitemap
+- 一套完整的 favicon / app icon / OG / Twitter 资产
 
-| 分类 | 描述 | 示例 |
-|------|------|------|
-| 🏢 职场 | 同事、老板、工作流 | 同事.skill, 老板.skill |
-| 📱 自媒体 | 运营、创作、风格 | X导师.skill, 博主.skill |
-| 🧬 人格蒸馏 | 自己、亲友、前任 | 自己.skill, 前任.skill |
-| ⭐ 名人思维 | 商业、科技、投资 | 乔布斯.skill, 马斯克.skill |
-| 🎓 学术教育 | 教学、学习方法 | 费曼.skill, Karpathy.skill |
-| 🔮 玄学 | 命理、风水、占卜 | 赛博算命.skill, 月老.skill |
-| 🛠️ 工具 | 通用工具类 Skill | 蒸馏.skill, 女娲.skill |
-| 🛡️ 防御 | 反蒸馏、隐私保护 | 反蒸馏.skill |
+## 用户价值
 
-## 技术栈
+对访客：
 
-- **框架**: Nuxt 3
-- **样式**: Tailwind CSS 4
-- **部署**: Vercel / Cloudflare Pages
-- **域名**: everythingskill.net
+- 更快找到高质量 `.skill` 项目
+- 理解每个 Skill 的定位、来源、分类与 README 内容
+- 在英文和中文之间自然切换
 
-## 设计原则
+对创作者：
 
-1. **简洁有力** — 让 Skill 本身成为主角
-2. **中英双语** — 面向全球开发者社区
-3. **快速加载** — SSG 静态生成，极致性能
-4. **开源透明** — 平台本身也是开源的
+- 获得额外曝光入口
+- 让项目以更结构化方式被索引和发现
+- 通过目录化展示降低传播成本
 
-## 参考资源
+## 信息架构
 
-- [同事.skill](https://github.com/titanwings/colleague-skill) — Skill 运动的起点
-- [女娲.skill](https://github.com/alchaincyf/nuwa-skill) — 通用人格蒸馏工具
-- [乔布斯.skill](https://github.com/alchaincyf/steve-jobs-skill)
-- [马斯克.skill](https://github.com/alchaincyf/elon-musk-skill)
-- 更多 Skill 见 [金尘马的推文总结](https://x.com/jinchenma_ai/status/2041422880404328851)
+- 首页：品牌、概念、精选 Skill、分类入口
+- Skill 目录：按分类筛选、搜索全部条目
+- Skill 详情：基础信息、README、stars 趋势、跳转源仓库
+- 榜单页：按 stars 和收录时间发现项目
+- About：项目背景和产品解释
+- Submit：提交入口和审核说明
+
+## 数据策略
+
+权威数据源：`app/data/skills.json`
+
+设计原则：
+
+- Skill 的 `slug` 持久化保存，不再从 GitHub URL 临时推导
+- 编辑字段与自动同步字段严格分离
+- 手工维护名称、摘要、分类、标签、时间戳
+- 自动同步 stars 和 `lastSyncedAt`
+
+## SEO 策略
+
+当前 SEO 方案已经是多语言成套实现，而不是只加一个 `/zh` 路径：
+
+- 英文默认根路径，中文使用 `/zh`
+- 每个页面输出 locale-aware canonical
+- 输出 `hreflang=en`、`hreflang=zh-CN`、`x-default`
+- `html lang` 随语言切换
+- sitemap 为双语 URL，并带 alternate links
+- 社交分享图与浏览器图标统一托管在 `public/`
+
+## 开源策略
+
+仓库现在面向公开协作，要求：
+
+- 文档不出现本机绝对路径
+- 不提交个人敏感信息、token、cookie、私有链接
+- 示例凭据只用占位符
+- 对外文档优先解释产品和结构，而不是个人工作习惯
+
+## 接下来最值得做的事情
+
+### 1. 数据与发现
+
+- 提升提交流程，从静态表单走向真实贡献工作流
+- 增加更多结构化筛选能力
+- 给 Skill 增加更稳定的质量信号
+
+### 2. 详情页增强
+
+- 支持 locale-aware 的社交分享图
+- 增加更多仓库元数据展示
+- 优化 README 复杂内容的渲染体验
+
+### 3. 社区能力
+
+- 设计提交审核机制
+- 增加创作者归属与引用说明
+- 明确收录标准和拒绝标准
+
+## 成功标准
+
+- 新访客能在几秒内理解站点用途
+- 搜索引擎能清楚区分英文与中文页面
+- 每个 Skill 页面都能稳定指向源仓库并展示 README
+- 数据与文档可以在开源协作下持续维护
