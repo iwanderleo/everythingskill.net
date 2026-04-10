@@ -8,7 +8,7 @@
             {{ $t('nav.hot') }}
           </h1>
           <NuxtLink
-            to="/rankings/new"
+            :to="localePath('/rankings/new')"
             class="font-display text-display-section text-mid-gray/30 hover:text-mid-gray/60 transition-colors pb-0.5"
             style="line-height: 1.10;"
           >
@@ -29,7 +29,7 @@
         <NuxtLink
           v-for="(skill, index) in hotSkills"
           :key="skill.id"
-          :to="`/skills/${getSkillSlug(skill)}`"
+          :to="localePath(`/skills/${getSkillSlug(skill)}`)"
           class="group flex items-center gap-5 px-6 py-4 bg-white hover:bg-light-gray transition-colors"
         >
           <!-- Rank number -->
@@ -82,6 +82,8 @@
 import { skills, lastSyncedAt, getSkillSlug, getCategoryInfo } from '~/data/skills'
 
 const { locale } = useI18n()
+const localePath = useLocalePath()
+const pageUrl = computed(() => `https://everythingskill.net${localePath('/rankings/hot')}`)
 
 const hotSkills = computed(() =>
   [...skills].sort((a, b) => (b.stars ?? 0) - (a.stars ?? 0))
@@ -93,12 +95,17 @@ function formatStars(n: number): string {
 }
 
 useHead({
-  title: '热榜 — Stars 最多的 AI Skill | EverythingSkill',
-  meta: [
-    { name: 'description', content: '按 GitHub Stars 排行的 AI Skill 榜单，实时反映社区最受欢迎的开源 Skill。' },
-    { property: 'og:title', content: '热榜 — EverythingSkill' },
-    { property: 'og:url', content: 'https://everythingskill.net/rankings/hot' },
-  ],
-  link: [{ rel: 'canonical', href: 'https://everythingskill.net/rankings/hot' }],
+  title: computed(() => locale.value === 'zh' ? '热榜 — Stars 最多的 AI Skill | EverythingSkill' : 'Hot Rankings — Most Starred AI Skills | EverythingSkill'),
+  meta: computed(() => {
+    const description = locale.value === 'zh'
+      ? '按 GitHub Stars 排行的 AI Skill 榜单，实时反映社区最受欢迎的开源 Skill。'
+      : 'AI Skill rankings sorted by GitHub stars, showing the most popular open-source Skills in the community.'
+
+    return [
+      { name: 'description', content: description },
+      { property: 'og:title', content: locale.value === 'zh' ? '热榜 — EverythingSkill' : 'Hot Rankings — EverythingSkill' },
+      { property: 'og:url', content: pageUrl.value },
+    ]
+  }),
 })
 </script>

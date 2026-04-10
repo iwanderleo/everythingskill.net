@@ -2,7 +2,7 @@
   <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-xl" style="box-shadow: rgba(34, 42, 53, 0.06) 0px 0px 0px 1px;">
     <div class="mx-auto flex h-16 max-w-container items-center justify-between px-6">
       <!-- Logo -->
-      <NuxtLink to="/" class="flex items-center gap-2.5 group">
+      <NuxtLink :to="localePath('/')" class="flex items-center gap-2.5 group">
         <div class="flex h-8 w-8 items-center justify-center rounded-md bg-charcoal text-white font-display text-sm font-semibold">
           S
         </div>
@@ -35,7 +35,7 @@
             <div v-if="rankingsOpen" class="absolute top-full left-0 pt-2 z-50">
               <div class="bg-white rounded-lg py-1 min-w-[120px]" style="box-shadow: rgba(19,19,22,0.7) 0 2px 8px -4px, rgba(34,42,53,0.12) 0 0 0 1px;">
                 <NuxtLink
-                  to="/rankings/hot"
+                  :to="localePath('/rankings/hot')"
                   class="flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-midnight hover:bg-light-gray transition-colors"
                   @click="rankingsOpen = false"
                 >
@@ -43,7 +43,7 @@
                   {{ $t('nav.hot') }}
                 </NuxtLink>
                 <NuxtLink
-                  to="/rankings/new"
+                  :to="localePath('/rankings/new')"
                   class="flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-midnight hover:bg-light-gray transition-colors"
                   @click="rankingsOpen = false"
                 >
@@ -54,11 +54,11 @@
             </div>
           </Transition>
         </div>
-        <NuxtLink to="/skills" class="text-sm font-medium text-midnight hover:opacity-70 transition-opacity">
+        <NuxtLink :to="localePath('/skills')" class="text-sm font-medium text-midnight hover:opacity-70 transition-opacity">
           {{ $t('nav.skills') }}
         </NuxtLink>
         <a
-          href="https://github.com/tmstack/awesome-persona-skills"
+          href="https://github.com/iwanderleo/everythingskill.net"
           target="_blank"
           rel="noopener"
           class="text-sm font-medium text-midnight hover:opacity-70 transition-opacity flex items-center gap-1.5"
@@ -117,7 +117,7 @@
             </button>
             <div v-if="mobileRankingsOpen" class="pl-4">
               <NuxtLink
-                to="/rankings/hot"
+                :to="localePath('/rankings/hot')"
                 class="px-4 py-2.5 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors flex items-center gap-2"
                 @click="mobileMenuOpen = false; mobileRankingsOpen = false"
               >
@@ -125,7 +125,7 @@
                 {{ $t('nav.hot') }}
               </NuxtLink>
               <NuxtLink
-                to="/rankings/new"
+                :to="localePath('/rankings/new')"
                 class="px-4 py-2.5 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors flex items-center gap-2"
                 @click="mobileMenuOpen = false; mobileRankingsOpen = false"
               >
@@ -134,11 +134,11 @@
               </NuxtLink>
             </div>
           </div>
-          <NuxtLink to="/skills" class="px-4 py-3 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors" @click="mobileMenuOpen = false">
+          <NuxtLink :to="localePath('/skills')" class="px-4 py-3 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors" @click="mobileMenuOpen = false">
             {{ $t('nav.skills') }}
           </NuxtLink>
           <a
-            href="https://github.com/tmstack/awesome-persona-skills"
+            href="https://github.com/iwanderleo/everythingskill.net"
             target="_blank"
             rel="noopener"
             class="px-4 py-3 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors flex items-center gap-2"
@@ -168,13 +168,17 @@
 </template>
 
 <script setup lang="ts">
-const { locale, setLocale } = useI18n()
+const { locale } = useI18n()
+const localePath = useLocalePath()
+const switchLocalePath = useSwitchLocalePath()
 const { theme, toggleTheme } = useTheme()
 const mobileMenuOpen = ref(false)
 const rankingsOpen = ref(false)
 const mobileRankingsOpen = ref(false)
 
-function toggleLocale() {
-  setLocale(locale.value === 'zh' ? 'en' : 'zh')
+async function toggleLocale() {
+  const nextLocale = locale.value === 'zh' ? 'en' : 'zh'
+  const targetPath = switchLocalePath(nextLocale)
+  await navigateTo(targetPath || localePath('/'))
 }
 </script>

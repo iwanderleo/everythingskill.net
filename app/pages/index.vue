@@ -30,7 +30,7 @@
             <h2 class="font-display text-display-section text-charcoal" style="line-height: 1.10;">{{ $t('home.featuredTitle') }}</h2>
             <p class="text-sm text-mid-gray mt-3" style="line-height: 1.50;">{{ $t('home.featuredSubtitle') }}</p>
           </div>
-          <NuxtLink to="/skills" class="btn-secondary text-sm hidden sm:inline-flex">
+          <NuxtLink :to="localePath('/skills')" class="btn-secondary text-sm hidden sm:inline-flex">
             {{ $t('home.viewAll') }}
             <Icon name="lucide:arrow-right" class="w-4 h-4" />
           </NuxtLink>
@@ -41,7 +41,7 @@
         </div>
 
         <div class="mt-8 text-center sm:hidden">
-          <NuxtLink to="/skills" class="btn-secondary">
+          <NuxtLink :to="localePath('/skills')" class="btn-secondary">
             {{ $t('home.viewAll') }}
             <Icon name="lucide:arrow-right" class="w-4 h-4" />
           </NuxtLink>
@@ -59,7 +59,7 @@
           <NuxtLink
             v-for="cat in categories"
             :key="cat.key"
-            :to="`/skills?category=${cat.key}`"
+            :to="localePath({ path: '/skills', query: { category: cat.key } })"
             class="skill-card group flex flex-col items-center gap-4 p-8"
           >
             <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-light-gray group-hover:bg-charcoal/5 transition-colors">
@@ -139,6 +139,10 @@
 import { skills, categories, getSkillsByCategory } from '~/data/skills'
 
 const { locale } = useI18n()
+const localePath = useLocalePath()
+const siteUrl = 'https://everythingskill.net'
+const homeUrl = computed(() => `${siteUrl}${localePath('/')}`)
+const skillDirectoryUrl = computed(() => `${siteUrl}${localePath('/skills')}`)
 const featuredSkills = computed(() =>
   [...skills]
     .filter(skill => !skill.githubStatus && typeof skill.stars === 'number')
@@ -153,28 +157,38 @@ const featuredSkills = computed(() =>
 )
 
 useHead({
-  title: 'EverythingSkill — 万物皆可 Skill | 开源 AI Skill 发现平台',
-  meta: [
-    { name: 'description', content: '一切皆可蒸馏为 Skill。发现、分享、使用最好的开源 AI Skill，让 AI 真正理解每一种能力。收录 42 个高质量 Skill，覆盖职场、名人思维、人格蒸馏等 9 大分类。' },
-    { property: 'og:title', content: 'EverythingSkill — 万物皆可 Skill' },
-    { property: 'og:description', content: '开源 AI Skill 发现与分享平台。一切皆可蒸馏为 Skill。' },
-    { property: 'og:url', content: 'https://everythingskill.net' },
-  ],
-  link: [{ rel: 'canonical', href: 'https://everythingskill.net' }],
-  script: [{
+  title: computed(() => locale.value === 'zh'
+    ? 'EverythingSkill — 万物皆可 Skill | 开源 AI Skill 发现平台'
+    : 'EverythingSkill | Open-source AI Skill Discovery'),
+  meta: computed(() => {
+    const description = locale.value === 'zh'
+      ? '一切皆可蒸馏为 Skill。发现、分享、使用最好的开源 AI Skill，让 AI 真正理解每一种能力。收录高质量 Skill，覆盖职场、名人思维、人格蒸馏等多个分类。'
+      : 'Everything can be distilled into a Skill. Discover, share, and use open-source AI Skills across workplace, celebrity, persona, and more.'
+
+    return [
+      { name: 'description', content: description },
+      { property: 'og:title', content: locale.value === 'zh' ? 'EverythingSkill — 万物皆可 Skill' : 'EverythingSkill' },
+      { property: 'og:description', content: description },
+      { property: 'og:url', content: homeUrl.value },
+    ]
+  }),
+  script: computed(() => [{
     type: 'application/ld+json',
     children: JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'EverythingSkill',
-      url: 'https://everythingskill.net',
-      description: '开源 AI Skill 发现与分享平台。一切皆可蒸馏为 Skill。',
+      url: homeUrl.value,
+      inLanguage: locale.value === 'zh' ? 'zh-CN' : 'en',
+      description: locale.value === 'zh'
+        ? '开源 AI Skill 发现与分享平台。一切皆可蒸馏为 Skill。'
+        : 'Open-source AI Skill discovery and sharing platform.',
       potentialAction: {
         '@type': 'SearchAction',
-        target: { '@type': 'EntryPoint', urlTemplate: 'https://everythingskill.net/skills?q={search_term_string}' },
+        target: { '@type': 'EntryPoint', urlTemplate: `${skillDirectoryUrl.value}?q={search_term_string}` },
         'query-input': 'required name=search_term_string',
       },
     }),
-  }],
+  }]),
 })
 </script>

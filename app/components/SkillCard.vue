@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="`/skills/${getSkillSlug(skill)}`" class="skill-card group flex flex-col">
+  <NuxtLink :to="localePath(`/skills/${getSkillSlug(skill)}`)" class="skill-card group flex flex-col">
     <!-- Header: Name + Featured badge -->
     <div class="flex items-start justify-between gap-3 mb-1">
       <h3 class="font-display text-lg font-semibold text-charcoal" style="line-height: 1.20;">
@@ -45,6 +45,7 @@ import { getCategoryInfo, getSkillSlug, type Skill } from '~/data/skills'
 
 const props = defineProps<{ skill: Skill }>()
 const { locale } = useI18n()
+const localePath = useLocalePath()
 const categoryInfo = computed(() => getCategoryInfo(props.skill.category))
 
 const skillName = computed(() => locale.value === 'en' ? props.skill.name : props.skill.nameZh)

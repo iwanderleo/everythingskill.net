@@ -1,42 +1,42 @@
 <template>
   <div class="bg-white">
     <div class="mx-auto max-w-4xl px-6 py-section">
-      <NuxtLink to="/skills" class="inline-flex items-center gap-1.5 text-sm text-mid-gray hover:text-charcoal transition-colors mb-10">
+      <NuxtLink :to="localePath('/skills')" class="inline-flex items-center gap-1.5 text-sm text-mid-gray hover:text-charcoal transition-colors mb-10">
         <Icon name="lucide:arrow-left" class="w-4 h-4" />
-        返回目录
+        {{ $t('submitPage.back') }}
       </NuxtLink>
 
-      <h1 class="font-display text-display-section text-charcoal mb-3" style="line-height: 1.10;">提交 Skill</h1>
-      <p class="text-mid-gray mb-10" style="line-height: 1.50; font-weight: 300;">将你的开源 Skill 提交到 EverythingSkill 目录中。</p>
+      <h1 class="font-display text-display-section text-charcoal mb-3" style="line-height: 1.10;">{{ $t('submitPage.title') }}</h1>
+      <p class="text-mid-gray mb-10" style="line-height: 1.50; font-weight: 300;">{{ $t('submitPage.subtitle') }}</p>
 
       <form class="space-y-8" @submit.prevent="handleSubmit">
         <!-- Skill Name -->
         <div>
-          <label class="block text-sm font-semibold text-charcoal mb-2">Skill 名称</label>
+          <label class="block text-sm font-semibold text-charcoal mb-2">{{ $t('submitPage.nameLabel') }}</label>
           <input
             v-model="form.name"
             type="text"
             required
-            placeholder="例如：乔布斯.skill"
+            :placeholder="$t('submitPage.namePlaceholder')"
             class="form-input"
           >
         </div>
 
         <!-- Description -->
         <div>
-          <label class="block text-sm font-semibold text-charcoal mb-2">描述</label>
+          <label class="block text-sm font-semibold text-charcoal mb-2">{{ $t('submitPage.descriptionLabel') }}</label>
           <textarea
             v-model="form.description"
             required
             rows="3"
-            placeholder="简述这个 Skill 的能力和用途..."
+            :placeholder="$t('submitPage.descriptionPlaceholder')"
             class="form-input resize-none"
           />
         </div>
 
         <!-- GitHub URL -->
         <div>
-          <label class="block text-sm font-semibold text-charcoal mb-2">GitHub 仓库地址</label>
+          <label class="block text-sm font-semibold text-charcoal mb-2">{{ $t('submitPage.githubLabel') }}</label>
           <input
             v-model="form.github"
             type="url"
@@ -48,22 +48,22 @@
 
         <!-- Category -->
         <div>
-          <label class="block text-sm font-semibold text-charcoal mb-2">分类</label>
+          <label class="block text-sm font-semibold text-charcoal mb-2">{{ $t('submitPage.categoryLabel') }}</label>
           <select
             v-model="form.category"
             required
             class="form-input"
           >
-            <option value="" disabled>选择分类</option>
+            <option value="" disabled>{{ $t('submitPage.categoryPlaceholder') }}</option>
             <option v-for="cat in categories" :key="cat.key" :value="cat.key">
-              {{ cat.labelZh }} ({{ cat.label }})
+              {{ locale === 'zh' ? cat.labelZh : cat.label }}
             </option>
           </select>
         </div>
 
         <!-- Author -->
         <div>
-          <label class="block text-sm font-semibold text-charcoal mb-2">作者 GitHub 用户名</label>
+          <label class="block text-sm font-semibold text-charcoal mb-2">{{ $t('submitPage.authorLabel') }}</label>
           <input
             v-model="form.author"
             type="text"
@@ -83,30 +83,30 @@
               submitted ? 'btn-secondary cursor-not-allowed opacity-60' : 'btn-primary'
             ]"
           >
-            {{ submitted ? '已提交，感谢你的贡献！' : '提交 Skill' }}
+            {{ submitted ? $t('submitPage.submitted') : $t('submitPage.submit') }}
           </button>
         </div>
       </form>
 
       <!-- Info -->
       <div class="mt-12 skill-card p-6">
-        <h3 class="text-sm font-semibold text-charcoal mb-4">提交须知</h3>
+        <h3 class="text-sm font-semibold text-charcoal mb-4">{{ $t('submitPage.notesTitle') }}</h3>
         <ul class="text-sm text-mid-gray space-y-3" style="line-height: 1.50;">
           <li class="flex items-start gap-2">
             <span class="text-charcoal">·</span>
-            Skill 必须是在 GitHub 上公开开源的
+            {{ $t('submitPage.note1') }}
           </li>
           <li class="flex items-start gap-2">
             <span class="text-charcoal">·</span>
-            提交后我们会人工审核，通过后会出现在目录中
+            {{ $t('submitPage.note2') }}
           </li>
           <li class="flex items-start gap-2">
             <span class="text-charcoal">·</span>
-            请确保 Skill 内容合法合规，不含敏感信息
+            {{ $t('submitPage.note3') }}
           </li>
           <li class="flex items-start gap-2">
             <span class="text-charcoal">·</span>
-            欢迎提交任何类型的 Skill，万物皆可 Skill！
+            {{ $t('submitPage.note4') }}
           </li>
         </ul>
       </div>
@@ -116,6 +116,10 @@
 
 <script setup lang="ts">
 import { categories } from '~/data/skills'
+
+const { locale } = useI18n()
+const localePath = useLocalePath()
+const pageUrl = computed(() => `https://everythingskill.net${localePath('/submit')}`)
 
 const form = reactive({
   name: '',
@@ -132,12 +136,17 @@ function handleSubmit() {
 }
 
 useHead({
-  title: '提交 Skill — 加入 EverythingSkill 开源目录',
-  meta: [
-    { name: 'description', content: '将你的开源 .skill 文件提交到 EverythingSkill 目录，让更多人发现和使用你的 AI Skill。' },
-    { property: 'og:title', content: '提交 Skill — EverythingSkill' },
-    { property: 'og:url', content: 'https://everythingskill.net/submit' },
-  ],
-  link: [{ rel: 'canonical', href: 'https://everythingskill.net/submit' }],
+  title: computed(() => locale.value === 'zh' ? '提交 Skill — 加入 EverythingSkill 开源目录' : 'Submit a Skill — EverythingSkill'),
+  meta: computed(() => {
+    const description = locale.value === 'zh'
+      ? '将你的开源 .skill 文件提交到 EverythingSkill 目录，让更多人发现和使用你的 AI Skill。'
+      : 'Submit your open-source .skill file to the EverythingSkill directory.'
+
+    return [
+      { name: 'description', content: description },
+      { property: 'og:title', content: locale.value === 'zh' ? '提交 Skill — EverythingSkill' : 'Submit a Skill — EverythingSkill' },
+      { property: 'og:url', content: pageUrl.value },
+    ]
+  }),
 })
 </script>

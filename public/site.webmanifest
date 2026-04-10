@@ -1,0 +1,22 @@
+{
+  "name": "EverythingSkill",
+  "short_name": "EverySkill",
+  "description": "Open-source AI Skill discovery and sharing platform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fcfcfa",
+  "theme_color": "#242424",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

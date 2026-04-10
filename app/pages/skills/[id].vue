@@ -7,12 +7,12 @@
         <Icon name="lucide:file-question" class="w-12 h-12 text-mid-gray/40 mx-auto mb-4" />
         <h2 class="font-display text-display-feature text-charcoal mb-3">{{ $t('skill.notFound') }}</h2>
         <p class="text-mid-gray mb-8">{{ $t('skill.notFoundDesc') }}</p>
-        <NuxtLink to="/skills" class="btn-primary">{{ $t('skill.notFoundCta') }}</NuxtLink>
+        <NuxtLink :to="localePath('/skills')" class="btn-primary">{{ $t('skill.notFoundCta') }}</NuxtLink>
       </div>
 
       <template v-else>
         <!-- Back nav -->
-        <NuxtLink to="/skills" class="inline-flex items-center gap-1.5 text-sm text-mid-gray hover:text-charcoal transition-colors mb-10">
+        <NuxtLink :to="localePath('/skills')" class="inline-flex items-center gap-1.5 text-sm text-mid-gray hover:text-charcoal transition-colors mb-10">
           <Icon name="lucide:arrow-left" class="w-4 h-4" />
           {{ $t('skill.backToDir') }}
         </NuxtLink>
@@ -217,6 +217,7 @@
 import { skills, getCategoryInfo, getSkillBySlug, getSkillSlug, type Skill } from '~/data/skills'
 
 const { locale, t } = useI18n()
+const localePath = useLocalePath()
 const route = useRoute()
 const skillSlug = route.params.id as string
 const skill = computed(() => getSkillBySlug(skillSlug))
@@ -264,19 +265,21 @@ function formatDate(value: string) {
 }
 
 useHead({
-  title: computed(() => skill.value ? `${skill.value.nameZh} (${skill.value.name}) — EverythingSkill` : t('skill.notFound')),
+  title: computed(() => {
+    if (!skill.value) return t('skill.notFound')
+    return locale.value === 'zh'
+      ? `${skill.value.nameZh} (${skill.value.name}) — EverythingSkill`
+      : `${skill.value.name} — EverythingSkill`
+  }),
   meta: computed(() => skill.value ? [
-    { name: 'description', content: skill.value.summaryZh + ' ' + skill.value.summary },
+    { name: 'description', content: locale.value === 'zh' ? skill.value.summaryZh : skill.value.summary },
     { name: 'keywords', content: [skill.value.nameZh, skill.value.name, ...skill.value.tags, 'AI Skill', 'skill文件'].join(', ') },
-    { property: 'og:title', content: `${skill.value.nameZh} — EverythingSkill` },
-    { property: 'og:description', content: skill.value.summaryZh },
-    { property: 'og:url', content: `https://everythingskill.net/skills/${getSkillSlug(skill.value)}` },
+    { property: 'og:title', content: locale.value === 'zh' ? `${skill.value.nameZh} — EverythingSkill` : `${skill.value.name} — EverythingSkill` },
+    { property: 'og:description', content: locale.value === 'zh' ? skill.value.summaryZh : skill.value.summary },
+    { property: 'og:url', content: `https://everythingskill.net${localePath(`/skills/${getSkillSlug(skill.value)}`)}` },
     { property: 'og:type', content: 'article' },
-    { name: 'twitter:title', content: `${skill.value.nameZh} — EverythingSkill` },
-    { name: 'twitter:description', content: skill.value.summaryZh },
-  ] : []),
-  link: computed(() => skill.value ? [
-    { rel: 'canonical', href: `https://everythingskill.net/skills/${getSkillSlug(skill.value)}` },
+    { name: 'twitter:title', content: locale.value === 'zh' ? `${skill.value.nameZh} — EverythingSkill` : `${skill.value.name} — EverythingSkill` },
+    { name: 'twitter:description', content: locale.value === 'zh' ? skill.value.summaryZh : skill.value.summary },
   ] : []),
   script: computed(() => skill.value ? [
     {
@@ -284,10 +287,11 @@ useHead({
       children: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
-        name: skill.value.nameZh,
+        name: locale.value === 'zh' ? skill.value.nameZh : skill.value.name,
         alternateName: skill.value.name,
-        description: skill.value.summaryZh,
-        url: `https://everythingskill.net/skills/${getSkillSlug(skill.value)}`,
+        description: locale.value === 'zh' ? skill.value.summaryZh : skill.value.summary,
+        url: `https://everythingskill.net${localePath(`/skills/${getSkillSlug(skill.value)}`)}`,
+        inLanguage: locale.value === 'zh' ? 'zh-CN' : 'en',
         applicationCategory: 'Productivity',
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },

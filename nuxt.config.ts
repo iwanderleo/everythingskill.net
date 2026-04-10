@@ -17,12 +17,14 @@ export default defineNuxtConfig({
   ],
   i18n: {
     locales: [
-      { code: 'zh', name: '中文', file: 'zh.json' },
-      { code: 'en', name: 'English', file: 'en.json' },
+      { code: 'zh', name: '中文', language: 'zh-CN', file: 'zh.json' },
+      { code: 'en', name: 'English', language: 'en-US', file: 'en.json' },
     ],
-    defaultLocale: 'zh',
+    defaultLocale: 'en',
     langDir: 'locales/',
-    strategy: 'no_prefix',
+    strategy: 'prefix_except_default',
+    baseUrl: 'https://everythingskill.net',
+    detectBrowserLanguage: false,
   },
   fonts: {
     families: [
@@ -34,7 +36,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'EverythingSkill — 万物皆可 Skill',
-      htmlAttrs: { lang: 'zh-CN' },
       meta: [
         { name: 'description', content: '发现、分享、使用 AI Skill。一切皆可蒸馏为 Skill。收录 42 个高质量开源 Skill，覆盖职场、名人思维、人格蒸馏等 9 大分类。' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -48,15 +49,24 @@ export default defineNuxtConfig({
         { property: 'og:image', content: 'https://everythingskill.net/og-image.png' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
+        { property: 'og:image:alt', content: 'EverythingSkill visual preview' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'EverythingSkill — 万物皆可 Skill' },
         { name: 'twitter:description', content: '开源 AI Skill 发现与分享平台。一切皆可蒸馏为 Skill。' },
-        { name: 'twitter:image', content: 'https://everythingskill.net/og-image.png' },
+        { name: 'twitter:image', content: 'https://everythingskill.net/twitter-image.png' },
+        { name: 'twitter:image:alt', content: 'EverythingSkill visual preview' },
+        { name: 'msapplication-TileColor', content: '#242424' },
+        { name: 'msapplication-TileImage', content: '/mstile-150x150.png' },
+        { name: 'theme-color', content: '#242424' },
       ],
       link: [
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://everythingskill.net' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/site.webmanifest' },
+        { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#242424' },
       ],
       script: [
         {

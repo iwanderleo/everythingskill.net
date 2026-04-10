@@ -5,7 +5,7 @@
       <div class="mb-10">
         <div class="flex items-end gap-6 mb-3">
           <NuxtLink
-            to="/rankings/hot"
+            :to="localePath('/rankings/hot')"
             class="font-display text-display-section text-mid-gray/30 hover:text-mid-gray/60 transition-colors pb-0.5"
             style="line-height: 1.10;"
           >
@@ -25,7 +25,7 @@
         <NuxtLink
           v-for="(skill, index) in newSkills"
           :key="skill.id"
-          :to="`/skills/${getSkillSlug(skill)}`"
+          :to="localePath(`/skills/${getSkillSlug(skill)}`)"
           class="group flex items-center gap-5 px-6 py-4 bg-white hover:bg-light-gray transition-colors"
         >
           <!-- Rank number -->
@@ -79,6 +79,8 @@
 import { skills, getSkillSlug, getCategoryInfo } from '~/data/skills'
 
 const { locale } = useI18n()
+const localePath = useLocalePath()
+const pageUrl = computed(() => `https://everythingskill.net${localePath('/rankings/new')}`)
 
 const newSkills = computed(() =>
   [...skills].sort((left, right) => {
@@ -94,12 +96,17 @@ function formatStars(n: number): string {
 }
 
 useHead({
-  title: '新榜 — 最新收录的 AI Skill | EverythingSkill',
-  meta: [
-    { name: 'description', content: '按收录时间排行的 AI Skill 新榜，发现最新加入的开源 Skill。' },
-    { property: 'og:title', content: '新榜 — EverythingSkill' },
-    { property: 'og:url', content: 'https://everythingskill.net/rankings/new' },
-  ],
-  link: [{ rel: 'canonical', href: 'https://everythingskill.net/rankings/new' }],
+  title: computed(() => locale.value === 'zh' ? '新榜 — 最新收录的 AI Skill | EverythingSkill' : 'New Rankings — Latest AI Skills | EverythingSkill'),
+  meta: computed(() => {
+    const description = locale.value === 'zh'
+      ? '按收录时间排行的 AI Skill 新榜，发现最新加入的开源 Skill。'
+      : 'Discover the latest open-source AI Skills, sorted by when they were added to the directory.'
+
+    return [
+      { name: 'description', content: description },
+      { property: 'og:title', content: locale.value === 'zh' ? '新榜 — EverythingSkill' : 'New Rankings — EverythingSkill' },
+      { property: 'og:url', content: pageUrl.value },
+    ]
+  }),
 })
 </script>

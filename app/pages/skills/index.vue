@@ -56,6 +56,9 @@
 import { skills, searchSkills, lastSyncedAt, type SkillCategory } from '~/data/skills'
 
 const route = useRoute()
+const { locale } = useI18n()
+const localePath = useLocalePath()
+const pageUrl = computed(() => `https://everythingskill.net${localePath('/skills')}`)
 
 const searchQuery = ref('')
 const selectedCategory = ref<SkillCategory | undefined>(
@@ -77,13 +80,20 @@ const filteredSkills = computed(() => {
 })
 
 useHead({
-  title: 'Skill 目录 — 全部 42 个开源 AI Skill | EverythingSkill',
-  meta: [
-    { name: 'description', content: '浏览 EverythingSkill 收录的全部开源 AI Skill，覆盖职场同事、名人思维、人格蒸馏、人际情感等 9 大分类，42 个精选 Skill 一键获取。' },
-    { property: 'og:title', content: 'Skill 目录 — EverythingSkill' },
-    { property: 'og:description', content: '42 个精选开源 AI Skill，9 大分类，免费使用。' },
-    { property: 'og:url', content: 'https://everythingskill.net/skills' },
-  ],
-  link: [{ rel: 'canonical', href: 'https://everythingskill.net/skills' }],
+  title: computed(() => locale.value === 'zh'
+    ? `Skill 目录 — 全部 ${skills.length} 个开源 AI Skill | EverythingSkill`
+    : `Skill Library — ${skills.length} Open-source AI Skills | EverythingSkill`),
+  meta: computed(() => {
+    const description = locale.value === 'zh'
+      ? `浏览 EverythingSkill 收录的全部开源 AI Skill，覆盖多个分类，共 ${skills.length} 个精选 Skill。`
+      : `Browse all ${skills.length} open-source AI Skills on EverythingSkill across workplace, celebrity, persona, relationship, and more.`
+
+    return [
+      { name: 'description', content: description },
+      { property: 'og:title', content: locale.value === 'zh' ? 'Skill 目录 — EverythingSkill' : 'Skill Library — EverythingSkill' },
+      { property: 'og:description', content: description },
+      { property: 'og:url', content: pageUrl.value },
+    ]
+  }),
 })
 </script>

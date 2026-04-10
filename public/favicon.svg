@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#242424"/>
-  <text x="16" y="22" text-anchor="middle" font-size="18" font-family="system-ui" font-weight="600" fill="#ffffff">S</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="EverythingSkill icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b1b1b"/>
+      <stop offset="100%" stop-color="#303030"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="none" stroke="rgba(255,255,255,0.14)"/>
+  <path d="M22 18h22v6H29v6h13v6H29v10h15v6H22z" fill="#fffaf0"/>
+  <circle cx="46" cy="18" r="4" fill="#d9b15c"/>
 </svg>

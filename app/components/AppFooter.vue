@@ -11,42 +11,42 @@
             <span class="font-display text-base font-semibold text-charcoal">EverythingSkill</span>
           </div>
           <p class="text-sm text-mid-gray leading-relaxed">
-            万物皆可 Skill。<br>发现、分享、使用 AI Skill。
+            {{ $t('footer.tagline1') }}<br>{{ $t('footer.tagline2') }}
           </p>
         </div>
 
         <!-- Links -->
         <div>
-          <h3 class="text-sm font-semibold text-charcoal mb-4">导航</h3>
+          <h3 class="text-sm font-semibold text-charcoal mb-4">{{ $t('footer.linksTitle') }}</h3>
           <ul class="space-y-3">
-            <li><NuxtLink to="/" class="text-sm text-mid-gray hover:text-charcoal transition-colors">首页</NuxtLink></li>
-            <li><NuxtLink to="/skills" class="text-sm text-mid-gray hover:text-charcoal transition-colors">Skill 目录</NuxtLink></li>
-            <li><NuxtLink to="/about" class="text-sm text-mid-gray hover:text-charcoal transition-colors">关于</NuxtLink></li>
+            <li><NuxtLink :to="localePath('/')" class="text-sm text-mid-gray hover:text-charcoal transition-colors">{{ $t('nav.home') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath('/skills')" class="text-sm text-mid-gray hover:text-charcoal transition-colors">{{ $t('nav.skills') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath('/about')" class="text-sm text-mid-gray hover:text-charcoal transition-colors">{{ $t('nav.about') }}</NuxtLink></li>
           </ul>
         </div>
 
         <!-- Categories -->
         <div>
-          <h3 class="text-sm font-semibold text-charcoal mb-4">分类</h3>
+          <h3 class="text-sm font-semibold text-charcoal mb-4">{{ $t('footer.categoriesTitle') }}</h3>
           <ul class="space-y-3">
-            <li><NuxtLink to="/skills?category=celebrity" class="text-sm text-mid-gray hover:text-charcoal transition-colors">名人思维</NuxtLink></li>
-            <li><NuxtLink to="/skills?category=workplace" class="text-sm text-mid-gray hover:text-charcoal transition-colors">职场</NuxtLink></li>
-            <li><NuxtLink to="/skills?category=persona" class="text-sm text-mid-gray hover:text-charcoal transition-colors">人格蒸馏</NuxtLink></li>
-            <li><NuxtLink to="/skills?category=mystical" class="text-sm text-mid-gray hover:text-charcoal transition-colors">玄学</NuxtLink></li>
+            <li><NuxtLink :to="localePath({ path: '/skills', query: { category: 'celebrity' } })" class="text-sm text-mid-gray hover:text-charcoal transition-colors">{{ $t('footer.celebrity') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath({ path: '/skills', query: { category: 'workplace' } })" class="text-sm text-mid-gray hover:text-charcoal transition-colors">{{ $t('footer.workplace') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath({ path: '/skills', query: { category: 'persona' } })" class="text-sm text-mid-gray hover:text-charcoal transition-colors">{{ $t('footer.persona') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath({ path: '/skills', query: { category: 'mystical' } })" class="text-sm text-mid-gray hover:text-charcoal transition-colors">{{ $t('footer.mystical') }}</NuxtLink></li>
           </ul>
         </div>
 
         <!-- Community -->
         <div>
-          <h3 class="text-sm font-semibold text-charcoal mb-4">社区</h3>
+          <h3 class="text-sm font-semibold text-charcoal mb-4">{{ $t('footer.communityTitle') }}</h3>
           <ul class="space-y-3">
             <li>
-              <a href="https://github.com" target="_blank" rel="noopener" class="text-sm text-mid-gray hover:text-charcoal transition-colors flex items-center gap-1.5">
+              <a href="https://github.com/iwanderleo/everythingskill.net" target="_blank" rel="noopener" class="text-sm text-mid-gray hover:text-charcoal transition-colors flex items-center gap-1.5">
                 <Icon name="lucide:github" class="w-3.5 h-3.5" /> GitHub
               </a>
             </li>
             <li>
-              <a href="https://x.com" target="_blank" rel="noopener" class="text-sm text-mid-gray hover:text-charcoal transition-colors flex items-center gap-1.5">
+              <a href="https://x.com/iwanderleo" target="_blank" rel="noopener" class="text-sm text-mid-gray hover:text-charcoal transition-colors flex items-center gap-1.5">
                 <Icon name="lucide:twitter" class="w-3.5 h-3.5" /> X / Twitter
               </a>
             </li>
@@ -56,9 +56,13 @@
 
       <div class="mt-12 pt-8 text-center" style="box-shadow: rgba(34, 42, 53, 0.06) 0px -1px 0px 0px;">
         <p class="text-xs text-mid-gray">
-          &copy; {{ new Date().getFullYear() }} EverythingSkill.net — 万物皆可 Skill
+          &copy; {{ new Date().getFullYear() }} EverythingSkill.net — {{ $t('footer.copyright') }}
         </p>
       </div>
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+const localePath = useLocalePath()
+</script>
