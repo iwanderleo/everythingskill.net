@@ -1429,6 +1429,186 @@
       ],
       "addedAt": "2025-04-01",
       "updatedAt": "2025-04-01"
+    },
+    {
+      "id": "my-digital-life",
+      "slug": "my-digital-life",
+      "name": "Digital Life Plan",
+      "nameZh": "数字生命开源计划",
+      "summary": "A framework for upgrading your personal knowledge base into a digital alter ego.",
+      "summaryZh": "将个人知识库升级为数字分身的开源框架。",
+      "detailIntroZh": "提供一套系统化的方法论，帮助你把散落在各处的个人知识库、对话记录、思维模型整合升级为可交互的数字分身。不只是存档，而是真正可以延续思考、持续输出的 AI 化自我。\n\n开源、可自部署，适合有一定技术能力、想认真构建数字自我的创作者。",
+      "category": "persona",
+      "author": "weixr18",
+      "github": "https://github.com/weixr18/my-digital-life",
+      "stars": 8,
+      "tags": [
+        "persona",
+        "distillation",
+        "self"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "id": "vibeportrait",
+      "slug": "VibePortrait",
+      "name": "VibePortrait",
+      "nameZh": "VibePortrait",
+      "summary": "Distill a developer's persona, coding skills and preferences from Vibe Coding conversations.",
+      "summaryZh": "从 Vibe Coding 对话中提炼开发者画像、技能偏好与编码风格。",
+      "detailIntroZh": "从你与 AI 的 Vibe Coding 对话中自动提炼开发者画像——编码习惯、技术偏好、思维模式、常用框架选择……把隐性的开发者风格显式化，形成可复用的技能文件。\n\n对于经常使用 AI 编程的开发者来说，VibePortrait 是理解自己「怎么和 AI 工作」的一面镜子。",
+      "category": "persona",
+      "author": "dadwadw233",
+      "github": "https://github.com/dadwadw233/VibePortrait",
+      "stars": 15,
+      "tags": [
+        "persona",
+        "developer",
+        "vibe-coding"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "id": "changshu-anuo",
+      "slug": "changshu-anuo",
+      "name": "Changshu Anuo.skill",
+      "nameZh": "常熟阿诺.skill",
+      "summary": "Extract Changshu Anuo's 'left-right brain battle' analytical perspective into a reusable framework.",
+      "summaryZh": "提炼常熟阿诺「左右脑互搏」的表达与分析视角，形成可复用的方法论框架。",
+      "detailIntroZh": "常熟阿诺（加州盛亦陶）以「左右脑互搏」闻名——用内部视角与外部批判同时审视一个问题，形成自我辩证的分析结构。这个 Skill 提炼了他的表达风格与思维框架，让你可以用同样的方式拆解复杂问题。\n\n适合喜欢多角度思考、不满足于单一叙事的用户。",
+      "category": "celebrity",
+      "author": "Ricardo-Vv",
+      "github": "https://github.com/Ricardo-Vv/changshu-anuo",
+      "stars": 2,
+      "tags": [
+        "celebrity",
+        "methodology",
+        "thinking"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "id": "guodegang",
+      "slug": "guodegang-skills",
+      "name": "Guo Degang.skill",
+      "nameZh": "郭德纲.skill",
+      "summary": "Distill Guo Degang's expression structure, worldview and professional methodology.",
+      "summaryZh": "提炼郭德纲的表达结构、处世判断与职业方法，形成可复用的方法论视角。",
+      "detailIntroZh": "郭德纲几十年江湖沉浮锻造出独特的表达体系：说话有层次、处事有分寸、对人性的判断精准而犀利。这个 Skill 提炼他的相声叙事结构、职业生存哲学与对圈子规则的洞察，形成可复用的方法论。\n\n不只是「学郭德纲说话」，而是学他怎么想、怎么看人、怎么在一个复杂系统里站稳脚跟。",
+      "category": "celebrity",
+      "author": "ByteRax",
+      "github": "https://github.com/ByteRax/guodegang-skills",
+      "stars": 3,
+      "tags": [
+        "celebrity",
+        "methodology",
+        "expression"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "id": "mao-zedong",
+      "slug": "mao-skill",
+      "name": "Mao Zedong.skill",
+      "nameZh": "毛泽东.skill",
+      "summary": "Distill Mao Zedong's thought framework and methodology from public works.",
+      "summaryZh": "基于公开著作提炼毛泽东的思想框架与方法论视角。",
+      "detailIntroZh": "基于《毛泽东选集》等公开著作，系统提炼毛泽东的矛盾分析法、群众路线、战略思维与调查研究方法。不是政治立场的表达，而是将其中具有普遍方法论价值的思维工具提炼出来——如何分析主次矛盾、如何制定战略、如何在复杂局势中找到突破口。",
+      "category": "celebrity",
+      "author": "wwwaapplleecu-source",
+      "github": "https://github.com/wwwaapplleecu-source/mao-skill",
+      "stars": 19,
+      "tags": [
+        "celebrity",
+        "methodology",
+        "strategy"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "id": "mises",
+      "slug": "mises-perspective",
+      "name": "Mises.skill",
+      "nameZh": "米塞斯方法论",
+      "summary": "Distill Ludwig von Mises' praxeology, economic calculation, and institutional analysis framework.",
+      "summaryZh": "提炼路德维希·冯·米塞斯的人类行为学、经济计算与干预主义批判框架，形成可复用的政治经济学分析视角。",
+      "detailIntroZh": "路德维希·冯·米塞斯是奥地利经济学派的核心人物，以人类行为学（Praxeology）为基础，构建了一套从个体行动出发的经济理论体系。这个 Skill 提炼他对经济计算问题、自发秩序与干预主义批判的分析工具，帮助你用奥派视角审视政策、市场与制度问题。\n\n适合对政治经济学、自由主义思想感兴趣的用户。",
+      "category": "celebrity",
+      "author": "LijiayuDeng",
+      "github": "https://github.com/LijiayuDeng/mises-perspective",
+      "stars": 2,
+      "tags": [
+        "celebrity",
+        "economics",
+        "methodology"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "id": "rob-pike",
+      "slug": "rob-pike-skill",
+      "name": "Rob Pike.skill",
+      "nameZh": "罗布派克.skill",
+      "summary": "Distill Rob Pike's technical judgment and expression style from Unix, Go and engineering design.",
+      "summaryZh": "提炼 Rob Pike 在 Unix、Go 与工程设计中的技术判断与表达风格，形成可复用的方法论视角。",
+      "detailIntroZh": "Rob Pike 是 Unix、Plan 9 和 Go 语言的核心设计者之一，以极简主义工程哲学著称。这个 Skill 提炼他关于简单性、可组合性、工具设计原则的技术判断框架，以及他在演讲和文章中独特的表达风格。\n\n「清晰胜于聪明」——这是 Rob Pike 工程哲学的核心，也是这个 Skill 的基本精神。",
+      "category": "celebrity",
+      "author": "smallnest",
+      "github": "https://github.com/smallnest/rob-pike-skill",
+      "stars": 1,
+      "tags": [
+        "celebrity",
+        "engineering",
+        "methodology"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "id": "zizek",
+      "slug": "zizek-skill",
+      "name": "Zizek.skill",
+      "nameZh": "齐泽克.skill",
+      "summary": "Premise-questioning, desire-tracking and contradiction-revealing tools in the Zizekian mode.",
+      "summaryZh": "以齐泽克式的问题意识整理前提追问、欲望追踪与矛盾揭示方法，形成可复用的分析工具。",
+      "detailIntroZh": "斯拉沃热·齐泽克以「追问被掩盖的前提」著称——他不接受表面上的问题设定，而是追问为什么这个问题被这样提出、谁的利益在背后运作、哪个矛盾被刻意回避。这个 Skill 提炼他的分析方法：前提追问、欲望追踪、意识形态批判与矛盾揭示。\n\n不是照搬齐泽克的政治立场，而是学习他独特的「翻面」思维方式。",
+      "category": "celebrity",
+      "author": "JikunR",
+      "github": "https://github.com/JikunR/zizek-skill",
+      "stars": 1,
+      "tags": [
+        "celebrity",
+        "philosophy",
+        "methodology"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-10"
+    },
+    {
+      "id": "diamond-sutra",
+      "slug": "diamond-sutra-skill",
+      "name": "Diamond Sutra.skill",
+      "nameZh": "金刚经.skill",
+      "summary": "Buddhist teaching framework distilled from the Diamond Sutra and its commentaries.",
+      "summaryZh": "基于《金刚经》及相关解读整理佛学讲解框架，形成可对话的专门化技能。",
+      "detailIntroZh": "基于鸠摩罗什译本《金刚般若波罗蜜经》及历代注疏，整理「无所住而生其心」的核心法义，构建佛学讲解与问答框架。可以像大德一样讲解经文、回答修行疑问、解读日常生活中的佛法智慧。\n\n不只是背诵经文，而是真正理解金刚经的「破执」逻辑，并以此回应现代人的困惑。",
+      "category": "mystical",
+      "author": "dull-bird",
+      "github": "https://github.com/dull-bird/diamond-sutra-skill",
+      "stars": 2,
+      "tags": [
+        "mystical",
+        "buddhism",
+        "spiritual"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-10"
     }
   ]
 }
