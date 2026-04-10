@@ -106,11 +106,11 @@
               </div>
             </div>
             <!-- Code preview -->
-            <div class="rounded-lg p-6 font-mono text-sm" style="background: #fafafa; box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1.9px 0px inset;">
+            <div class="code-preview rounded-lg p-6 font-mono text-sm">
               <div class="flex items-center gap-2 mb-5 text-mid-gray">
-                <div class="w-3 h-3 rounded-full" style="background: #ddd;" />
-                <div class="w-3 h-3 rounded-full" style="background: #ddd;" />
-                <div class="w-3 h-3 rounded-full" style="background: #ddd;" />
+                <div class="w-3 h-3 rounded-full traffic-dot" />
+                <div class="w-3 h-3 rounded-full traffic-dot" />
+                <div class="w-3 h-3 rounded-full traffic-dot" />
                 <span class="ml-2 text-xs">example.skill</span>
               </div>
               <pre class="text-charcoal leading-relaxed whitespace-pre-wrap"><span class="font-semibold"># 乔布斯.skill</span>
