@@ -86,6 +86,24 @@
     background: color-mix(in srgb, var(--surface-muted) 86%, var(--surface-bg) 14%);
   }
 
+  .code-preview {
+    background: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1.9px 0px inset;
+  }
+
+  html[data-theme='dark'] .code-preview {
+    background: #0f1318;
+    box-shadow: rgba(255, 255, 255, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.45) 0px 1px 2px 0px inset;
+  }
+
+  .traffic-dot {
+    background: #ddd;
+  }
+
+  html[data-theme='dark'] .traffic-dot {
+    background: #2c333d;
+  }
+
   .readme-shell {
     scrollbar-color: color-mix(in srgb, var(--text-secondary) 40%, transparent) transparent;
   }
@@ -219,7 +237,16 @@ html[data-theme='dark'] .text-mid-gray\/30 {
   color: var(--text-secondary) !important;
 }
 
-html[data-theme='dark'] [style*='box-shadow'] {
+/* Replace the overly-broad [style*='box-shadow'] override with targeted selectors */
+html[data-theme='dark'] [style*='rgba(34, 42, 53, 0.06)'] {
+  box-shadow: rgba(255, 255, 255, 0.06) 0px 0px 0px 1px !important;
+}
+
+html[data-theme='dark'] [style*='rgba(34, 42, 53, 0.08) 0px 0px 0px 1px'] {
+  box-shadow: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px !important;
+}
+
+html[data-theme='dark'] [style*='rgba(19, 19, 22, 0.7) 0 2px 8px'] {
   box-shadow: var(--card-shadow) !important;
 }
 
