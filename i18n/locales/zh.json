@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "首页",
-    "skills": "Skill 目录",
+    "skills": "Skills",
     "about": "关于",
     "submit": "提交 Skill",
     "trending": "热榜",
@@ -104,7 +104,7 @@
     "note4": "欢迎提交任何类型的 Skill，万物皆可 Skill！"
   },
   "skills": {
-    "title": "Skill 目录",
+    "title": "Skills",
     "subtitle": "浏览所有开源 AI Skill，找到你需要的能力。",
     "searchPlaceholder": "搜索 Skill 名称、描述、作者...",
     "resultsCount": "共 {count} 个 Skill",
@@ -170,9 +170,11 @@
   "guidePage": {
     "metaTitle": "什么是 Agent Skill？SKILL.md 完整指南 | EverythingSkill",
     "metaDesc": "了解什么是 Agent Skill，SKILL.md 如何工作，哪些平台支持它，以及如何创建你的第一个 Skill。AI Skill 开放格式完整指南。",
+    "backLink": "EverythingSkill",
     "badge": "完整指南",
     "heroTitle": "什么是 Agent Skill？",
-    "heroSubtitle": "SKILL.md 完整指南 —— 用于封装 AI 知识、人格与能力的开放格式，兼容 25 个以上平台。",
+    "heroSubtitle": "上传一个 SKILL.md 文件，Agent 即刻知道如何执行。无需 SDK，无需 API，无需部署流程。",
+    "heroMeta": "由 Anthropic 发起的开放标准，兼容 Claude、Cursor、OpenAI Codex 等 25 个以上工具。",
     "tocTitle": "本页目录",
     "toc1": "什么是 Skill？",
     "toc2": "为什么需要 Skill",
@@ -184,8 +186,8 @@
     "toc8": "常见问题",
     "tocBrowse": "浏览 Skill 目录",
     "s1Title": "什么是 Agent Skill？",
-    "s1Body1": "Agent Skill 是一个包含 SKILL.md 文件的文件夹 —— 一个 Markdown 文档，用于教会 AI Agent 如何完成特定任务、扮演某种人格，或遵循可重复的工作流程。",
-    "s1Body2": "把它想象成 AI 的「人格插件」：上传一个 Skill，Agent 就能立刻知道如何在该领域思考、回应和行动。一个 Skill 可以将任何人的知识、任何工作流程或任何领域专业技能蒸馏为可复用的 AI 能力 —— 同一个文件可以在所有兼容平台上使用。",
+    "s1Body1": "Agent Skill 是一个包含 SKILL.md 文件的文件夹 —— 一个带有元数据和指令的 Markdown 文档，用于教会 AI Agent 如何完成特定任务。Skill 还可以包含脚本、模板、参考文档等资源文件。",
+    "s1Body2": "把它想象成一份新员工入职指南：其中包含完成某项工作所需的操作流程、领域背景和规范约束。Agent 在任务相关时读取它，并按指令执行 —— 同一个 SKILL.md 文件可以在 25 个以上兼容平台上直接使用。",
     "s1Rule": "Skill 就是一个文件。不需要 SDK，不需要 API 集成，不需要部署流程。",
     "minimalLabel": "最小 Skill 结构",
     "s2Title": "为什么需要 Skill",
@@ -278,9 +280,9 @@
     "faq5q": "可以创建哪些类型的 Skill？",
     "faq5a": "任何类型都可以。技术类（代码审查、PDF 处理、测试）、流程类（数据库迁移、部署）、人格类（同事、名人、历史人物）—— 万物皆可蒸馏为 Skill。",
     "faq6q": "在哪里可以找到可安装的 Skill？",
-    "faq6a": "浏览 EverythingSkill 目录，发现 79 个以上开源 Skill。也可以在 GitHub 上搜索，或从头创建自己的 Skill。",
+    "faq6a": "浏览 EverythingSkill 库，可发现 {count}+ 个开源 Skill。也可以在 GitHub 上找到更多 Skill，或自己从头创建。",
     "ctaTitle": "准备好探索 Skill 了吗？",
-    "ctaDesc": "浏览 79 个以上开源 Skill，或将你自己的 Skill 提交到社区目录。",
+    "ctaDesc": "浏览 {count}+ 个开源 Skill，或将你的作品提交到社区库。",
     "ctaBtn1": "浏览 Skill 目录",
     "ctaBtn2": "提交你的 Skill"
   }

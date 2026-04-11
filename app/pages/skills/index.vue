@@ -44,7 +44,7 @@
       <div v-else class="text-center py-section">
         <Icon name="lucide:search-x" class="w-12 h-12 text-mid-gray/40 mx-auto mb-4" />
         <p class="text-mid-gray">{{ $t('skills.noResults') }}</p>
-        <button class="text-sm text-charcoal font-semibold hover:opacity-70 mt-3 cursor-pointer" @click="searchQuery = ''; selectedCategory = undefined">
+        <button class="text-sm text-charcoal font-medium hover:opacity-70 mt-3 cursor-pointer" @click="searchQuery = ''; selectedCategory = undefined">
           {{ $t('skills.clearFilters') }}
         </button>
       </div>
@@ -76,13 +76,19 @@ const filteredSkills = computed(() => {
     result = result.filter(s => s.category === selectedCategory.value)
   }
 
+  // featured first, then by stars descending
+  result.sort((a, b) => {
+    if (a.featured !== b.featured) return a.featured ? -1 : 1
+    return (b.stars ?? 0) - (a.stars ?? 0)
+  })
+
   return result
 })
 
 useHead({
   title: computed(() => locale.value === 'zh'
-    ? `Skill 目录 — 全部 ${skills.length} 个开源 AI Skill | EverythingSkill`
-    : `Skill Library — ${skills.length} Open-source AI Skills | EverythingSkill`),
+    ? `Skills — 全部 ${skills.length} 个开源 AI Skill | EverythingSkill`
+    : `Skills — ${skills.length} Open-source AI Skills | EverythingSkill`),
   meta: computed(() => {
     const description = locale.value === 'zh'
       ? `浏览 EverythingSkill 收录的全部开源 AI Skill，覆盖多个分类，共 ${skills.length} 个精选 Skill。`
@@ -90,7 +96,7 @@ useHead({
 
     return [
       { name: 'description', content: description },
-      { property: 'og:title', content: locale.value === 'zh' ? 'Skill 目录 — EverythingSkill' : 'Skill Library — EverythingSkill' },
+      { property: 'og:title', content: locale.value === 'zh' ? 'Skills — EverythingSkill' : 'Skills — EverythingSkill' },
       { property: 'og:description', content: description },
       { property: 'og:url', content: pageUrl.value },
     ]
@@ -100,7 +106,7 @@ useHead({
     children: JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'ItemList',
-      name: locale.value === 'zh' ? 'EverythingSkill Skill 目录' : 'EverythingSkill Skill Library',
+      name: locale.value === 'zh' ? 'EverythingSkill Skills' : 'EverythingSkill Skills',
       url: pageUrl.value,
       numberOfItems: skills.length,
       itemListElement: skills.slice(0, 20).map((skill, index) => ({

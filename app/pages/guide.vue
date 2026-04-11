@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="mx-auto max-w-5xl px-6 py-section">
+    <div class="mx-auto max-w-container px-6 py-12">
       <div class="xl:grid xl:grid-cols-[1fr_192px] xl:gap-16 items-start">
 
         <!-- ── Main content ── -->
@@ -9,10 +9,10 @@
           <!-- Back link -->
           <NuxtLink
             :to="localePath('/')"
-            class="inline-flex items-center gap-1.5 text-sm text-mid-gray hover:text-charcoal transition-colors mb-8"
+            class="inline-flex items-center gap-1.5 text-sm text-mid-gray hover:text-charcoal transition-colors mb-10"
           >
-            <Icon name="lucide:arrow-left" class="w-3.5 h-3.5" />
-            EverythingSkill
+            <Icon name="lucide:arrow-left" class="w-4 h-4" />
+            {{ $t('guidePage.backLink') }}
           </NuxtLink>
 
           <!-- Hero -->
@@ -22,7 +22,8 @@
               {{ $t('guidePage.badge') }}
             </div>
             <h1 class="font-display text-display-section text-charcoal mb-4">{{ $t('guidePage.heroTitle') }}</h1>
-            <p class="text-[18px] text-mid-gray max-w-2xl" style="font-weight: 300; line-height: 1.7;">{{ $t('guidePage.heroSubtitle') }}</p>
+            <p class="text-[18px] text-mid-gray" style="font-weight: 300; line-height: 1.7;">{{ $t('guidePage.heroSubtitle') }}</p>
+            <p class="mt-3 text-sm text-mid-gray" style="font-weight: 300;">{{ $t('guidePage.heroMeta') }}</p>
           </header>
 
           <!-- ───── Section 1: What is it ───── -->
@@ -90,44 +91,77 @@ Use this skill when the user submits code for feedback.
           <!-- Divider -->
           <div class="border-t mb-14" style="border-color: rgba(34,42,53,0.06);" />
 
-          <!-- ───── Section 3: How it works ───── -->
-          <section id="how-it-works" class="scroll-mt-24 mb-14">
-            <h2 class="font-display text-display-feature text-charcoal mb-4" style="line-height: 1.30;">{{ $t('guidePage.s3Title') }}</h2>
-            <p class="text-mid-gray text-base mb-7" style="line-height: 1.80; font-weight: 300;">{{ $t('guidePage.s3Intro') }}</p>
+          <!-- ───── Section 6: Create Your First Skill ───── -->
+          <section id="create" class="scroll-mt-24 mb-14">
+            <h2 class="font-display text-display-feature text-charcoal mb-4" style="line-height: 1.30;">{{ $t('guidePage.s6Title') }}</h2>
+            <p class="text-mid-gray text-base mb-7" style="line-height: 1.80; font-weight: 300;">{{ $t('guidePage.s6Intro') }}</p>
 
-            <div class="space-y-4">
-              <div v-for="n in 3" :key="n" class="skill-card p-5">
-                <div class="flex items-start gap-4">
-                  <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal">{{ n }}</span>
-                  <div>
-                    <p class="text-sm font-semibold text-charcoal mb-1">{{ $t(`guidePage.s3L${n}Title`) }}</p>
-                    <p class="text-sm text-mid-gray" style="line-height: 1.75; font-weight: 300;">{{ $t(`guidePage.s3L${n}Desc`) }}</p>
-                  </div>
+            <ol class="space-y-6">
+              <!-- Step 1 -->
+              <li class="flex gap-4">
+                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal mt-0.5">1</span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-semibold text-charcoal mb-1">{{ $t('guidePage.s6Step1Title') }}</p>
+                  <p class="text-sm text-mid-gray mb-3" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.s6Step1Desc') }}</p>
+                  <pre class="code-preview rounded-lg px-4 py-3 font-mono text-sm text-charcoal overflow-x-auto" style="line-height: 1.6;">mkdir my-skill && cd my-skill</pre>
                 </div>
-              </div>
-            </div>
+              </li>
 
-            <!-- Loading table -->
-            <div class="mt-7 overflow-x-auto">
-              <table class="w-full text-sm border-collapse">
-                <thead>
-                  <tr style="border-bottom: 1px solid rgba(34,42,53,0.08);">
-                    <th class="text-left py-2.5 pr-4 text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">{{ $t('guidePage.tableColLevel') }}</th>
-                    <th class="text-left py-2.5 pr-4 text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">{{ $t('guidePage.tableColWhen') }}</th>
-                    <th class="text-left py-2.5 pr-4 text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">{{ $t('guidePage.tableColCost') }}</th>
-                    <th class="text-left py-2.5 text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">{{ $t('guidePage.tableColWhat') }}</th>
-                  </tr>
-                </thead>
-                <tbody class="divide-y" style="--tw-divide-opacity: 1; border-color: rgba(34,42,53,0.05);">
-                  <tr v-for="row in loadingTable" :key="row.level">
-                    <td class="py-3 pr-4 font-semibold text-charcoal text-xs">{{ row.level }}</td>
-                    <td class="py-3 pr-4 text-mid-gray text-xs" style="line-height: 1.6;">{{ row.when }}</td>
-                    <td class="py-3 pr-4 font-mono text-[11px] text-mid-gray">{{ row.cost }}</td>
-                    <td class="py-3 text-mid-gray text-xs">{{ row.what }}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+              <!-- Step 2 -->
+              <li class="flex gap-4">
+                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal mt-0.5">2</span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-semibold text-charcoal mb-1">{{ $t('guidePage.s6Step2Title') }}</p>
+                  <p class="text-sm text-mid-gray mb-3" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.s6Step2Desc') }}</p>
+                  <pre class="code-preview rounded-lg px-4 py-3 font-mono text-sm text-charcoal overflow-x-auto" style="line-height: 1.7;">---
+name: my-skill
+description: Does X when the user asks for Y.
+  Handles A, B, and C scenarios.
+---
+
+# My Skill
+
+## When to use
+Use this skill when the user needs to...
+
+## Process
+1. First, do this
+2. Then, check that
+3. Finally, output the result</pre>
+                </div>
+              </li>
+
+              <!-- Step 3 -->
+              <li class="flex gap-4">
+                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal mt-0.5">3</span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-semibold text-charcoal mb-1">{{ $t('guidePage.s6Step3Title') }}</p>
+                  <p class="text-sm text-mid-gray mb-3" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.s6Step3Desc') }}</p>
+                  <pre class="code-preview rounded-lg px-4 py-3 font-mono text-sm text-charcoal overflow-x-auto" style="line-height: 1.7;">my-skill/
+├── SKILL.md        # Required: instructions + metadata
+├── scripts/        # Optional: executable code
+├── references/     # Optional: documentation
+└── assets/         # Optional: templates, resources</pre>
+                </div>
+              </li>
+
+              <!-- Step 4 -->
+              <li class="flex gap-4">
+                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal mt-0.5">4</span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-semibold text-charcoal mb-1">{{ $t('guidePage.s6Step4Title') }}</p>
+                  <p class="text-sm text-mid-gray mb-3" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.s6Step4Desc') }}</p>
+                  <pre class="code-preview rounded-lg px-4 py-3 font-mono text-sm text-charcoal overflow-x-auto" style="line-height: 1.7;"># Claude Code (project-level)
+cp -r my-skill .claude/skills/
+
+# Cursor
+cp -r my-skill .cursor/skills/
+
+# OpenAI Codex
+cp -r my-skill .agents/skills/</pre>
+                </div>
+              </li>
+            </ol>
           </section>
 
           <!-- Divider -->
@@ -244,77 +278,44 @@ See [FORMS.md](FORMS.md) for the complete form-filling guide.</pre>
           <!-- Divider -->
           <div class="border-t mb-14" style="border-color: rgba(34,42,53,0.06);" />
 
-          <!-- ───── Section 6: Create Your First Skill ───── -->
-          <section id="create" class="scroll-mt-24 mb-14">
-            <h2 class="font-display text-display-feature text-charcoal mb-4" style="line-height: 1.30;">{{ $t('guidePage.s6Title') }}</h2>
-            <p class="text-mid-gray text-base mb-7" style="line-height: 1.80; font-weight: 300;">{{ $t('guidePage.s6Intro') }}</p>
+          <!-- ───── Section 3: How it works ───── -->
+          <section id="how-it-works" class="scroll-mt-24 mb-14">
+            <h2 class="font-display text-display-feature text-charcoal mb-4" style="line-height: 1.30;">{{ $t('guidePage.s3Title') }}</h2>
+            <p class="text-mid-gray text-base mb-7" style="line-height: 1.80; font-weight: 300;">{{ $t('guidePage.s3Intro') }}</p>
 
-            <ol class="space-y-6">
-              <!-- Step 1 -->
-              <li class="flex gap-4">
-                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal mt-0.5">1</span>
-                <div class="flex-1 min-w-0">
-                  <p class="text-sm font-semibold text-charcoal mb-1">{{ $t('guidePage.s6Step1Title') }}</p>
-                  <p class="text-sm text-mid-gray mb-3" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.s6Step1Desc') }}</p>
-                  <pre class="code-preview rounded-lg px-4 py-3 font-mono text-sm text-charcoal overflow-x-auto" style="line-height: 1.6;">mkdir my-skill && cd my-skill</pre>
+            <div class="space-y-4">
+              <div v-for="n in 3" :key="n" class="skill-card p-5">
+                <div class="flex items-start gap-4">
+                  <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal">{{ n }}</span>
+                  <div>
+                    <p class="text-sm font-semibold text-charcoal mb-1">{{ $t(`guidePage.s3L${n}Title`) }}</p>
+                    <p class="text-sm text-mid-gray" style="line-height: 1.75; font-weight: 300;">{{ $t(`guidePage.s3L${n}Desc`) }}</p>
+                  </div>
                 </div>
-              </li>
+              </div>
+            </div>
 
-              <!-- Step 2 -->
-              <li class="flex gap-4">
-                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal mt-0.5">2</span>
-                <div class="flex-1 min-w-0">
-                  <p class="text-sm font-semibold text-charcoal mb-1">{{ $t('guidePage.s6Step2Title') }}</p>
-                  <p class="text-sm text-mid-gray mb-3" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.s6Step2Desc') }}</p>
-                  <pre class="code-preview rounded-lg px-4 py-3 font-mono text-sm text-charcoal overflow-x-auto" style="line-height: 1.7;">---
-name: my-skill
-description: Does X when the user asks for Y.
-  Handles A, B, and C scenarios.
----
-
-# My Skill
-
-## When to use
-Use this skill when the user needs to...
-
-## Process
-1. First, do this
-2. Then, check that
-3. Finally, output the result</pre>
-                </div>
-              </li>
-
-              <!-- Step 3 -->
-              <li class="flex gap-4">
-                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal mt-0.5">3</span>
-                <div class="flex-1 min-w-0">
-                  <p class="text-sm font-semibold text-charcoal mb-1">{{ $t('guidePage.s6Step3Title') }}</p>
-                  <p class="text-sm text-mid-gray mb-3" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.s6Step3Desc') }}</p>
-                  <pre class="code-preview rounded-lg px-4 py-3 font-mono text-sm text-charcoal overflow-x-auto" style="line-height: 1.7;">my-skill/
-├── SKILL.md        # Required: instructions + metadata
-├── scripts/        # Optional: executable code
-├── references/     # Optional: documentation
-└── assets/         # Optional: templates, resources</pre>
-                </div>
-              </li>
-
-              <!-- Step 4 -->
-              <li class="flex gap-4">
-                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal mt-0.5">4</span>
-                <div class="flex-1 min-w-0">
-                  <p class="text-sm font-semibold text-charcoal mb-1">{{ $t('guidePage.s6Step4Title') }}</p>
-                  <p class="text-sm text-mid-gray mb-3" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.s6Step4Desc') }}</p>
-                  <pre class="code-preview rounded-lg px-4 py-3 font-mono text-sm text-charcoal overflow-x-auto" style="line-height: 1.7;"># Claude Code (project-level)
-cp -r my-skill .claude/skills/
-
-# Cursor
-cp -r my-skill .cursor/skills/
-
-# OpenAI Codex
-cp -r my-skill .agents/skills/</pre>
-                </div>
-              </li>
-            </ol>
+            <!-- Loading table -->
+            <div class="mt-7 overflow-x-auto">
+              <table class="w-full text-sm border-collapse">
+                <thead>
+                  <tr style="border-bottom: 1px solid rgba(34,42,53,0.08);">
+                    <th class="text-left py-2.5 pr-4 text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">{{ $t('guidePage.tableColLevel') }}</th>
+                    <th class="text-left py-2.5 pr-4 text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">{{ $t('guidePage.tableColWhen') }}</th>
+                    <th class="text-left py-2.5 pr-4 text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">{{ $t('guidePage.tableColCost') }}</th>
+                    <th class="text-left py-2.5 text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">{{ $t('guidePage.tableColWhat') }}</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y" style="--tw-divide-opacity: 1; border-color: rgba(34,42,53,0.05);">
+                  <tr v-for="row in loadingTable" :key="row.level">
+                    <td class="py-3 pr-4 font-semibold text-charcoal text-xs">{{ row.level }}</td>
+                    <td class="py-3 pr-4 text-mid-gray text-xs" style="line-height: 1.6;">{{ row.when }}</td>
+                    <td class="py-3 pr-4 font-mono text-[11px] text-mid-gray">{{ row.cost }}</td>
+                    <td class="py-3 text-mid-gray text-xs">{{ row.what }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </section>
 
           <!-- Divider -->
@@ -368,7 +369,7 @@ cp -r my-skill .agents/skills/</pre>
           <!-- ───── CTA ───── -->
           <div class="skill-card p-8 text-center">
             <h2 class="font-display text-display-feature text-charcoal mb-3" style="line-height: 1.30;">{{ $t('guidePage.ctaTitle') }}</h2>
-            <p class="text-sm text-mid-gray mb-6" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.ctaDesc') }}</p>
+            <p class="text-sm text-mid-gray mb-6" style="line-height: 1.65; font-weight: 300;">{{ $t('guidePage.ctaDesc', { count: skillCount }) }}</p>
             <div class="flex flex-wrap items-center justify-center gap-3">
               <NuxtLink :to="localePath('/skills')" class="btn-primary">
                 {{ $t('guidePage.ctaBtn1') }}
@@ -411,8 +412,10 @@ cp -r my-skill .agents/skills/</pre>
 </template>
 
 <script setup lang="ts">
+import { skills } from '~/data/skills'
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
+const skillCount = computed(() => skills.length)
 const pageUrl = computed(() => `https://everythingskill.net${localePath('/guide')}`)
 
 // ── SEO — follows same useHead(computed()) pattern as all other pages ──
@@ -488,10 +491,10 @@ useHead(computed(() => ({
 const toc = [
   { id: 'what-is', labelKey: 'guidePage.toc1' },
   { id: 'why-matters', labelKey: 'guidePage.toc2' },
-  { id: 'how-it-works', labelKey: 'guidePage.toc3' },
+  { id: 'create', labelKey: 'guidePage.toc6' },
   { id: 'skill-md', labelKey: 'guidePage.toc4' },
   { id: 'platforms', labelKey: 'guidePage.toc5' },
-  { id: 'create', labelKey: 'guidePage.toc6' },
+  { id: 'how-it-works', labelKey: 'guidePage.toc3' },
   { id: 'vs-mcp', labelKey: 'guidePage.toc7' },
   { id: 'faq', labelKey: 'guidePage.toc8' },
 ]

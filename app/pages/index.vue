@@ -105,7 +105,7 @@
                 </div>
               </div>
               <div class="mt-8">
-                <NuxtLink :to="localePath('/guide')" class="inline-flex items-center gap-1.5 text-sm font-semibold text-charcoal hover:opacity-70 transition-opacity">
+                <NuxtLink :to="localePath('/guide')" class="inline-flex items-center gap-1.5 text-sm font-medium text-charcoal hover:opacity-70 transition-opacity">
                   {{ $t('home.guideLink') }}
                   <Icon name="lucide:arrow-right" class="w-3.5 h-3.5" />
                 </NuxtLink>

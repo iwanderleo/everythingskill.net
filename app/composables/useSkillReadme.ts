@@ -16,86 +16,114 @@ async function tryFetch(url: string): Promise<string | null> {
   }
 }
 
-/** Rewrite relative image/link src to absolute GitHub raw URLs */
-function rewriteRelativeUrls(html: string, rawBase: string): string {
-  // src="./foo.png" or src="foo.png" → absolute github raw URL
-  return html
-    .replace(/(<img\s[^>]*src=")(?!https?:\/\/)([^"]+)(")/gi, (_, pre, path, post) => {
-      const clean = path.replace(/^\.\//, '')
-      return `${pre}${rawBase}/${clean}${post}`
-    })
+/** Rewrite relative image/link src to absolute GitHub URLs */
+function rewriteRelativeUrls(html: string, rawBase: string, blobBase: string): string {
+  // img src: relative → raw URL (so images display inline)
+  let result = html.replace(/(<img\s[^>]*src=")(?!https?:\/\/)([^"]+)(")/gi, (_, pre, path, post) => {
+    const clean = path.replace(/^\.\//, '')
+    return `${pre}${rawBase}/${clean}${post}`
+  })
+  // a href: relative → GitHub blob URL (avoids broken internal routes like /zh/skills/README_ZH.md)
+  result = result.replace(/(<a\s[^>]*href=")(?!https?:\/\/|#|mailto:)([^"]+)(")/gi, (_, pre, path, post) => {
+    const clean = path.replace(/^\.\//, '')
+    return `${pre}${blobBase}/${clean}${post}`
+  })
+  return result
 }
 
-function parseMarkdown(raw: string, rawBase: string): string {
+function parseMarkdown(raw: string, rawBase: string, blobBase: string): string {
   marked.use({ gfm: true, breaks: false })
   const html = marked.parse(raw, { async: false }) as string
-  return rewriteRelativeUrls(html, rawBase)
+  return rewriteRelativeUrls(html, rawBase, blobBase)
 }
 
-async function fetchReadmeData(owner: string, repo: string) {
+/**
+ * Return ordered candidate filenames to try when fetching a given locale.
+ * First match wins.
+ */
+function localeToFilenames(locale: string): string[] {
+  const lc = locale.toLowerCase()
+  const uc = locale.toUpperCase()
+  if (lc === 'zh') return ['README_ZH.md', 'README_zh.md', 'README.zh.md', 'README-ZH.md', 'README.md']
+  if (lc === 'en') return ['README_EN.md', 'README.en.md', 'README-EN.md', 'readme_en.md']
+  return [`README_${uc}.md`, `README_${lc}.md`, `README.${lc}.md`, `README-${uc}.md`]
+}
+
+/**
+ * Fetch README content for the given locale codes.
+ * Returns a Record<localeCode, renderedHtml> for locales that have content.
+ */
+async function fetchReadmeByLocales(owner: string, repo: string, locales: string[]) {
   const rawUrl = (branch: string, file: string) =>
     `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${file}`
 
-  // Fetch zh README.md — try main then master
-  let zhRaw: string | null = null
-  let zhBranch = 'main'
+  // Detect active branch + cache README.md to avoid double-fetching for 'zh'
+  let activeBranch = 'main'
+  const contentCache: Record<string, string> = {}
   for (const branch of ['main', 'master']) {
-    zhRaw = await tryFetch(rawUrl(branch, 'README.md'))
-    if (zhRaw) { zhBranch = branch; break }
-  }
-
-  // Fetch en README — try common filenames on main then master
-  let enRaw: string | null = null
-  let enBranch = 'main'
-  const enFilenames = ['README_EN.md', 'README.en.md', 'README-EN.md', 'readme_en.md']
-  outer: for (const branch of ['main', 'master']) {
-    for (const fname of enFilenames) {
-      enRaw = await tryFetch(rawUrl(branch, fname))
-      if (enRaw) { enBranch = branch; break outer }
+    const probe = await tryFetch(rawUrl(branch, 'README.md'))
+    if (probe !== null) {
+      activeBranch = branch
+      contentCache[`${branch}/README.md`] = probe
+      break
     }
   }
 
-  return {
-    zh: zhRaw ? parseMarkdown(zhRaw, `https://raw.githubusercontent.com/${owner}/${repo}/${zhBranch}`) : null,
-    en: enRaw ? parseMarkdown(enRaw, `https://raw.githubusercontent.com/${owner}/${repo}/${enBranch}`) : null,
-    zhRaw: zhRaw ?? null,
-    enRaw: enRaw ?? null,
+  const rawBase = `https://raw.githubusercontent.com/${owner}/${repo}/${activeBranch}`
+  const blobBase = `https://github.com/${owner}/${repo}/blob/${activeBranch}`
+
+  async function fetchFile(fname: string): Promise<string | null> {
+    const key = `${activeBranch}/${fname}`
+    if (Object.prototype.hasOwnProperty.call(contentCache, key)) return contentCache[key]!
+    const raw = await tryFetch(rawUrl(activeBranch, fname))
+    if (raw !== null) contentCache[key] = raw
+    return raw
   }
+
+  const result: Record<string, string> = {}
+  for (const locale of locales) {
+    const lc = locale.toLowerCase()
+    for (const fname of localeToFilenames(lc)) {
+      const raw = await fetchFile(fname)
+      if (raw) {
+        result[lc] = parseMarkdown(raw, rawBase, blobBase)
+        break
+      }
+    }
+  }
+  return result
 }
 
-export function useSkillReadme(skillId: string, githubUrl: string, skip = false) {
-  if (skip || !githubUrl) {
-    return {
-      readmeHtml: ref<string | null>(null),
-      readmeEnHtml: ref<string | null>(null),
-      readmeRaw: ref<string | null>(null),
-      readmeEnRaw: ref<string | null>(null),
-      loading: ref(false),
-    }
+export function useSkillReadme(
+  skillId: string,
+  githubUrl: string,
+  skip = false,
+  readmeLocales?: string[],
+) {
+  const empty = {
+    readmeByLocale: ref<Record<string, string>>({}),
+    availableLocales: computed((): string[] => []),
+    loading: ref(false),
   }
+
+  if (skip || !githubUrl) return empty
 
   const parsed = extractOwnerRepo(githubUrl)
-  if (!parsed) {
-    return {
-      readmeHtml: ref<string | null>(null),
-      readmeEnHtml: ref<string | null>(null),
-      readmeRaw: ref<string | null>(null),
-      readmeEnRaw: ref<string | null>(null),
-      loading: ref(false),
-    }
-  }
+  if (!parsed) return empty
 
   const { owner, repo } = parsed
+
+  // If readmeLocales provided by sync script, use those; otherwise try zh + en.
+  const locales = readmeLocales && readmeLocales.length > 0 ? readmeLocales : ['zh', 'en']
+
   const { data, status } = useAsyncData(
     `readme-${skillId}`,
-    () => fetchReadmeData(owner, repo),
+    () => fetchReadmeByLocales(owner, repo, locales),
   )
 
   return {
-    readmeHtml: computed(() => data.value?.zh ?? null),
-    readmeEnHtml: computed(() => data.value?.en ?? null),
-    readmeRaw: computed(() => data.value?.zhRaw ?? null),
-    readmeEnRaw: computed(() => data.value?.enRaw ?? null),
+    readmeByLocale: computed(() => data.value ?? {}),
+    availableLocales: computed(() => Object.keys(data.value ?? {})),
     loading: computed(() => status.value === 'pending'),
   }
 }

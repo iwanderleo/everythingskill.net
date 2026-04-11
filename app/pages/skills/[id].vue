@@ -29,7 +29,7 @@
             </div>
 
             <!-- Summary tagline -->
-            <p class="max-w-3xl text-[22px] sm:text-[24px] text-charcoal mb-6 leading-relaxed" style="font-weight: 500; line-height: 1.55;">
+            <p class="text-[22px] sm:text-[24px] text-charcoal mb-6 leading-relaxed" style="font-weight: 500; line-height: 1.55;">
               {{ skillDescription }}
             </p>
 
@@ -57,28 +57,15 @@
                   {{ $t('skill.readmeTitle') }}
                 </h2>
                 <div class="flex items-center gap-2">
-                  <!-- Copy Prompt button -->
-                  <button
-                    v-if="!readmeLoading && (readmeRaw || readmeEnRaw)"
-                    class="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-semibold rounded-pill border border-mid-gray/20 text-mid-gray hover:text-charcoal hover:border-mid-gray/40 transition-colors"
-                    @click="copyPrompt"
-                  >
-                    <Icon :name="promptCopied ? 'lucide:check' : 'lucide:copy'" class="w-3 h-3" />
-                    {{ promptCopied ? $t('skill.copied') : $t('skill.copyPrompt') }}
-                  </button>
-                  <!-- Language tabs -->
-                  <div v-if="readmeEnHtml" class="detail-tab-group flex items-center gap-1 rounded-pill p-0.5">
+                  <!-- Language tabs — shown only when there are 2+ available locales -->
+                  <div v-if="availableLocales.length > 1" class="detail-tab-group flex items-center gap-1 rounded-pill p-0.5">
                     <button
-                      :class="['px-3 py-1 text-xs font-semibold rounded-pill transition-colors', readmeTab === 'zh' ? 'bg-charcoal text-white' : 'text-mid-gray hover:text-charcoal']"
-                      @click="readmeTab = 'zh'"
+                      v-for="loc in availableLocales"
+                      :key="loc"
+                      :class="['px-3 py-1 text-xs font-semibold rounded-pill transition-colors', readmeTab === loc ? 'bg-charcoal text-white' : 'text-mid-gray hover:text-charcoal']"
+                      @click="readmeTab = loc"
                     >
-                      {{ $t('skill.readmeZh') }}
-                    </button>
-                    <button
-                      :class="['px-3 py-1 text-xs font-semibold rounded-pill transition-colors', readmeTab === 'en' ? 'bg-charcoal text-white' : 'text-mid-gray hover:text-charcoal']"
-                      @click="readmeTab = 'en'"
-                    >
-                      {{ $t('skill.readmeEn') }}
+                      {{ localeLabel(loc) }}
                     </button>
                   </div>
                 </div>
@@ -96,7 +83,7 @@
               </div>
 
               <!-- No README -->
-              <div v-else-if="!readmeHtml && !readmeEnHtml" class="detail-panel detail-panel-soft rounded-lg px-6 py-5 text-center">
+              <div v-else-if="!availableLocales.length" class="detail-panel detail-panel-soft rounded-lg px-6 py-5 text-center">
                 <Icon name="lucide:file-x" class="w-8 h-8 text-mid-gray/30 mx-auto mb-2" />
                 <p class="text-sm text-mid-gray/70">{{ $t('skill.readmeNotFound') }}</p>
               </div>
@@ -106,7 +93,7 @@
                 <!-- eslint-disable vue/no-v-html -->
                 <div
                   class="markdown-body readme-content"
-                  v-html="readmeTab === 'en' && readmeEnHtml ? readmeEnHtml : (readmeHtml ?? readmeEnHtml ?? '')"
+                  v-html="readmeByLocale[readmeTab] ?? readmeByLocale[availableLocales[0]!] ?? ''"
                 />
               </div>
             </div>
@@ -258,21 +245,38 @@ const starHistoryUrl = computed(() => {
 
 // README
 const currentSkill = getSkillBySlug(skillSlug)
-const { readmeHtml, readmeEnHtml, readmeRaw, readmeEnRaw, loading: readmeLoading } = useSkillReadme(
+const { readmeByLocale, availableLocales, loading: readmeLoading } = useSkillReadme(
   skillSlug,
   currentSkill?.github ?? '',
   !currentSkill || currentSkill.githubStatus === 404,
+  currentSkill?.readmeLocales,
 )
-const readmeTab = ref<'zh' | 'en'>('zh')
+const readmeTab = ref<string>(locale.value === 'zh' ? 'zh' : 'en')
 
-const promptCopied = ref(false)
-async function copyPrompt() {
-  const text = readmeTab.value === 'en' && readmeEnRaw.value ? readmeEnRaw.value : (readmeRaw.value ?? readmeEnRaw.value)
-  if (!text) return
-  await navigator.clipboard.writeText(text)
-  promptCopied.value = true
-  setTimeout(() => { promptCopied.value = false }, 2000)
+// Map locale codes to display labels
+const localeLabels: Record<string, string> = {
+  zh: '中文', en: 'English', ja: '日本語', ko: '한국어',
+  fr: 'Français', de: 'Deutsch', es: 'Español', pt: 'Português', ru: 'Русский',
 }
+function localeLabel(code: string): string {
+  return localeLabels[code.toLowerCase()] ?? code.toUpperCase()
+}
+
+// When site locale switches between zh/en, follow the matching README tab
+watch(locale, (lang) => {
+  if ((lang === 'zh' || lang === 'en') && availableLocales.value.includes(lang)) {
+    readmeTab.value = lang
+  }
+})
+
+// When README data loads, ensure the active tab has content
+watch(availableLocales, (locales) => {
+  if (!locales.length) return
+  // If current tab has content, keep it; otherwise pick the locale-preferred tab or first available
+  if (locales.includes(readmeTab.value)) return
+  const preferred = locale.value === 'zh' || locale.value === 'en' ? locale.value : null
+  readmeTab.value = (preferred && locales.includes(preferred)) ? preferred : locales[0]!
+})
 
 function formatDate(value: string) {
   const date = new Date(value)

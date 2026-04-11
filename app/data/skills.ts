@@ -21,6 +21,7 @@ interface RawSkill {
   stars?: number
   tags: string[]
   featured?: boolean
+  readmeLocales?: string[]  // e.g. ['zh','en','ja'] — populated by sync-stars.mjs
 }
 
 export interface Skill {
@@ -40,10 +41,10 @@ export interface Skill {
   stars?: number
   tags: string[]
   featured?: boolean
+  readmeLocales?: string[]
 }
 
 export interface ArchivedSkill extends Skill {
-  archivedAt: string
   archivedReason: 'github_404' | 'deprecated' | 'other'
 }
 
@@ -57,6 +58,7 @@ export type SkillCategory =
   | 'mystical'
   | 'tool'
   | 'defense'
+  | 'other'
 
 export interface CategoryInfo {
   key: SkillCategory

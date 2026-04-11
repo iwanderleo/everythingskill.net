@@ -6,7 +6,7 @@
         <div class="flex h-8 w-8 items-center justify-center rounded-md bg-charcoal text-white font-display text-sm font-semibold">
           S
         </div>
-        <span class="font-display text-lg font-semibold text-charcoal">
+        <span class="font-display text-lg font-medium text-charcoal">
           EverythingSkill
         </span>
       </NuxtLink>
@@ -54,10 +54,12 @@
             </div>
           </Transition>
         </div>
-        <NuxtLink :to="localePath('/skills')" class="text-sm font-medium text-midnight hover:opacity-70 transition-opacity">
+        <NuxtLink :to="localePath('/skills')" class="text-sm font-medium text-midnight hover:opacity-70 transition-opacity flex items-center gap-1.5">
+          <Icon name="lucide:layout-grid" class="w-4 h-4" />
           {{ $t('nav.skills') }}
         </NuxtLink>
-        <NuxtLink :to="localePath('/guide')" class="text-sm font-medium text-midnight hover:opacity-70 transition-opacity">
+        <NuxtLink :to="localePath('/guide')" class="text-sm font-medium text-midnight hover:opacity-70 transition-opacity flex items-center gap-1.5">
+          <Icon name="lucide:book-open" class="w-4 h-4" />
           {{ $t('nav.guide') }}
         </NuxtLink>
         <a
@@ -137,10 +139,12 @@
               </NuxtLink>
             </div>
           </div>
-          <NuxtLink :to="localePath('/skills')" class="px-4 py-3 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors" @click="mobileMenuOpen = false">
+          <NuxtLink :to="localePath('/skills')" class="px-4 py-3 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors flex items-center gap-2" @click="mobileMenuOpen = false">
+            <Icon name="lucide:layout-grid" class="w-4 h-4" />
             {{ $t('nav.skills') }}
           </NuxtLink>
-          <NuxtLink :to="localePath('/guide')" class="px-4 py-3 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors" @click="mobileMenuOpen = false">
+          <NuxtLink :to="localePath('/guide')" class="px-4 py-3 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors flex items-center gap-2" @click="mobileMenuOpen = false">
+            <Icon name="lucide:book-open" class="w-4 h-4" />
             {{ $t('nav.guide') }}
           </NuxtLink>
           <a

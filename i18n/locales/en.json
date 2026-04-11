@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Home",
-    "skills": "Skill Library",
+    "skills": "Skills",
     "about": "About",
     "submit": "Submit",
     "trending": "Trending",
@@ -104,7 +104,7 @@
     "note4": "All kinds of Skills are welcome. Everything is a Skill."
   },
   "skills": {
-    "title": "Skill Library",
+    "title": "Skills",
     "subtitle": "Browse all open-source AI Skills and find the capability you need.",
     "searchPlaceholder": "Search by name, description, author...",
     "resultsCount": "{count} Skills found",
@@ -170,9 +170,11 @@
   "guidePage": {
     "metaTitle": "What is an Agent Skill? Complete Guide to SKILL.md | EverythingSkill",
     "metaDesc": "Learn what an Agent Skill is, how SKILL.md works, which platforms support it, and how to create your first skill. The complete open-format guide on EverythingSkill.net.",
+    "backLink": "EverythingSkill",
     "badge": "Complete Guide",
     "heroTitle": "What is an Agent Skill?",
-    "heroSubtitle": "A complete guide to SKILL.md — the open format for packaging AI knowledge, personas, and capabilities that works across 25+ platforms.",
+    "heroSubtitle": "Upload a SKILL.md file and your agent instantly knows what to do. No SDK, no API, no deployment pipeline.",
+    "heroMeta": "The open standard originally developed by Anthropic. Works across 25+ tools including Claude, Cursor, and OpenAI Codex.",
     "tocTitle": "On this page",
     "toc1": "What is a Skill?",
     "toc2": "Why Skills Matter",
@@ -184,8 +186,8 @@
     "toc8": "FAQ",
     "tocBrowse": "Browse the Skill Library",
     "s1Title": "What is an Agent Skill?",
-    "s1Body1": "An Agent Skill is a folder containing a SKILL.md file — a Markdown document that teaches an AI agent how to perform a specific task, adopt a persona, or follow a repeatable workflow.",
-    "s1Body2": "Think of it as an AI 'personality plugin': you upload a skill, and the agent instantly knows how to think, respond, and act in that domain. A skill can distill any person's knowledge, any workflow, or any domain expertise into a reusable AI capability — and the same file works across every compatible platform.",
+    "s1Body1": "An Agent Skill is a folder containing a SKILL.md file — a Markdown document with metadata and instructions that teaches an AI agent how to perform a specific task. Skills can also include scripts, templates, reference documents, and other resources.",
+    "s1Body2": "Think of it like an onboarding guide you'd write for a new team member. It contains the procedural knowledge, domain context, and workflows needed to do a specific job well. The agent reads it when relevant and follows the instructions — and the same SKILL.md works across 25+ compatible platforms.",
     "s1Rule": "A skill is a file. No SDK, no API integration, no deployment pipeline.",
     "minimalLabel": "Minimal skill structure",
     "s2Title": "Why Skills Matter",
@@ -278,9 +280,9 @@
     "faq5q": "What kinds of skills can I create?",
     "faq5a": "Any kind. Technical skills (code review, PDF processing, testing), workflow skills (database migrations, deployments), and persona skills (colleagues, celebrities, historical figures) — anything can be distilled into a skill.",
     "faq6q": "Where can I find skills to install?",
-    "faq6a": "Browse the EverythingSkill library to discover 79+ open-source skills. You can also find skills on GitHub or create your own from scratch.",
+    "faq6a": "Browse the EverythingSkill library to discover {count}+ open-source skills. You can also find skills on GitHub or create your own from scratch.",
     "ctaTitle": "Ready to explore Skills?",
-    "ctaDesc": "Browse 79+ open-source skills or submit your own to the community library.",
+    "ctaDesc": "Browse {count}+ open-source skills or submit your own to the community library.",
     "ctaBtn1": "Browse the Skill Library",
     "ctaBtn2": "Submit Your Skill"
   }
