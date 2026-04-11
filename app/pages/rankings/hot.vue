@@ -46,7 +46,7 @@
           <!-- Skill info -->
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-2 mb-0.5">
-              <span class="font-display text-[15px] font-semibold text-charcoal truncate">
+              <span class="font-display text-[15px] font-medium text-charcoal truncate">
                 {{ locale === 'en' ? skill.name : skill.nameZh }}
               </span>
               <span v-if="skill.featured" class="hidden sm:inline shrink-0 status-chip">

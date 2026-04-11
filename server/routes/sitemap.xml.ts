@@ -45,6 +45,7 @@ export default defineEventHandler((event) => {
     { path: '/submit', priority: '0.6', changefreq: 'monthly' },
     { path: '/rankings/hot', priority: '0.7', changefreq: 'daily', lastmod: today },
     { path: '/rankings/new', priority: '0.7', changefreq: 'daily', lastmod: today },
+    { path: '/guide', priority: '0.8', changefreq: 'monthly' },
   ]
 
   const staticUrls = staticPaths.flatMap(({ path, priority, changefreq, lastmod }) =>

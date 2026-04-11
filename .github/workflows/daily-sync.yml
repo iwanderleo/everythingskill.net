@@ -35,11 +35,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/check-archived.mjs
 
+      - name: Regenerate README files
+        run: node scripts/generate-readme.mjs
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet || (git add app/data/skills.json app/data/archived-skills.json app/data/skill-status-log.json && git commit -m "chore: daily sync $(date -u +%Y-%m-%d)")
+          git diff --quiet || (git add app/data/skills.json app/data/archived-skills.json app/data/skill-status-log.json README.md README_zh.md && git commit -m "chore: daily sync $(date -u +%Y-%m-%d)")
 
       - name: Push changes
         run: git push origin HEAD:${{ env.TARGET_BRANCH }}

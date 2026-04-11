@@ -63,6 +63,13 @@
       "labelZh": "防御",
       "icon": "lucide:shield",
       "badgeClass": "badge-defense"
+    },
+    {
+      "key": "other",
+      "label": "Other",
+      "labelZh": "其他",
+      "icon": "lucide:more-horizontal",
+      "badgeClass": "badge-other"
     }
   ],
   "skills": [

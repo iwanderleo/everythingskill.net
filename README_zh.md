@@ -28,6 +28,8 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 
 ## Skill 目录
 
+> 79 个 Skill · 9 个分类 · 最后同步 2026-04-11
+
 ### 职场
 
 - [同事.skill](https://github.com/titanwings/colleague-skill) — 把真实同事蒸馏成 AI，SKILL 运动的爆火起点。
@@ -127,7 +129,6 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 - [四绝客奇卷・暗行秘典](https://github.com/prog-le/penetration-team) — 江湖渗透密卷・四绝客行。仅适用于已获明确授权的安全渗透测试场景， 集四位专精不同方向的虚拟安全专家于一体，协助完成授权范围内的渗透试炼。
 - [骂人求职信.skill](https://github.com/Schlaflied/roast-cold-email-skill) — 专门针对那些"AI transformation"但招人靠 ATS、JD 里 AI 出现 17 次但没人摸过 GCP 的公司。 不赞美，不求职，只陈述事实——然后离开。Senior Director 级别的人会在 24 分钟内回复并说"condescending"，说明戳到了。
 - [前端架构师老陈](https://github.com/lisi/frontend-skills) — 十年前端老兵，React/Vue 都写过，现在专注工程化。 bundle size 超过 200KB 他会皱眉头，首屏超过 2s 他会叹气。 给你 review 代码时会把性能问题、可维护性问题分开说， 不会跟你说"这写法不好"，只会说"这写法在 10 万 DAU 时会怎样"。
-- [安全工程师小王](https://github.com/zhangsan/my-colleague-skills) — 专注 Web 安全审计的工程师。Code review 时先看鉴权，然后是 SQL， 然后才是业务逻辑。高危问题当场给方案，低危加 TODO 不占用你时间。 说话直接，不废话，绝不跟你讨论"理论上来说"。
 
 ### 防御
 
@@ -137,7 +138,27 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 
 ## 提交 Skill
 
-想把你的 Skill 收录进来？提交一个 Issue 或 Pull Request，附上 GitHub 仓库链接即可。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+发现了还没收录的好 Skill？
+
+**方式一 — 网页表单（最简单）：**  
+访问 [everythingskill.net/submit](https://everythingskill.net/zh/submit)，填写表单后会自动打开预填好的 GitHub Issue。
+
+**方式二 — 直接提 GitHub Issue：**  
+[点此打开提交表单](https://github.com/iwanderleo/everythingskill.net/issues/new?template=submit-skill.yml)。
+
+**方式三 — Pull Request：**  
+直接编辑 [`app/data/skills.json`](app/data/skills.json) 并提交 PR。字段规范详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 自动化
+
+本目录通过以下自动化任务保持同步：
+
+| 任务 | 计划 | 内容 |
+|---|---|---|
+| 每日同步 | 每天 UTC 02:00 | 同步 GitHub Star 数；检查所有仓库状态（404 自动归档，恢复后自动还原）；重新生成 README |
+| 每周扫描 | 每周一 UTC 03:00 | 扫描 [awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills) 中尚未收录的仓库，写入 `missing-skills.generated.json` |
+
+所有上下架变动均记录到 [`app/data/skill-status-log.json`](app/data/skill-status-log.json)。
 
 ## 开源
 

@@ -2,7 +2,7 @@
   <NuxtLink :to="localePath(`/skills/${getSkillSlug(skill)}`)" class="skill-card group flex flex-col">
     <!-- Header: Name + Featured badge -->
     <div class="flex items-start justify-between gap-3 mb-1">
-      <h3 class="font-display text-lg font-semibold text-charcoal" style="line-height: 1.20;">
+      <h3 class="font-display text-lg font-medium text-charcoal" style="line-height: 1.20;">
         {{ skillName }}
       </h3>
       <span v-if="skill.featured" class="status-chip shrink-0 mt-0.5">
