@@ -57,6 +57,9 @@
         <NuxtLink :to="localePath('/skills')" class="text-sm font-medium text-midnight hover:opacity-70 transition-opacity">
           {{ $t('nav.skills') }}
         </NuxtLink>
+        <NuxtLink :to="localePath('/guide')" class="text-sm font-medium text-midnight hover:opacity-70 transition-opacity">
+          {{ $t('nav.guide') }}
+        </NuxtLink>
         <a
           href="https://github.com/iwanderleo/everythingskill.net"
           target="_blank"
@@ -136,6 +139,9 @@
           </div>
           <NuxtLink :to="localePath('/skills')" class="px-4 py-3 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors" @click="mobileMenuOpen = false">
             {{ $t('nav.skills') }}
+          </NuxtLink>
+          <NuxtLink :to="localePath('/guide')" class="px-4 py-3 text-sm font-medium text-midnight rounded-md hover:bg-light-gray transition-colors" @click="mobileMenuOpen = false">
+            {{ $t('nav.guide') }}
           </NuxtLink>
           <a
             href="https://github.com/iwanderleo/everythingskill.net"

@@ -115,3 +115,74 @@ The daily sync workflow lives in `.github/workflows/daily-sync.yml` and currentl
 - `font-size: 13px` on README wrappers is intentional.
 - Relative README asset URLs must be rewritten.
 - Locale-aware links should not hard-code unprefixed routes.
+
+## 11. UI Design System
+
+Every new page must follow these conventions. Violations cause dark-mode breakage, visual inconsistency, and bad SEO.
+
+### Page Wrapper
+
+Every content page root must be `<div class="bg-white">`. Dark mode is handled globally:
+
+```css
+html[data-theme='dark'] .bg-white { background-color: var(--surface-bg) !important; }
+```
+
+### Page Spacing
+
+Use `py-section` (80px) for vertical padding. Never use `py-12`, `py-16`, or arbitrary values.
+
+### Max Width
+
+| Context | Class |
+|---------|-------|
+| Full-width library / skill grid | `max-w-container` (1200px) |
+| Two-column content pages (with sidebar) | `max-w-5xl` |
+| Narrow editorial / single-column | `max-w-3xl` |
+
+### Cards and Panels
+
+`skill-card` is the universal card component for all regular pages. Example: `skill-card p-5` or `skill-card p-6`.
+
+`detail-panel`, `detail-panel-soft`, `detail-step-dot`, and `detail-copy` are **only** for `app/pages/skills/[id].vue`. Never use them on other pages.
+
+### Step Numbers
+
+```html
+<span class="w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal">
+  1
+</span>
+```
+
+### Typography
+
+```
+h1: font-display text-display-section text-charcoal  style="line-height: 1.10;"
+h2: font-display text-display-feature text-charcoal mb-4  style="line-height: 1.30;"
+body: text-mid-gray  style="font-weight: 300; line-height: 1.50;"   (use 1.75 or 1.80 for long reads)
+back links: text-sm text-mid-gray hover:text-charcoal
+```
+
+Never use `detail-copy` as a text color class on non-detail pages — use `text-mid-gray` directly.
+
+### SEO
+
+Use `useHead(computed(() => ({ title, meta, script })))` — **not** `useSeoMeta()`.
+
+Do **not** set canonical or hreflang in page components. The `default.vue` layout handles these via `switchLocalePath()`.
+
+Canonical URL helper pattern:
+
+```ts
+const pageUrl = computed(() => `https://everythingskill.net${localePath('/your-page')}`)
+```
+
+### Code Blocks
+
+```html
+<pre class="code-preview rounded-xl px-5 py-4 font-mono text-sm overflow-x-auto text-charcoal">
+```
+
+### Internal Links
+
+Always use `useLocalePath()` for internal navigation. Never hard-code `/path` without locale awareness.

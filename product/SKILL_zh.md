@@ -115,3 +115,74 @@ Skill 的核心人工字段包括：
 - README 包裹层的 `font-size: 13px` 是故意的
 - README 相对资源路径必须改写
 - 多语言页面不能写死非 locale-aware 的内部链接
+
+## 11. UI 设计规范
+
+每新增页面都必须遵守以下规则，违反将导致深色模式失效、视觉不一致和 SEO 问题。
+
+### 页面根容器
+
+每个内容页面的根元素必须是 `<div class="bg-white">`，深色模式通过全局 CSS 覆盖：
+
+```css
+html[data-theme='dark'] .bg-white { background-color: var(--surface-bg) !important; }
+```
+
+### 页面内边距
+
+所有内容页面使用 `py-section`（80px）作为垂直内边距，禁止使用 `py-12`、`py-16` 或任意数值。
+
+### 最大宽度
+
+| 场景 | 类名 |
+|------|------|
+| 全宽技能列表 / 网格页 | `max-w-container`（1200px）|
+| 双栏内容页（含侧边栏）| `max-w-5xl` |
+| 单栏窄内容页 | `max-w-3xl` |
+
+### 卡片与面板
+
+`skill-card` 是所有普通页面的通用卡片组件，使用方式如 `skill-card p-5` 或 `skill-card p-6`。
+
+`detail-panel`、`detail-panel-soft`、`detail-step-dot`、`detail-copy` **仅限** `app/pages/skills/[id].vue` 使用，不得在其他页面使用。
+
+### 步骤序号
+
+```html
+<span class="w-6 h-6 rounded-full bg-mid-gray/10 flex items-center justify-center text-[11px] font-semibold text-charcoal">
+  1
+</span>
+```
+
+### 字体排版
+
+```
+h1: font-display text-display-section text-charcoal  style="line-height: 1.10;"
+h2: font-display text-display-feature text-charcoal mb-4  style="line-height: 1.30;"
+正文: text-mid-gray  style="font-weight: 300; line-height: 1.50;"   （长文可用 1.75 或 1.80）
+返回链接: text-sm text-mid-gray hover:text-charcoal
+```
+
+普通页面禁止使用 `detail-copy` 作为文字颜色类，直接使用 `text-mid-gray`。
+
+### SEO
+
+使用 `useHead(computed(() => ({ title, meta, script })))` —— **禁止** 使用 `useSeoMeta()`。
+
+**不要**在页面组件中设置 canonical 或 hreflang，`default.vue` 布局已通过 `switchLocalePath()` 统一处理。
+
+Canonical URL 工具模式：
+
+```ts
+const pageUrl = computed(() => `https://everythingskill.net${localePath('/your-page')}`)
+```
+
+### 代码块
+
+```html
+<pre class="code-preview rounded-xl px-5 py-4 font-mono text-sm overflow-x-auto text-charcoal">
+```
+
+### 内部链接
+
+所有内部跳转必须使用 `useLocalePath()`，禁止硬编码不带 locale 前缀的路径。
