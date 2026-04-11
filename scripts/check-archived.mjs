@@ -15,6 +15,7 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
+import { generateReadme } from './generate-readme.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const SKILLS_FILE   = join(__dirname, '../app/data/skills.json')
@@ -130,6 +131,12 @@ async function main() {
 
   const archived  = allArchived.length - stillArchived.filter(s => archivedData.archivedSkills.includes(s)).length
   console.log(`\nDone. Newly archived: ${newlyArchived.length}, restored: ${allArchived.length - stillArchived.length}`)
+
+  // Regenerate README files to reflect current active skills
+  if (newlyArchived.length > 0 || (allArchived.length - stillArchived.length) > 0) {
+    console.log('\nRegenerating README files…')
+    await generateReadme()
+  }
 }
 
 main().catch(err => {

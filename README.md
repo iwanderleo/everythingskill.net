@@ -28,6 +28,8 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 
 ## Skill Directory
 
+> 79 Skills · 9 Categories · Last synced 2026-04-11
+
 ### Workplace
 
 - [Colleague.skill](https://github.com/titanwings/colleague-skill) — Distill your real colleague into AI — the spark that started the .skill revolution.
@@ -127,7 +129,6 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 - [四绝客奇卷・暗行秘典](https://github.com/prog-le/penetration-team) — The Four Wanderers' Secret Penetration Manual. For authorized security testing only — four virtual specialists covering different attack surfaces, working together within sanctioned scope.
 - [骂人求职信.skill](https://github.com/Schlaflied/roast-cold-email-skill) — For companies that preach "AI transformation" but filter candidates with ATS and list "AI" 17 times in a JD written by someone who's never opened a GCP console. No flattery. No begging. Just facts — then leave.
 - [前端架构师老陈](https://github.com/lisi/frontend-skills) — 10-year frontend veteran who's shipped React and Vue, now lives in engineering infra. Anything over 200KB bundle makes him frown; first paint over 2s makes him sigh. Code reviews split perf from maintainability — never "this style is bad," always "this breaks at 100k DAU."
-- [安全工程师小王](https://github.com/zhangsan/my-colleague-skills) — A Web security engineer who reviews auth first, then SQL, then business logic. Critical issues get fixed on the spot; low-severity ones get a TODO and move on. Talks straight, cuts the theory, never wastes time on "hypothetically speaking."
 
 ### Defense
 
@@ -137,7 +138,27 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 
 ## Submit a Skill
 
-Want to add a skill to the directory? Open an issue or pull request with the skill's GitHub repo link. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Found a great `.skill` file that isn't in the directory yet?
+
+**Option 1 — Web form (easiest):**  
+Go to [everythingskill.net/submit](https://everythingskill.net/submit), fill in the form, and it will open a pre-filled GitHub Issue for you.
+
+**Option 2 — GitHub Issue directly:**  
+[Open a Submit Issue](https://github.com/iwanderleo/everythingskill.net/issues/new?template=submit-skill.yml) with the structured template.
+
+**Option 3 — Pull Request:**  
+Edit [`app/data/skills.json`](app/data/skills.json) directly and open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for the field schema.
+
+## Automation
+
+This directory is kept fresh automatically:
+
+| Job | Schedule | What it does |
+|---|---|---|
+| Daily Sync | Every day 02:00 UTC | Fetches GitHub star counts; checks all repos for 404 (auto-archives unavailable Skills, auto-restores recovered ones); regenerates README files |
+| Weekly Scan | Every Monday 03:00 UTC | Scans [awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills) for repos not yet in the directory — writes candidates to `missing-skills.generated.json` |
+
+All state changes (archive / restore) are logged to [`app/data/skill-status-log.json`](app/data/skill-status-log.json).
 
 ## Open Source
 
