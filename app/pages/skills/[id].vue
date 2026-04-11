@@ -56,20 +56,31 @@
                   <Icon name="lucide:book-open" class="w-4 h-4 text-mid-gray" />
                   {{ $t('skill.readmeTitle') }}
                 </h2>
-                <!-- Language tabs -->
-                <div v-if="readmeEnHtml" class="detail-tab-group flex items-center gap-1 rounded-pill p-0.5">
+                <div class="flex items-center gap-2">
+                  <!-- Copy Prompt button -->
                   <button
-                    :class="['px-3 py-1 text-xs font-semibold rounded-pill transition-colors', readmeTab === 'zh' ? 'bg-charcoal text-white' : 'text-mid-gray hover:text-charcoal']"
-                    @click="readmeTab = 'zh'"
+                    v-if="!readmeLoading && (readmeRaw || readmeEnRaw)"
+                    class="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-semibold rounded-pill border border-mid-gray/20 text-mid-gray hover:text-charcoal hover:border-mid-gray/40 transition-colors"
+                    @click="copyPrompt"
                   >
-                    {{ $t('skill.readmeZh') }}
+                    <Icon :name="promptCopied ? 'lucide:check' : 'lucide:copy'" class="w-3 h-3" />
+                    {{ promptCopied ? $t('skill.copied') : $t('skill.copyPrompt') }}
                   </button>
-                  <button
-                    :class="['px-3 py-1 text-xs font-semibold rounded-pill transition-colors', readmeTab === 'en' ? 'bg-charcoal text-white' : 'text-mid-gray hover:text-charcoal']"
-                    @click="readmeTab = 'en'"
-                  >
-                    {{ $t('skill.readmeEn') }}
-                  </button>
+                  <!-- Language tabs -->
+                  <div v-if="readmeEnHtml" class="detail-tab-group flex items-center gap-1 rounded-pill p-0.5">
+                    <button
+                      :class="['px-3 py-1 text-xs font-semibold rounded-pill transition-colors', readmeTab === 'zh' ? 'bg-charcoal text-white' : 'text-mid-gray hover:text-charcoal']"
+                      @click="readmeTab = 'zh'"
+                    >
+                      {{ $t('skill.readmeZh') }}
+                    </button>
+                    <button
+                      :class="['px-3 py-1 text-xs font-semibold rounded-pill transition-colors', readmeTab === 'en' ? 'bg-charcoal text-white' : 'text-mid-gray hover:text-charcoal']"
+                      @click="readmeTab = 'en'"
+                    >
+                      {{ $t('skill.readmeEn') }}
+                    </button>
+                  </div>
                 </div>
               </div>
 
@@ -157,9 +168,9 @@
               <!-- Repository -->
               <div>
                 <p class="text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70 mb-3">{{ $t('skill.repositoryLabel') }}</p>
-                <a :href="skill.github" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-medium text-charcoal hover:text-mid-gray transition-colors">
-                  <Icon name="lucide:github" class="w-4 h-4 text-mid-gray" />
-                  {{ ownerRepo || skill.author }}
+                <a :href="skill.github" target="_blank" rel="noopener" class="flex items-center gap-2 text-sm font-medium text-charcoal hover:text-mid-gray transition-colors min-w-0">
+                  <Icon name="lucide:github" class="w-4 h-4 text-mid-gray flex-shrink-0" />
+                  <span class="truncate">{{ ownerRepo || skill.author }}</span>
                 </a>
               </div>
             </div>
@@ -175,9 +186,9 @@
             >
               <div class="flex items-start justify-between gap-3">
                 <p class="text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">STAR</p>
-                <div class="flex items-center gap-2 text-2xl font-semibold text-charcoal">
+                <div class="flex items-center gap-2 text-charcoal" :class="skill.stars != null ? 'text-2xl font-semibold' : 'text-sm text-mid-gray/60'">
                   <Icon name="lucide:star" class="w-5 h-5 text-mid-gray" />
-                  {{ skill.stars != null ? skill.stars.toLocaleString() : $t('skill.quickUnknown') }}
+                  {{ skill.stars != null ? skill.stars.toLocaleString() : '—' }}
                 </div>
               </div>
               <div v-if="!skill.githubStatus && ownerRepo" class="block">
@@ -247,12 +258,21 @@ const starHistoryUrl = computed(() => {
 
 // README
 const currentSkill = getSkillBySlug(skillSlug)
-const { readmeHtml, readmeEnHtml, loading: readmeLoading } = useSkillReadme(
+const { readmeHtml, readmeEnHtml, readmeRaw, readmeEnRaw, loading: readmeLoading } = useSkillReadme(
   skillSlug,
   currentSkill?.github ?? '',
   !currentSkill || currentSkill.githubStatus === 404,
 )
 const readmeTab = ref<'zh' | 'en'>('zh')
+
+const promptCopied = ref(false)
+async function copyPrompt() {
+  const text = readmeTab.value === 'en' && readmeEnRaw.value ? readmeEnRaw.value : (readmeRaw.value ?? readmeEnRaw.value)
+  if (!text) return
+  await navigator.clipboard.writeText(text)
+  promptCopied.value = true
+  setTimeout(() => { promptCopied.value = false }, 2000)
+}
 
 function formatDate(value: string) {
   const date = new Date(value)

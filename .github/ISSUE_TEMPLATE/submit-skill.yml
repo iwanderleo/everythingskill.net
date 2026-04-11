@@ -1,0 +1,81 @@
+name: Submit a Skill
+description: Suggest a new open-source .skill file to add to the EverythingSkill directory.
+title: "[Skill] "
+labels: ["new-skill"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a Skill! Please fill in the fields below and we'll review it for inclusion.
+
+        **Requirements:**
+        - The `.skill` file must be publicly hosted on GitHub.
+        - The repository must be open-source (any OSI-approved license, or unlicensed public repos are fine).
+        - The Skill should be functional — a complete prompt that actually works with an AI tool.
+
+  - type: input
+    id: github_url
+    attributes:
+      label: GitHub Repository URL
+      description: Full URL to the GitHub repository containing the `.skill` file.
+      placeholder: "https://github.com/author/skill-name"
+    validations:
+      required: true
+
+  - type: input
+    id: skill_name_en
+    attributes:
+      label: Skill Name (English)
+      description: The English name or title for this Skill.
+      placeholder: "e.g. Colleague.skill"
+    validations:
+      required: true
+
+  - type: input
+    id: skill_name_zh
+    attributes:
+      label: Skill Name (Chinese)
+      description: Chinese name if available (leave blank if English-only).
+      placeholder: "e.g. 同事.skill"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category best fits this Skill?
+      options:
+        - workplace
+        - media
+        - persona
+        - relationship
+        - celebrity
+        - education
+        - mystical
+        - tool
+        - defense
+        - other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Briefly describe what this Skill does and who it's useful for (1–3 sentences).
+      placeholder: "This Skill distills..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: The repository is publicly accessible on GitHub.
+          required: true
+        - label: The `.skill` file is complete and functional.
+          required: true
+        - label: I am not the author of malicious or harmful content.
+          required: true

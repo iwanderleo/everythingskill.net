@@ -1,13 +1,13 @@
-name: Daily Stars Sync
+name: Weekly Missing Skills Scan
 
 on:
   schedule:
-    # Run every day at 02:00 UTC
-    - cron: '0 2 * * *'
+    # Run every Monday at 03:00 UTC
+    - cron: '0 3 * * 1'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  sync-stars:
+  scan:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -25,21 +25,16 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Sync GitHub stars
+      - name: Scan for missing skills
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/sync-stars.mjs
+        run: node scripts/scan-missing-skills.mjs
 
-      - name: Check archive status (auto-archive 404s / restore recovered repos)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/check-archived.mjs
-
-      - name: Commit updated data
+      - name: Commit updated scan results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet || (git add app/data/skills.json app/data/archived-skills.json app/data/skill-status-log.json && git commit -m "chore: daily sync $(date -u +%Y-%m-%d)")
+          git diff --quiet || (git add missing-skills.generated.json && git commit -m "chore: weekly scan $(date -u +%Y-%m-%d)")
 
       - name: Push changes
         run: git push origin HEAD:${{ env.TARGET_BRANCH }}

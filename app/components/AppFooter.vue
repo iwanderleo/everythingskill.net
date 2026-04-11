@@ -54,9 +54,15 @@
         </div>
       </div>
 
-      <div class="mt-12 pt-8 text-center" style="box-shadow: rgba(34, 42, 53, 0.06) 0px -1px 0px 0px;">
-        <p class="text-xs text-mid-gray">
+      <div class="mt-12 pt-8 flex items-center justify-between" style="box-shadow: rgba(34, 42, 53, 0.06) 0px -1px 0px 0px;">
+        <span class="text-xs text-mid-gray opacity-0 pointer-events-none select-none" aria-hidden="true">
+          {{ $t('footer.dataUpdated') }} {{ formattedSyncedAt }}
+        </span>
+        <p class="text-xs text-mid-gray text-center">
           &copy; {{ new Date().getFullYear() }} EverythingSkill.net — {{ $t('footer.copyright') }}
+        </p>
+        <p class="text-xs text-mid-gray opacity-50 text-right">
+          {{ $t('footer.dataUpdated') }} {{ formattedSyncedAt }}
         </p>
       </div>
     </div>
@@ -64,5 +70,7 @@
 </template>
 
 <script setup lang="ts">
+import { lastSyncedAt } from '~/data/skills'
 const localePath = useLocalePath()
+const formattedSyncedAt = lastSyncedAt.replace(/-/g, '/')
 </script>

@@ -55,7 +55,8 @@
     "workplace": "Workplace",
     "persona": "Persona",
     "mystical": "Mystical",
-    "copyright": "Everything is a Skill"
+    "copyright": "Everything is a Skill",
+    "dataUpdated": "Data updated"
   },
   "aboutPage": {
     "title": "About",
@@ -93,7 +94,9 @@
     "note1": "The Skill must be open-source and publicly available on GitHub.",
     "note2": "Submissions are reviewed manually before they appear in the directory.",
     "note3": "Please make sure the Skill is legal, compliant, and free of sensitive data.",
-    "note4": "All kinds of Skills are welcome. Everything is a Skill."
+    "note4": "All kinds of Skills are welcome. Everything is a Skill.",
+    "orLabel": "or",
+    "githubIssueBtn": "Submit via GitHub Issue"
   },
   "skills": {
     "title": "Skill Library",
@@ -156,6 +159,7 @@
     "keySignalsLabel": "Key Signals",
     "repositoryLabel": "GitHub Repo",
     "moreActionsLabel": "More Actions",
-    "viewTrend": "View Trend"
+    "viewTrend": "View Trend",
+    "copyPrompt": "Copy Prompt"
   }
 }

@@ -58,6 +58,8 @@ async function fetchReadmeData(owner: string, repo: string) {
   return {
     zh: zhRaw ? parseMarkdown(zhRaw, `https://raw.githubusercontent.com/${owner}/${repo}/${zhBranch}`) : null,
     en: enRaw ? parseMarkdown(enRaw, `https://raw.githubusercontent.com/${owner}/${repo}/${enBranch}`) : null,
+    zhRaw: zhRaw ?? null,
+    enRaw: enRaw ?? null,
   }
 }
 
@@ -66,6 +68,8 @@ export function useSkillReadme(skillId: string, githubUrl: string, skip = false)
     return {
       readmeHtml: ref<string | null>(null),
       readmeEnHtml: ref<string | null>(null),
+      readmeRaw: ref<string | null>(null),
+      readmeEnRaw: ref<string | null>(null),
       loading: ref(false),
     }
   }
@@ -75,6 +79,8 @@ export function useSkillReadme(skillId: string, githubUrl: string, skip = false)
     return {
       readmeHtml: ref<string | null>(null),
       readmeEnHtml: ref<string | null>(null),
+      readmeRaw: ref<string | null>(null),
+      readmeEnRaw: ref<string | null>(null),
       loading: ref(false),
     }
   }
@@ -88,6 +94,8 @@ export function useSkillReadme(skillId: string, githubUrl: string, skip = false)
   return {
     readmeHtml: computed(() => data.value?.zh ?? null),
     readmeEnHtml: computed(() => data.value?.en ?? null),
+    readmeRaw: computed(() => data.value?.zhRaw ?? null),
+    readmeEnRaw: computed(() => data.value?.enRaw ?? null),
     loading: computed(() => status.value === 'pending'),
   }
 }
