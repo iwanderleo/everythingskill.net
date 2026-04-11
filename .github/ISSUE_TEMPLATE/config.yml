@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Submit a Skill (Web Form)
+    url: https://everythingskill.net/submit
+    about: Use our web form to submit a Skill — no GitHub account required.

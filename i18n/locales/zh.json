@@ -55,7 +55,8 @@
     "workplace": "职场",
     "persona": "人格蒸馏",
     "mystical": "玄学",
-    "copyright": "万物皆可 Skill"
+    "copyright": "万物皆可 Skill",
+    "dataUpdated": "数据更新于"
   },
   "aboutPage": {
     "title": "关于",
@@ -156,6 +157,7 @@
     "keySignalsLabel": "关键信号",
     "repositoryLabel": "GitHub 仓库",
     "moreActionsLabel": "更多操作",
-    "viewTrend": "查看趋势"
+    "viewTrend": "查看趋势",
+    "copyPrompt": "复制提示词"
   }
 }

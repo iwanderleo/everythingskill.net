@@ -55,7 +55,8 @@
     "workplace": "Workplace",
     "persona": "Persona",
     "mystical": "Mystical",
-    "copyright": "Everything is a Skill"
+    "copyright": "Everything is a Skill",
+    "dataUpdated": "Data updated"
   },
   "aboutPage": {
     "title": "About",
@@ -156,6 +157,7 @@
     "keySignalsLabel": "Key Signals",
     "repositoryLabel": "GitHub Repo",
     "moreActionsLabel": "More Actions",
-    "viewTrend": "View Trend"
+    "viewTrend": "View Trend",
+    "copyPrompt": "Copy Prompt"
   }
 }
