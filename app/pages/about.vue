@@ -72,6 +72,7 @@ useHead({
     return [
       { name: 'description', content: description },
       { property: 'og:title', content: locale.value === 'zh' ? '关于 — EverythingSkill' : 'About — EverythingSkill' },
+      { property: 'og:description', content: description },
       { property: 'og:url', content: pageUrl.value },
     ]
   }),

@@ -53,7 +53,7 @@
 </template>
 
 <script setup lang="ts">
-import { skills, searchSkills, lastSyncedAt, type SkillCategory } from '~/data/skills'
+import { skills, searchSkills, lastSyncedAt, getSkillSlug, type SkillCategory } from '~/data/skills'
 
 const route = useRoute()
 const { locale } = useI18n()
@@ -95,5 +95,22 @@ useHead({
       { property: 'og:url', content: pageUrl.value },
     ]
   }),
+  script: computed(() => [{
+    type: 'application/ld+json',
+    children: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: locale.value === 'zh' ? 'EverythingSkill Skill 目录' : 'EverythingSkill Skill Library',
+      url: pageUrl.value,
+      numberOfItems: skills.length,
+      itemListElement: skills.slice(0, 20).map((skill, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: locale.value === 'zh' ? skill.nameZh : skill.name,
+        url: `https://everythingskill.net${localePath(`/skills/${getSkillSlug(skill)}`)}`,
+        description: locale.value === 'zh' ? skill.summaryZh : skill.summary,
+      })),
+    }),
+  }]),
 })
 </script>

@@ -30,11 +30,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/sync-stars.mjs
 
+      - name: Check archive status (auto-archive 404s / restore recovered repos)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/check-archived.mjs
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet || (git add app/data/skills.json && git commit -m "chore: sync stars $(date -u +%Y-%m-%d)")
+          git diff --quiet || (git add app/data/skills.json app/data/archived-skills.json app/data/skill-status-log.json && git commit -m "chore: daily sync $(date -u +%Y-%m-%d)")
 
       - name: Push changes
         run: git push origin HEAD:${{ env.TARGET_BRANCH }}

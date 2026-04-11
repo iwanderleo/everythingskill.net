@@ -37,10 +37,12 @@ export default defineNuxtConfig({
     head: {
       title: 'EverythingSkill — 万物皆可 Skill',
       meta: [
-        { name: 'description', content: '发现、分享、使用 AI Skill。一切皆可蒸馏为 Skill。收录 42 个高质量开源 Skill，覆盖职场、名人思维、人格蒸馏等 9 大分类。' },
+        { name: 'description', content: 'Everything can be distilled into a Skill. Open-source AI Skill discovery platform — workplace, celebrity, persona, relationship, and more.' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'keywords', content: 'AI Skill, AI提示词, skill文件, 人格蒸馏, 开源, ChatGPT, Claude, Cursor' },
+        { name: 'keywords', content: 'AI Skill, skill file, persona distill, AI prompt, open-source, ChatGPT, Claude, Cursor, .skill' },
         { name: 'author', content: 'EverythingSkill' },
+        { name: 'twitter:site', content: '@iwanderleo' },
+        { name: 'twitter:creator', content: '@iwanderleo' },
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'EverythingSkill' },
         { property: 'og:title', content: 'EverythingSkill — 万物皆可 Skill' },

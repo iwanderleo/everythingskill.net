@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "date": "2026-04-11",
+      "skillId": "security-engineer-wang",
+      "skillName": "安全工程师小王",
+      "action": "archived",
+      "reason": "github_404",
+      "github": "https://github.com/zhangsan/my-colleague-skills"
+    }
+  ]
+}

@@ -88,6 +88,22 @@
         </div>
       </form>
 
+      <!-- GitHub Issue alternative -->
+      <div class="mt-8 flex items-center gap-4">
+        <div class="flex-1 h-px bg-mid-gray/10" />
+        <span class="text-xs text-mid-gray/50 flex-shrink-0">{{ $t('submitPage.orLabel') }}</span>
+        <div class="flex-1 h-px bg-mid-gray/10" />
+      </div>
+      <a
+        href="https://github.com/iwanderleo/everythingskill.net/issues/new?template=submit-skill.yml"
+        target="_blank"
+        rel="noopener"
+        class="mt-6 flex items-center justify-center gap-2 w-full py-3 rounded-lg border border-mid-gray/20 text-sm font-medium text-mid-gray hover:text-charcoal hover:border-mid-gray/40 transition-colors"
+      >
+        <Icon name="lucide:github" class="w-4 h-4" />
+        {{ $t('submitPage.githubIssueBtn') }}
+      </a>
+
       <!-- Info -->
       <div class="mt-12 skill-card p-6">
         <h3 class="text-sm font-semibold text-charcoal mb-4">{{ $t('submitPage.notesTitle') }}</h3>

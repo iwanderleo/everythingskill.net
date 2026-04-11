@@ -16,6 +16,7 @@ import { dirname, join } from 'path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const SKILLS_FILE = join(__dirname, '../app/data/skills.json')
+const ARCHIVED_FILE = join(__dirname, '../app/data/archived-skills.json')
 const OUTPUT_FILE = join(__dirname, '../missing-skills.generated.json')
 const TOKEN = process.env.GITHUB_TOKEN
 
@@ -63,9 +64,12 @@ async function main() {
   const content = readFileSync(SKILLS_FILE, 'utf8')
   const { skills } = JSON.parse(content)
 
-  // Normalise existing GitHub URLs → "owner/repo"
-  const existingRepos = new Set(
-    skills
+  const archivedContent = readFileSync(ARCHIVED_FILE, 'utf8')
+  const { archivedSkills } = JSON.parse(archivedContent)
+
+  // Normalise existing + archived GitHub URLs → "owner/repo"
+  const knownRepos = new Set(
+    [...skills, ...archivedSkills]
       .map(s => {
         const m = (s.github ?? '').match(/github\.com\/([^/]+\/[^/]+?)(?:\.git)?$/)
         return m ? m[1] : null
@@ -73,7 +77,7 @@ async function main() {
       .filter(Boolean),
   )
 
-  const missing = awesomeRepos.filter(r => !existingRepos.has(r.ownerRepo))
+  const missing = awesomeRepos.filter(r => !knownRepos.has(r.ownerRepo))
   console.log(`${missing.length} repos not yet in skills.json.`)
 
   const output = {

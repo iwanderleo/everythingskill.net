@@ -168,9 +168,9 @@
               <!-- Repository -->
               <div>
                 <p class="text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70 mb-3">{{ $t('skill.repositoryLabel') }}</p>
-                <a :href="skill.github" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-medium text-charcoal hover:text-mid-gray transition-colors">
-                  <Icon name="lucide:github" class="w-4 h-4 text-mid-gray" />
-                  {{ ownerRepo || skill.author }}
+                <a :href="skill.github" target="_blank" rel="noopener" class="flex items-center gap-2 text-sm font-medium text-charcoal hover:text-mid-gray transition-colors min-w-0">
+                  <Icon name="lucide:github" class="w-4 h-4 text-mid-gray flex-shrink-0" />
+                  <span class="truncate">{{ ownerRepo || skill.author }}</span>
                 </a>
               </div>
             </div>
@@ -186,9 +186,9 @@
             >
               <div class="flex items-start justify-between gap-3">
                 <p class="text-[11px] font-semibold uppercase tracking-wider text-mid-gray/70">STAR</p>
-                <div class="flex items-center gap-2 text-2xl font-semibold text-charcoal">
+                <div class="flex items-center gap-2 text-charcoal" :class="skill.stars != null ? 'text-2xl font-semibold' : 'text-sm text-mid-gray/60'">
                   <Icon name="lucide:star" class="w-5 h-5 text-mid-gray" />
-                  {{ skill.stars != null ? skill.stars.toLocaleString() : $t('skill.quickUnknown') }}
+                  {{ skill.stars != null ? skill.stars.toLocaleString() : '—' }}
                 </div>
               </div>
               <div v-if="!skill.githubStatus && ownerRepo" class="block">

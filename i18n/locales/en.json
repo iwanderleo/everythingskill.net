@@ -94,7 +94,9 @@
     "note1": "The Skill must be open-source and publicly available on GitHub.",
     "note2": "Submissions are reviewed manually before they appear in the directory.",
     "note3": "Please make sure the Skill is legal, compliant, and free of sensitive data.",
-    "note4": "All kinds of Skills are welcome. Everything is a Skill."
+    "note4": "All kinds of Skills are welcome. Everything is a Skill.",
+    "orLabel": "or",
+    "githubIssueBtn": "Submit via GitHub Issue"
   },
   "skills": {
     "title": "Skill Library",

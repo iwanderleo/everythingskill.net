@@ -1,4 +1,5 @@
 import rawData from './skills.json'
+import rawArchived from './archived-skills.json'
 
 interface RawSkill {
   id: string
@@ -39,6 +40,11 @@ export interface Skill {
   stars?: number
   tags: string[]
   featured?: boolean
+}
+
+export interface ArchivedSkill extends Skill {
+  archivedAt: string
+  archivedReason: 'github_404' | 'deprecated' | 'other'
 }
 
 export type SkillCategory =
@@ -88,6 +94,8 @@ const data: SkillsDataset = {
 export const lastSyncedAt = data.lastSyncedAt
 export const categories = data.categories
 export const skills = data.skills
+
+export const archivedSkills: ArchivedSkill[] = (rawArchived as { archivedSkills: ArchivedSkill[] }).archivedSkills
 
 /** Return the canonical persisted URL slug for a skill */
 export function getSkillSlug(skill: Skill): string {

@@ -172,23 +172,68 @@ useHead({
       { property: 'og:url', content: homeUrl.value },
     ]
   }),
-  script: computed(() => [{
-    type: 'application/ld+json',
-    children: JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'WebSite',
-      name: 'EverythingSkill',
-      url: homeUrl.value,
-      inLanguage: locale.value === 'zh' ? 'zh-CN' : 'en',
-      description: locale.value === 'zh'
-        ? '开源 AI Skill 发现与分享平台。一切皆可蒸馏为 Skill。'
-        : 'Open-source AI Skill discovery and sharing platform.',
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: { '@type': 'EntryPoint', urlTemplate: `${skillDirectoryUrl.value}?q={search_term_string}` },
-        'query-input': 'required name=search_term_string',
-      },
-    }),
-  }]),
+  script: computed(() => [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'EverythingSkill',
+        url: homeUrl.value,
+        inLanguage: locale.value === 'zh' ? 'zh-CN' : 'en',
+        description: locale.value === 'zh'
+          ? '开源 AI Skill 发现与分享平台。一切皆可蒸馏为 Skill。'
+          : 'Open-source AI Skill discovery and sharing platform.',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: { '@type': 'EntryPoint', urlTemplate: `${skillDirectoryUrl.value}?q={search_term_string}` },
+          'query-input': 'required name=search_term_string',
+        },
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'EverythingSkill',
+        url: siteUrl,
+        description: 'Open-source AI Skill discovery and sharing platform.',
+        sameAs: [
+          'https://github.com/iwanderleo/everythingskill.net',
+          'https://x.com/iwanderleo',
+        ],
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: locale.value === 'zh' ? '什么是 .skill 文件？' : 'What is a .skill file?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: locale.value === 'zh'
+                ? '.skill 文件是一种纯文本 AI 提示文件，将一个人的思维方式、知识体系与表达风格提炼成 AI 可以理解和模拟的格式。可以理解为 AI 的「人格插件」，兼容 Claude、ChatGPT、Cursor 等工具。'
+                : 'A .skill file is a plain-text AI prompt file that distills a person\'s thinking patterns, knowledge system, and communication style into a format AI can understand and simulate. Think of it as an AI personality plugin — compatible with Claude, ChatGPT, Cursor, and more.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: locale.value === 'zh' ? 'EverythingSkill 是什么？' : 'What is EverythingSkill?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: locale.value === 'zh'
+                ? 'EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 .skill 文件，提供中英双语页面、分类浏览、搜索和 README 渲染。'
+                : 'EverythingSkill is an open-source directory for discovering AI .skill files. It curates community-made skills into a bilingual searchable catalog with category pages and rendered README previews.',
+            },
+          },
+        ],
+      }),
+    },
+  ]),
 })
 </script>

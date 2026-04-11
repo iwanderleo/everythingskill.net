@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet || (git add missing-skills.generated.json && git commit -m "chore: scan missing skills $(date -u +%Y-%m-%d)")
+          git diff --quiet || (git add missing-skills.generated.json && git commit -m "chore: weekly scan $(date -u +%Y-%m-%d)")
 
       - name: Push changes
         run: git push origin HEAD:${{ env.TARGET_BRANCH }}
