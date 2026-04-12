@@ -7,6 +7,22 @@
       "action": "archived",
       "reason": "github_404",
       "github": "https://github.com/zhangsan/my-colleague-skills"
+    },
+    {
+      "date": "2026-04-12",
+      "skillId": "hr",
+      "skillName": "HR.skill",
+      "action": "archived",
+      "reason": "github_404",
+      "github": "https://github.com/Schlaflied/hr-skills"
+    },
+    {
+      "date": "2026-04-12",
+      "skillId": "frontend-architect-chen",
+      "skillName": "前端架构师老陈",
+      "action": "archived",
+      "reason": "github_404",
+      "github": "https://github.com/lisi/frontend-skills"
     }
   ]
 }

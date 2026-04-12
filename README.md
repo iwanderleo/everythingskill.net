@@ -28,7 +28,7 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 
 ## Skill Directory
 
-> 79 Skills · 9 Categories · Last synced 2026-04-11
+> 77 Skills · 10 Categories · Last synced 2026-04-12
 
 ### Workplace
 
@@ -38,7 +38,6 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 - [Professor.skill](https://github.com/CommitHu502Craft/professor-skill) — Build your own AI teacher who actually highlights the key points.
 - [Senpai.skill](https://github.com/zhanghaichao520/senpai-skill) — Distill your graduated senior into an AI that keeps holding lab meetings and pushing you.
 - [库克.skill](https://github.com/heywanrong/tim-cook-skill) — Tim Cook's cognitive operating system. Not a CEO speech template — a runnable thinking framework. Supply chain mastery, operational precision, values-driven decisions distilled into callable judgment tools.
-- [HR.skill](https://github.com/Schlaflied/hr-skills) — A seasoned bilingual HR, fluent in big tech, startups, and North American corporate. Core skill: deliver the coldest news in the warmest tone. Supports rejection letters, layoff scripts, interview prep, salary negotiation, and background check simulation.
 - [HR 小李](https://github.com/wangwu) — 3 years campus + 2 years social recruiting HR who specializes in translating engineer resumes from "tech-speak" into human language. Ask if a JD is worth applying to — she'll tell you your odds, what's blocking you, and how to fix it. Data-driven, no fluff, seen more traps than you have.
 
 ### Social Media
@@ -128,7 +127,6 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 - [Taotie.skill](https://github.com/binggandata/bggg-skill-taotie) — Feed excellent Skills to Taotie and let your Skill evolve on its own.
 - [四绝客奇卷・暗行秘典](https://github.com/prog-le/penetration-team) — The Four Wanderers' Secret Penetration Manual. For authorized security testing only — four virtual specialists covering different attack surfaces, working together within sanctioned scope.
 - [骂人求职信.skill](https://github.com/Schlaflied/roast-cold-email-skill) — For companies that preach "AI transformation" but filter candidates with ATS and list "AI" 17 times in a JD written by someone who's never opened a GCP console. No flattery. No begging. Just facts — then leave.
-- [前端架构师老陈](https://github.com/lisi/frontend-skills) — 10-year frontend veteran who's shipped React and Vue, now lives in engineering infra. Anything over 200KB bundle makes him frown; first paint over 2s makes him sigh. Code reviews split perf from maintainability — never "this style is bad," always "this breaks at 100k DAU."
 
 ### Defense
 

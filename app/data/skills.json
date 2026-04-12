@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-04-11",
+  "lastSyncedAt": "2026-04-12",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 12752,
+      "stars": 13057,
       "tags": [
         "workplace",
         "distillation",
@@ -92,7 +92,16 @@
       ],
       "featured": true,
       "addedAt": "2026-02-26",
-      "updatedAt": "2026-02-26"
+      "updatedAt": "2026-02-26",
+      "readmeLocales": [
+        "de",
+        "en",
+        "es",
+        "ja",
+        "pt",
+        "ru",
+        "zh"
+      ]
     },
     {
       "id": "boss",
@@ -105,13 +114,17 @@
       "category": "workplace",
       "author": "vogtsw",
       "github": "https://github.com/vogtsw/boss-skills",
-      "stars": 138,
+      "stars": 146,
       "tags": [
         "workplace",
         "management"
       ],
       "addedAt": "2026-02-27",
-      "updatedAt": "2026-02-27"
+      "updatedAt": "2026-02-27",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "x-mentor",
@@ -124,7 +137,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 577,
+      "stars": 596,
       "tags": [
         "twitter",
         "content",
@@ -132,7 +145,10 @@
       ],
       "featured": true,
       "addedAt": "2026-02-28",
-      "updatedAt": "2026-02-28"
+      "updatedAt": "2026-02-28",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "blogger",
@@ -152,7 +168,11 @@
       ],
       "addedAt": "2026-03-01",
       "updatedAt": "2026-03-01",
-      "stars": 28
+      "stars": 31,
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "nuwa",
@@ -165,7 +185,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 6745,
+      "stars": 7635,
       "tags": [
         "distillation",
         "universal",
@@ -173,7 +193,14 @@
       ],
       "featured": true,
       "addedAt": "2026-03-02",
-      "updatedAt": "2026-03-02"
+      "updatedAt": "2026-03-02",
+      "readmeLocales": [
+        "en",
+        "es",
+        "ja",
+        "ko",
+        "zh"
+      ]
     },
     {
       "id": "ex",
@@ -186,13 +213,17 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 4202,
+      "stars": 4280,
       "tags": [
         "persona",
         "relationship"
       ],
       "addedAt": "2026-03-03",
-      "updatedAt": "2026-03-03"
+      "updatedAt": "2026-03-03",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "yourself",
@@ -205,7 +236,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 1796,
+      "stars": 1866,
       "tags": [
         "persona",
         "self",
@@ -213,7 +244,11 @@
       ],
       "featured": true,
       "addedAt": "2026-03-04",
-      "updatedAt": "2026-03-04"
+      "updatedAt": "2026-03-04",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "distill-engine",
@@ -226,13 +261,18 @@
       "category": "tool",
       "author": "YIKUAIBANZI",
       "github": "https://github.com/YIKUAIBANZI/forge-skill",
-      "stars": 42,
+      "stars": 45,
       "tags": [
         "distillation",
         "engine"
       ],
       "addedAt": "2026-03-05",
-      "updatedAt": "2026-03-05"
+      "updatedAt": "2026-03-05",
+      "readmeLocales": [
+        "en",
+        "ja",
+        "zh"
+      ]
     },
     {
       "id": "anti-distill",
@@ -245,14 +285,17 @@
       "category": "defense",
       "author": "leilei926524-tech",
       "github": "https://github.com/leilei926524-tech/anti-distill",
-      "stars": 1701,
+      "stars": 1736,
       "tags": [
         "defense",
         "privacy",
         "counter"
       ],
       "addedAt": "2026-03-06",
-      "updatedAt": "2026-03-06"
+      "updatedAt": "2026-03-06",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "steve-jobs",
@@ -265,7 +308,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 644,
+      "stars": 674,
       "tags": [
         "celebrity",
         "product",
@@ -273,7 +316,10 @@
       ],
       "featured": true,
       "addedAt": "2026-03-07",
-      "updatedAt": "2026-03-07"
+      "updatedAt": "2026-03-07",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "elon-musk",
@@ -286,7 +332,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 123,
+      "stars": 147,
       "tags": [
         "celebrity",
         "tech",
@@ -294,7 +340,10 @@
       ],
       "featured": true,
       "addedAt": "2026-03-08",
-      "updatedAt": "2026-03-08"
+      "updatedAt": "2026-03-08",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "munger",
@@ -307,14 +356,17 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/munger-skill",
-      "stars": 88,
+      "stars": 107,
       "tags": [
         "celebrity",
         "investment",
         "mental-models"
       ],
       "addedAt": "2026-03-09",
-      "updatedAt": "2026-03-09"
+      "updatedAt": "2026-03-09",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "feynman",
@@ -327,14 +379,17 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/feynman-skill",
-      "stars": 53,
+      "stars": 65,
       "tags": [
         "education",
         "teaching",
         "physics"
       ],
       "addedAt": "2026-03-10",
-      "updatedAt": "2026-03-10"
+      "updatedAt": "2026-03-10",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "naval",
@@ -347,14 +402,17 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/naval-skill",
-      "stars": 69,
+      "stars": 79,
       "tags": [
         "celebrity",
         "philosophy",
         "wealth"
       ],
       "addedAt": "2026-03-11",
-      "updatedAt": "2026-03-11"
+      "updatedAt": "2026-03-11",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "taleb",
@@ -367,14 +425,17 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/taleb-skill",
-      "stars": 35,
+      "stars": 43,
       "tags": [
         "celebrity",
         "risk",
         "finance"
       ],
       "addedAt": "2026-03-12",
-      "updatedAt": "2026-03-12"
+      "updatedAt": "2026-03-12",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "zhang-xuefeng",
@@ -387,14 +448,17 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 3169,
+      "stars": 4598,
       "tags": [
         "education",
         "practical",
         "career"
       ],
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-03-13"
+      "updatedAt": "2026-03-13",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "paul-graham",
@@ -407,14 +471,17 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/paul-graham-skill",
-      "stars": 19,
+      "stars": 25,
       "tags": [
         "celebrity",
         "startup",
         "writing"
       ],
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-03-14"
+      "updatedAt": "2026-03-14",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "zhang-yiming",
@@ -427,14 +494,17 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhang-yiming-skill",
-      "stars": 44,
+      "stars": 53,
       "tags": [
         "celebrity",
         "tech",
         "management"
       ],
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-03-15"
+      "updatedAt": "2026-03-15",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "karpathy",
@@ -447,7 +517,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/karpathy-skill",
-      "stars": 18,
+      "stars": 27,
       "tags": [
         "education",
         "AI",
@@ -455,7 +525,10 @@
       ],
       "featured": true,
       "addedAt": "2026-03-16",
-      "updatedAt": "2026-03-16"
+      "updatedAt": "2026-03-16",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "ilya",
@@ -475,7 +548,10 @@
       ],
       "addedAt": "2026-03-17",
       "updatedAt": "2026-03-17",
-      "stars": 12
+      "stars": 16,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "mrbeast",
@@ -488,14 +564,17 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/mrbeast-skill",
-      "stars": 15,
+      "stars": 17,
       "tags": [
         "media",
         "youtube",
         "growth"
       ],
       "addedAt": "2026-03-18",
-      "updatedAt": "2026-03-18"
+      "updatedAt": "2026-03-18",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "trump",
@@ -508,14 +587,17 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/trump-skill",
-      "stars": 167,
+      "stars": 171,
       "tags": [
         "celebrity",
         "negotiation",
         "politics"
       ],
       "addedAt": "2026-03-19",
-      "updatedAt": "2026-03-19"
+      "updatedAt": "2026-03-19",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "bazi",
@@ -528,7 +610,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 778,
+      "stars": 865,
       "tags": [
         "mystical",
         "fortune",
@@ -536,7 +618,10 @@
       ],
       "featured": true,
       "addedAt": "2026-03-20",
-      "updatedAt": "2026-03-20"
+      "updatedAt": "2026-03-20",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "yuelao",
@@ -549,14 +634,17 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 81,
+      "stars": 99,
       "tags": [
         "mystical",
         "love",
         "matchmaking"
       ],
       "addedAt": "2026-03-21",
-      "updatedAt": "2026-03-21"
+      "updatedAt": "2026-03-21",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "qimen",
@@ -576,7 +664,10 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 287
+      "stars": 328,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "master",
@@ -589,14 +680,18 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 168,
+      "stars": 184,
       "tags": [
         "mystical",
         "buddhism",
         "teaching"
       ],
       "addedAt": "2026-03-23",
-      "updatedAt": "2026-03-23"
+      "updatedAt": "2026-03-23",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "supervisor",
@@ -609,14 +704,17 @@
       "category": "workplace",
       "author": "ybq22",
       "github": "https://github.com/ybq22/supervisor",
-      "stars": 124,
+      "stars": 126,
       "tags": [
         "workplace",
         "academia",
         "research"
       ],
       "addedAt": "2026-03-24",
-      "updatedAt": "2026-03-24"
+      "updatedAt": "2026-03-24",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "professor",
@@ -636,7 +734,10 @@
         "study"
       ],
       "addedAt": "2026-03-25",
-      "updatedAt": "2026-03-25"
+      "updatedAt": "2026-03-25",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "senpai",
@@ -649,14 +750,18 @@
       "category": "workplace",
       "author": "zhanghaichao520",
       "github": "https://github.com/zhanghaichao520/senpai-skill",
-      "stars": 71,
+      "stars": 72,
       "tags": [
         "workplace",
         "academia",
         "mentorship"
       ],
       "addedAt": "2026-03-26",
-      "updatedAt": "2026-03-26"
+      "updatedAt": "2026-03-26",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "crush",
@@ -669,14 +774,18 @@
       "category": "relationship",
       "author": "xiaoheizi8",
       "github": "https://github.com/xiaoheizi8/crush-skills",
-      "stars": 141,
+      "stars": 149,
       "tags": [
         "relationship",
         "persona",
         "emotion"
       ],
       "addedAt": "2026-03-27",
-      "updatedAt": "2026-03-27"
+      "updatedAt": "2026-03-27",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "first-love",
@@ -696,7 +805,11 @@
         "emotion"
       ],
       "addedAt": "2026-03-28",
-      "updatedAt": "2026-03-28"
+      "updatedAt": "2026-03-28",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "partner",
@@ -716,7 +829,16 @@
         "love"
       ],
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-03-29"
+      "updatedAt": "2026-03-29",
+      "readmeLocales": [
+        "de",
+        "en",
+        "es",
+        "ja",
+        "pt",
+        "ru",
+        "zh"
+      ]
     },
     {
       "id": "parents",
@@ -736,7 +858,10 @@
         "memory"
       ],
       "addedAt": "2026-03-30",
-      "updatedAt": "2026-03-30"
+      "updatedAt": "2026-03-30",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "her",
@@ -756,7 +881,11 @@
         "emotion"
       ],
       "addedAt": "2026-03-31",
-      "updatedAt": "2026-03-31"
+      "updatedAt": "2026-03-31",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "reunion",
@@ -769,14 +898,17 @@
       "category": "relationship",
       "author": "yangdongchen66-boop",
       "github": "https://github.com/yangdongchen66-boop/reunion-skill",
-      "stars": 33,
+      "stars": 34,
       "tags": [
         "relationship",
         "memory",
         "grief"
       ],
       "addedAt": "2026-04-01",
-      "updatedAt": "2026-04-01"
+      "updatedAt": "2026-04-01",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "digital-life",
@@ -789,14 +921,17 @@
       "category": "persona",
       "author": "wildbyteai",
       "github": "https://github.com/wildbyteai/digital-life",
-      "stars": 31,
+      "stars": 33,
       "tags": [
         "persona",
         "self",
         "data"
       ],
       "addedAt": "2026-04-02",
-      "updatedAt": "2026-04-02"
+      "updatedAt": "2026-04-02",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "immortal",
@@ -809,14 +944,17 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 493,
+      "stars": 515,
       "tags": [
         "persona",
         "self",
         "immortality"
       ],
       "addedAt": "2026-04-03",
-      "updatedAt": "2026-04-03"
+      "updatedAt": "2026-04-03",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "retail-investor",
@@ -836,7 +974,10 @@
       ],
       "addedAt": "2026-04-04",
       "updatedAt": "2026-04-04",
-      "stars": 3
+      "stars": 4,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "buffett",
@@ -849,14 +990,17 @@
       "category": "celebrity",
       "author": "will2025btc",
       "github": "https://github.com/will2025btc/buffett-perspective",
-      "stars": 135,
+      "stars": 141,
       "tags": [
         "celebrity",
         "investment",
         "value-investing"
       ],
       "addedAt": "2026-04-05",
-      "updatedAt": "2026-04-05"
+      "updatedAt": "2026-04-05",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "hu-chenfeng",
@@ -869,14 +1013,17 @@
       "category": "celebrity",
       "author": "Janlaywss",
       "github": "https://github.com/Janlaywss/hu-chenfeng-skill",
-      "stars": 184,
+      "stars": 189,
       "tags": [
         "celebrity",
         "consumption",
         "lifestyle"
       ],
       "addedAt": "2026-04-06",
-      "updatedAt": "2026-04-06"
+      "updatedAt": "2026-04-06",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "fengge",
@@ -889,14 +1036,17 @@
       "category": "media",
       "author": "Walshyu",
       "github": "https://github.com/Walshyu/fengge-skill",
-      "stars": 6,
+      "stars": 8,
       "tags": [
         "media",
         "documentary",
         "social"
       ],
       "addedAt": "2026-04-07",
-      "updatedAt": "2026-04-07"
+      "updatedAt": "2026-04-07",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "qiushi",
@@ -909,7 +1059,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 2459,
+      "stars": 2516,
       "tags": [
         "tool",
         "methodology",
@@ -917,7 +1067,10 @@
       ],
       "featured": true,
       "addedAt": "2026-04-08",
-      "updatedAt": "2026-04-08"
+      "updatedAt": "2026-04-08",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "taotie",
@@ -930,14 +1083,17 @@
       "category": "tool",
       "author": "binggandata",
       "github": "https://github.com/binggandata/bggg-skill-taotie",
-      "stars": 32,
+      "stars": 33,
       "tags": [
         "tool",
         "meta",
         "optimization"
       ],
       "addedAt": "2026-04-09",
-      "updatedAt": "2026-04-09"
+      "updatedAt": "2026-04-09",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "karlmarx",
@@ -956,7 +1112,12 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 4
+      "stars": 7,
+      "readmeLocales": [
+        "en",
+        "ja",
+        "zh"
+      ]
     },
     {
       "id": "maoxuan",
@@ -975,7 +1136,10 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 287
+      "stars": 320,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "ace-taffy",
@@ -993,7 +1157,11 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 21
+      "stars": 36,
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "cyberdoc",
@@ -1011,7 +1179,10 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 10
+      "stars": 11,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "firefly",
@@ -1029,7 +1200,10 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 4
+      "stars": 4,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "lenin",
@@ -1047,7 +1221,15 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 2
+      "stars": 2,
+      "readmeLocales": [
+        "de",
+        "en",
+        "ja",
+        "ko",
+        "ru",
+        "zh"
+      ]
     },
     {
       "id": "psychclaw",
@@ -1065,7 +1247,10 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 0
+      "stars": 1,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "shuixian",
@@ -1083,7 +1268,11 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 3
+      "stars": 3,
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "undergrad-anti-distill",
@@ -1101,7 +1290,10 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 2
+      "stars": 4,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "wang-baoqiang",
@@ -1119,7 +1311,10 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 0
+      "stars": 0,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "confucius",
@@ -1137,7 +1332,10 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 1
+      "stars": 1,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "penetration-team",
@@ -1155,7 +1353,10 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 2
+      "stars": 2,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "relationship-training",
@@ -1173,7 +1374,10 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 66
+      "stars": 67,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "simp",
@@ -1191,7 +1395,11 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 84
+      "stars": 86,
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "star",
@@ -1209,7 +1417,10 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 3
+      "stars": 4,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "tim-cook",
@@ -1227,7 +1438,11 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 3
+      "stars": 3,
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "cupid",
@@ -1245,7 +1460,10 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 3
+      "stars": 3,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "fengge-wangmingtianya",
@@ -1263,24 +1481,10 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 84
-    },
-    {
-      "id": "hr",
-      "slug": "hr-skill",
-      "name": "HR.skill",
-      "nameZh": "HR.skill",
-      "summary": "A seasoned bilingual HR, fluent in big tech, startups, and North American corporate. Core skill: deliver the coldest news in the warmest tone. Supports rejection letters, layoff scripts, interview prep, salary negotiation, and background check simulation.",
-      "summaryZh": "经验丰富的 HR，精通中英双语，服务过大厂、中小厂、北美企业和硅谷初创。 核心能力：用最温暖的语气传递最冰冷的消息；任何问题都能回答，但不含任何实质信息。 支持拒信生成、开人通知、面试模拟、薪资谈判、背调模拟。",
-      "detailIntroZh": "经验丰富的 HR，精通中英双语，服务过大厂、中小厂、北美企业和硅谷初创。 核心能力：用最温暖的语气传递最冰冷的消息；任何问题都能回答，但不含任何实质信息。 支持拒信生成、开人通知、面试模拟、薪资谈判、背调模拟。",
-      "category": "workplace",
-      "author": "Schlaflied",
-      "github": "https://github.com/Schlaflied/hr-skills",
-      "tags": [
-        "hr"
-      ],
-      "addedAt": "2026-04-07",
-      "updatedAt": "2026-04-07"
+      "stars": 86,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "luo-xiang",
@@ -1298,7 +1502,10 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 5
+      "stars": 7,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "roast-cold-email",
@@ -1316,7 +1523,11 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2
+      "stars": 2,
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "tong-jincheng",
@@ -1334,7 +1545,10 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 1527
+      "stars": 1563,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "translator",
@@ -1352,7 +1566,11 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 1
+      "stars": 1,
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     },
     {
       "id": "vengeful-ghost",
@@ -1370,7 +1588,10 @@
       ],
       "addedAt": "2026-04-01",
       "updatedAt": "2026-04-01",
-      "stars": 8
+      "stars": 8,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "mama",
@@ -1388,25 +1609,10 @@
       ],
       "addedAt": "2026-03-20",
       "updatedAt": "2026-03-20",
-      "stars": 6
-    },
-    {
-      "id": "frontend-architect-chen",
-      "slug": "frontend-architect-chen",
-      "name": "前端架构师老陈",
-      "nameZh": "前端架构师老陈",
-      "summary": "10-year frontend veteran who's shipped React and Vue, now lives in engineering infra. Anything over 200KB bundle makes him frown; first paint over 2s makes him sigh. Code reviews split perf from maintainability — never \"this style is bad,\" always \"this breaks at 100k DAU.\"",
-      "summaryZh": "十年前端老兵，React/Vue 都写过，现在专注工程化。 bundle size 超过 200KB 他会皱眉头，首屏超过 2s 他会叹气。 给你 review 代码时会把性能问题、可维护性问题分开说， 不会跟你说\"这写法不好\"，只会说\"这写法在 10 万 DAU 时会怎样\"。",
-      "detailIntroZh": "十年前端老兵，React/Vue 都写过，现在专注工程化。 bundle size 超过 200KB 他会皱眉头，首屏超过 2s 他会叹气。 给你 review 代码时会把性能问题、可维护性问题分开说， 不会跟你说\"这写法不好\"，只会说\"这写法在 10 万 DAU 时会怎样\"。",
-      "category": "tool",
-      "author": "李四",
-      "github": "https://github.com/lisi/frontend-skills",
-      "tags": [
-        "frontend",
-        "devops"
-      ],
-      "addedAt": "2025-04-05",
-      "updatedAt": "2025-04-05"
+      "stars": 6,
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "hr-xiao-li",
@@ -1444,7 +1650,10 @@
         "self"
       ],
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10"
+      "updatedAt": "2026-04-10",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "vibeportrait",
@@ -1464,7 +1673,10 @@
         "vibe-coding"
       ],
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10"
+      "updatedAt": "2026-04-10",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "changshu-anuo",
@@ -1484,7 +1696,10 @@
         "thinking"
       ],
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10"
+      "updatedAt": "2026-04-10",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "guodegang",
@@ -1504,7 +1719,10 @@
         "expression"
       ],
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10"
+      "updatedAt": "2026-04-10",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "mao-zedong",
@@ -1517,14 +1735,19 @@
       "category": "celebrity",
       "author": "wwwaapplleecu-source",
       "github": "https://github.com/wwwaapplleecu-source/mao-skill",
-      "stars": 37,
+      "stars": 45,
       "tags": [
         "celebrity",
         "methodology",
         "strategy"
       ],
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10"
+      "updatedAt": "2026-04-10",
+      "readmeLocales": [
+        "en",
+        "ja",
+        "zh"
+      ]
     },
     {
       "id": "mises",
@@ -1544,7 +1767,10 @@
         "methodology"
       ],
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10"
+      "updatedAt": "2026-04-10",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "rob-pike",
@@ -1564,7 +1790,10 @@
         "methodology"
       ],
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10"
+      "updatedAt": "2026-04-10",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "zizek",
@@ -1577,14 +1806,17 @@
       "category": "celebrity",
       "author": "JikunR",
       "github": "https://github.com/JikunR/zizek-skill",
-      "stars": 2,
+      "stars": 3,
       "tags": [
         "celebrity",
         "philosophy",
         "methodology"
       ],
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10"
+      "updatedAt": "2026-04-10",
+      "readmeLocales": [
+        "zh"
+      ]
     },
     {
       "id": "diamond-sutra",
@@ -1597,14 +1829,18 @@
       "category": "mystical",
       "author": "dull-bird",
       "github": "https://github.com/dull-bird/diamond-sutra-skill",
-      "stars": 3,
+      "stars": 5,
       "tags": [
         "mystical",
         "buddhism",
         "spiritual"
       ],
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10"
+      "updatedAt": "2026-04-10",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ]
     }
   ]
 }
