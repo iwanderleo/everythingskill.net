@@ -4,7 +4,7 @@
 
 EverythingSkill is an open-source directory for discovering AI `.skill` files — structured prompt files that distill a person's thinking patterns, knowledge system, and communication style into a format AI can understand and simulate.
 
-[everythingskill.net](https://everythingskill.net) · [中文版](README_zh.md) · [X](https://x.com/iwanderleo) · [MIT License](LICENSE)
+[everythingskill.net](https://everythingskill.net) · [中文版](README_zh.md) · [MIT License](LICENSE)
 
 ---
 

@@ -4,7 +4,7 @@
 
 EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 `.skill` 文件——这是一种结构化的 AI 提示文件，将一个人的思维方式、知识体系与表达风格提炼成 AI 可以理解和模拟的格式。
 
-[everythingskill.net](https://everythingskill.net/zh) · [English](README.md) · [X](https://x.com/iwanderleo) · [MIT 协议](LICENSE)
+[everythingskill.net](https://everythingskill.net/zh) · [English](README.md) · [MIT 协议](LICENSE)
 
 ---
 
