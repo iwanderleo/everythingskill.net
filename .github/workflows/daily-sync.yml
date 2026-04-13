@@ -46,3 +46,10 @@ jobs:
 
       - name: Push changes
         run: git push origin HEAD:${{ env.TARGET_BRANCH }}
+
+      - name: Fast-forward merge to main
+        run: |
+          git fetch origin main
+          git checkout main
+          git merge --ff-only origin/${{ env.TARGET_BRANCH }}
+          git push origin main

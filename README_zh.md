@@ -4,7 +4,7 @@
 
 EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 `.skill` 文件——这是一种结构化的 AI 提示文件，将一个人的思维方式、知识体系与表达风格提炼成 AI 可以理解和模拟的格式。
 
-[everythingskill.net](https://everythingskill.net/zh) · [English](README.md) · [X](https://x.com/iwanderleo) · [MIT 协议](LICENSE)
+[everythingskill.net](https://everythingskill.net/zh) · [English](README.md) · [MIT 协议](LICENSE)
 
 ---
 
@@ -28,7 +28,7 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 
 ## Skill 目录
 
-> 79 个 Skill · 9 个分类 · 最后同步 2026-04-11
+> 77 个 Skill · 10 个分类 · 最后同步 2026-04-13
 
 ### 职场
 
@@ -38,7 +38,6 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 - [大学老师.skill](https://github.com/CommitHu502Craft/professor-skill) — 老师不划重点，那就自己造一个会划重点的老师。
 - [师兄.skill](https://github.com/zhanghaichao520/senpai-skill) — 把毕业的大师兄蒸馏成能继续开组会、骂醒你的 AI Skill。
 - [库克.skill](https://github.com/heywanrong/tim-cook-skill) — Tim Cook 的认知操作系统。不是 CEO 话术模板，是可运行的思维框架。 供应链极致化、运营精准度、价值观驱动决策——把库克的底层逻辑提炼成可调用的判断工具。
-- [HR.skill](https://github.com/Schlaflied/hr-skills) — 经验丰富的 HR，精通中英双语，服务过大厂、中小厂、北美企业和硅谷初创。 核心能力：用最温暖的语气传递最冰冷的消息；任何问题都能回答，但不含任何实质信息。 支持拒信生成、开人通知、面试模拟、薪资谈判、背调模拟。
 - [HR 小李](https://github.com/wangwu) — 做过三年校招、两年社招的 HR，最擅长帮工程师把简历从"技术向"翻译成"人话"。 问她"这个 JD 要不要投"，她会直接告诉你胜算几成、卡在哪、怎么补。 不跟你聊玄学，数据驱动，见过的坑比你多。
 
 ### 自媒体
@@ -128,7 +127,6 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 - [饕餮.skill](https://github.com/binggandata/bggg-skill-taotie) — 把优秀的 Skill 喂给饕餮，让你的 Skill 自己进化。
 - [四绝客奇卷・暗行秘典](https://github.com/prog-le/penetration-team) — 江湖渗透密卷・四绝客行。仅适用于已获明确授权的安全渗透测试场景， 集四位专精不同方向的虚拟安全专家于一体，协助完成授权范围内的渗透试炼。
 - [骂人求职信.skill](https://github.com/Schlaflied/roast-cold-email-skill) — 专门针对那些"AI transformation"但招人靠 ATS、JD 里 AI 出现 17 次但没人摸过 GCP 的公司。 不赞美，不求职，只陈述事实——然后离开。Senior Director 级别的人会在 24 分钟内回复并说"condescending"，说明戳到了。
-- [前端架构师老陈](https://github.com/lisi/frontend-skills) — 十年前端老兵，React/Vue 都写过，现在专注工程化。 bundle size 超过 200KB 他会皱眉头，首屏超过 2s 他会叹气。 给你 review 代码时会把性能问题、可维护性问题分开说， 不会跟你说"这写法不好"，只会说"这写法在 10 万 DAU 时会怎样"。
 
 ### 防御
 

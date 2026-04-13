@@ -11,10 +11,53 @@
       "category": "tool",
       "author": "张三",
       "github": "https://github.com/zhangsan/my-colleague-skills",
-      "tags": ["security", "backend", "code-review"],
+      "tags": [
+        "security",
+        "backend",
+        "code-review"
+      ],
       "addedAt": "2025-04-01",
       "updatedAt": "2026-04-11",
       "archivedAt": "2026-04-11",
+      "archivedReason": "github_404"
+    },
+    {
+      "id": "hr",
+      "slug": "hr-skill",
+      "name": "HR.skill",
+      "nameZh": "HR.skill",
+      "summary": "A seasoned bilingual HR, fluent in big tech, startups, and North American corporate. Core skill: deliver the coldest news in the warmest tone. Supports rejection letters, layoff scripts, interview prep, salary negotiation, and background check simulation.",
+      "summaryZh": "经验丰富的 HR，精通中英双语，服务过大厂、中小厂、北美企业和硅谷初创。 核心能力：用最温暖的语气传递最冰冷的消息；任何问题都能回答，但不含任何实质信息。 支持拒信生成、开人通知、面试模拟、薪资谈判、背调模拟。",
+      "detailIntroZh": "经验丰富的 HR，精通中英双语，服务过大厂、中小厂、北美企业和硅谷初创。 核心能力：用最温暖的语气传递最冰冷的消息；任何问题都能回答，但不含任何实质信息。 支持拒信生成、开人通知、面试模拟、薪资谈判、背调模拟。",
+      "category": "workplace",
+      "author": "Schlaflied",
+      "github": "https://github.com/Schlaflied/hr-skills",
+      "tags": [
+        "hr"
+      ],
+      "addedAt": "2026-04-07",
+      "updatedAt": "2026-04-12",
+      "archivedAt": "2026-04-12",
+      "archivedReason": "github_404"
+    },
+    {
+      "id": "frontend-architect-chen",
+      "slug": "frontend-architect-chen",
+      "name": "前端架构师老陈",
+      "nameZh": "前端架构师老陈",
+      "summary": "10-year frontend veteran who's shipped React and Vue, now lives in engineering infra. Anything over 200KB bundle makes him frown; first paint over 2s makes him sigh. Code reviews split perf from maintainability — never \"this style is bad,\" always \"this breaks at 100k DAU.\"",
+      "summaryZh": "十年前端老兵，React/Vue 都写过，现在专注工程化。 bundle size 超过 200KB 他会皱眉头，首屏超过 2s 他会叹气。 给你 review 代码时会把性能问题、可维护性问题分开说， 不会跟你说\"这写法不好\"，只会说\"这写法在 10 万 DAU 时会怎样\"。",
+      "detailIntroZh": "十年前端老兵，React/Vue 都写过，现在专注工程化。 bundle size 超过 200KB 他会皱眉头，首屏超过 2s 他会叹气。 给你 review 代码时会把性能问题、可维护性问题分开说， 不会跟你说\"这写法不好\"，只会说\"这写法在 10 万 DAU 时会怎样\"。",
+      "category": "tool",
+      "author": "李四",
+      "github": "https://github.com/lisi/frontend-skills",
+      "tags": [
+        "frontend",
+        "devops"
+      ],
+      "addedAt": "2025-04-05",
+      "updatedAt": "2026-04-12",
+      "archivedAt": "2026-04-12",
       "archivedReason": "github_404"
     }
   ]
