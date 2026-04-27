@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-04-20",
+  "scannedAt": "2026-04-27",
   "source": "https://raw.githubusercontent.com/xixu-me/awesome-persona-distill-skills/main/README.md",
-  "totalInSource": 64,
+  "totalInSource": 67,
   "totalInDatabase": 77,
-  "missingCount": 11,
+  "missingCount": 14,
   "missing": [
     {
       "github": "https://github.com/cantian-ai/bazi-persona-skill",
@@ -46,9 +46,24 @@
       "ownerRepo": "TerryTian-tech/AIWeiZhou-skill"
     },
     {
+      "github": "https://github.com/fisher-yu-like/chenze-skill",
+      "repoName": "chenze-skill",
+      "ownerRepo": "fisher-yu-like/chenze-skill"
+    },
+    {
+      "github": "https://github.com/fisher-yu-like/justin-bieber-skill",
+      "repoName": "justin-bieber-skill",
+      "ownerRepo": "fisher-yu-like/justin-bieber-skill"
+    },
+    {
       "github": "https://github.com/1sh1ro/liangxi-skills",
       "repoName": "liangxi-skills",
       "ownerRepo": "1sh1ro/liangxi-skills"
+    },
+    {
+      "github": "https://github.com/fisher-yu-like/wang-er-skill",
+      "repoName": "wang-er-skill",
+      "ownerRepo": "fisher-yu-like/wang-er-skill"
     },
     {
       "github": "https://github.com/SamadhiFire/xinqingnian-skill",
