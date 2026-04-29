@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-04-28",
+  "lastSyncedAt": "2026-04-29",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 16812,
+      "stars": 16916,
       "tags": [
         "workplace",
         "distillation",
@@ -108,7 +108,7 @@
       "category": "workplace",
       "author": "vogtsw",
       "github": "https://github.com/vogtsw/boss-skills",
-      "stars": 190,
+      "stars": 191,
       "tags": [
         "workplace",
         "management"
@@ -131,7 +131,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 737,
+      "stars": 742,
       "tags": [
         "twitter",
         "content",
@@ -179,7 +179,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 15715,
+      "stars": 16075,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +207,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 4857,
+      "stars": 4885,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +230,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 2445,
+      "stars": 2463,
       "tags": [
         "persona",
         "self",
@@ -279,7 +279,7 @@
       "category": "defense",
       "author": "leilei926524-tech",
       "github": "https://github.com/leilei926524-tech/anti-distill",
-      "stars": 2088,
+      "stars": 2101,
       "tags": [
         "defense",
         "privacy",
@@ -302,7 +302,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 790,
+      "stars": 799,
       "tags": [
         "celebrity",
         "product",
@@ -326,7 +326,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 261,
+      "stars": 265,
       "tags": [
         "celebrity",
         "tech",
@@ -350,7 +350,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/munger-skill",
-      "stars": 194,
+      "stars": 197,
       "tags": [
         "celebrity",
         "investment",
@@ -373,7 +373,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/feynman-skill",
-      "stars": 126,
+      "stars": 130,
       "tags": [
         "education",
         "teaching",
@@ -396,7 +396,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/naval-skill",
-      "stars": 139,
+      "stars": 140,
       "tags": [
         "celebrity",
         "philosophy",
@@ -442,7 +442,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 6652,
+      "stars": 6698,
       "tags": [
         "education",
         "practical",
@@ -465,7 +465,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/paul-graham-skill",
-      "stars": 45,
+      "stars": 48,
       "tags": [
         "celebrity",
         "startup",
@@ -488,7 +488,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhang-yiming-skill",
-      "stars": 90,
+      "stars": 93,
       "tags": [
         "celebrity",
         "tech",
@@ -511,7 +511,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/karpathy-skill",
-      "stars": 92,
+      "stars": 94,
       "tags": [
         "education",
         "AI",
@@ -558,7 +558,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/mrbeast-skill",
-      "stars": 37,
+      "stars": 38,
       "tags": [
         "media",
         "youtube",
@@ -604,7 +604,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 1132,
+      "stars": 1143,
       "tags": [
         "mystical",
         "fortune",
@@ -628,7 +628,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 183,
+      "stars": 189,
       "tags": [
         "mystical",
         "love",
@@ -658,7 +658,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 607,
+      "stars": 617,
       "readmeLocales": [
         "zh"
       ]
@@ -744,7 +744,7 @@
       "category": "workplace",
       "author": "zhanghaichao520",
       "github": "https://github.com/zhanghaichao520/senpai-skill",
-      "stars": 78,
+      "stars": 80,
       "tags": [
         "workplace",
         "academia",
@@ -768,7 +768,7 @@
       "category": "relationship",
       "author": "xiaoheizi8",
       "github": "https://github.com/xiaoheizi8/crush-skills",
-      "stars": 191,
+      "stars": 192,
       "tags": [
         "relationship",
         "persona",
@@ -816,7 +816,7 @@
       "category": "relationship",
       "author": "NatalieCao323",
       "github": "https://github.com/NatalieCao323/partner-skill",
-      "stars": 15,
+      "stars": 16,
       "tags": [
         "relationship",
         "companion",
@@ -845,7 +845,7 @@
       "category": "relationship",
       "author": "xiaoheizi8",
       "github": "https://github.com/xiaoheizi8/parents-skills",
-      "stars": 49,
+      "stars": 50,
       "tags": [
         "relationship",
         "family",
@@ -938,7 +938,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 659,
+      "stars": 667,
       "tags": [
         "persona",
         "self",
@@ -968,7 +968,7 @@
       ],
       "addedAt": "2026-04-04",
       "updatedAt": "2026-04-04",
-      "stars": 6,
+      "stars": 7,
       "readmeLocales": [
         "zh"
       ]
@@ -984,7 +984,7 @@
       "category": "celebrity",
       "author": "will2025btc",
       "github": "https://github.com/will2025btc/buffett-perspective",
-      "stars": 180,
+      "stars": 181,
       "tags": [
         "celebrity",
         "investment",
@@ -1053,7 +1053,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 2870,
+      "stars": 2880,
       "tags": [
         "tool",
         "methodology",
@@ -1078,7 +1078,7 @@
       "category": "tool",
       "author": "binggandata",
       "github": "https://github.com/binggandata/bggg-skill-taotie",
-      "stars": 45,
+      "stars": 47,
       "tags": [
         "tool",
         "meta",
@@ -1131,7 +1131,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 586,
+      "stars": 599,
       "readmeLocales": [
         "zh"
       ]
@@ -1152,7 +1152,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 57,
+      "stars": 58,
       "readmeLocales": [
         "en",
         "zh"
@@ -1390,7 +1390,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 152,
+      "stars": 158,
       "readmeLocales": [
         "en",
         "zh"
@@ -1476,7 +1476,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 102,
+      "stars": 103,
       "readmeLocales": [
         "zh"
       ]
@@ -1540,7 +1540,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 1775,
+      "stars": 1780,
       "readmeLocales": [
         "zh"
       ]
