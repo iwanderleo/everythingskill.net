@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-05-02",
+  "lastSyncedAt": "2026-05-03",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 17116,
+      "stars": 17158,
       "tags": [
         "workplace",
         "distillation",
@@ -108,7 +108,7 @@
       "category": "workplace",
       "author": "vogtsw",
       "github": "https://github.com/vogtsw/boss-skills",
-      "stars": 194,
+      "stars": 196,
       "tags": [
         "workplace",
         "management"
@@ -179,7 +179,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 16743,
+      "stars": 16904,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +207,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 4956,
+      "stars": 4972,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +230,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 2509,
+      "stars": 2518,
       "tags": [
         "persona",
         "self",
@@ -255,7 +255,7 @@
       "category": "tool",
       "author": "YIKUAIBANZI",
       "github": "https://github.com/YIKUAIBANZI/forge-skill",
-      "stars": 69,
+      "stars": 70,
       "tags": [
         "distillation",
         "engine"
@@ -279,7 +279,7 @@
       "category": "defense",
       "author": "leilei926524-tech",
       "github": "https://github.com/leilei926524-tech/anti-distill",
-      "stars": 2122,
+      "stars": 2124,
       "tags": [
         "defense",
         "privacy",
@@ -302,7 +302,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 809,
+      "stars": 811,
       "tags": [
         "celebrity",
         "product",
@@ -326,7 +326,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 272,
+      "stars": 274,
       "tags": [
         "celebrity",
         "tech",
@@ -442,7 +442,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 6783,
+      "stars": 6818,
       "tags": [
         "education",
         "practical",
@@ -465,7 +465,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/paul-graham-skill",
-      "stars": 49,
+      "stars": 50,
       "tags": [
         "celebrity",
         "startup",
@@ -542,7 +542,7 @@
       ],
       "addedAt": "2026-03-17",
       "updatedAt": "2026-03-17",
-      "stars": 30,
+      "stars": 31,
       "readmeLocales": [
         "zh"
       ]
@@ -581,7 +581,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/trump-skill",
-      "stars": 210,
+      "stars": 211,
       "tags": [
         "celebrity",
         "negotiation",
@@ -604,7 +604,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 1257,
+      "stars": 1266,
       "tags": [
         "mystical",
         "fortune",
@@ -658,7 +658,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 643,
+      "stars": 647,
       "readmeLocales": [
         "zh"
       ]
@@ -674,7 +674,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 249,
+      "stars": 254,
       "tags": [
         "mystical",
         "buddhism",
@@ -721,7 +721,7 @@
       "category": "workplace",
       "author": "CommitHu502Craft",
       "github": "https://github.com/CommitHu502Craft/professor-skill",
-      "stars": 11,
+      "stars": 12,
       "tags": [
         "workplace",
         "education",
@@ -768,7 +768,7 @@
       "category": "relationship",
       "author": "xiaoheizi8",
       "github": "https://github.com/xiaoheizi8/crush-skills",
-      "stars": 195,
+      "stars": 197,
       "tags": [
         "relationship",
         "persona",
@@ -816,7 +816,7 @@
       "category": "relationship",
       "author": "NatalieCao323",
       "github": "https://github.com/NatalieCao323/partner-skill",
-      "stars": 16,
+      "stars": 17,
       "tags": [
         "relationship",
         "companion",
@@ -938,7 +938,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 673,
+      "stars": 676,
       "tags": [
         "persona",
         "self",
@@ -968,7 +968,7 @@
       ],
       "addedAt": "2026-04-04",
       "updatedAt": "2026-04-04",
-      "stars": 7,
+      "stars": 8,
       "readmeLocales": [
         "zh"
       ]
@@ -1007,7 +1007,7 @@
       "category": "celebrity",
       "author": "Janlaywss",
       "github": "https://github.com/Janlaywss/hu-chenfeng-skill",
-      "stars": 213,
+      "stars": 212,
       "tags": [
         "celebrity",
         "consumption",
@@ -1053,7 +1053,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 2974,
+      "stars": 2984,
       "tags": [
         "tool",
         "methodology",
@@ -1131,7 +1131,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 631,
+      "stars": 639,
       "readmeLocales": [
         "zh"
       ]
@@ -1390,7 +1390,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 167,
+      "stars": 168,
       "readmeLocales": [
         "en",
         "zh"
@@ -1540,7 +1540,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 1789,
+      "stars": 1794,
       "readmeLocales": [
         "zh"
       ]
@@ -1730,7 +1730,7 @@
       "category": "celebrity",
       "author": "wwwaapplleecu-source",
       "github": "https://github.com/wwwaapplleecu-source/mao-skill",
-      "stars": 78,
+      "stars": 79,
       "tags": [
         "celebrity",
         "methodology",
