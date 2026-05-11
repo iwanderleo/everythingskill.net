@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-05-04",
+  "scannedAt": "2026-05-11",
   "source": "https://raw.githubusercontent.com/xixu-me/awesome-persona-distill-skills/main/README.md",
-  "totalInSource": 67,
+  "totalInSource": 69,
   "totalInDatabase": 77,
-  "missingCount": 14,
+  "missingCount": 16,
   "missing": [
     {
       "github": "https://github.com/cantian-ai/bazi-persona-skill",
@@ -16,6 +16,11 @@
       "ownerRepo": "Aar0nPB/curator-skill"
     },
     {
+      "github": "https://github.com/voidborne-d/master-skill",
+      "repoName": "master-skill",
+      "ownerRepo": "voidborne-d/master-skill"
+    },
+    {
       "github": "https://github.com/realteamprinz/midas-skill",
       "repoName": "midas-skill",
       "ownerRepo": "realteamprinz/midas-skill"
@@ -24,6 +29,11 @@
       "github": "https://github.com/Tomsawyerhu/Persona-Skill",
       "repoName": "Persona-Skill",
       "ownerRepo": "Tomsawyerhu/Persona-Skill"
+    },
+    {
+      "github": "https://github.com/c0ffee-milk/skill-fidelity-bench",
+      "repoName": "skill-fidelity-bench",
+      "ownerRepo": "c0ffee-milk/skill-fidelity-bench"
     },
     {
       "github": "https://github.com/linzzzzzz/zhuzi-skill",
