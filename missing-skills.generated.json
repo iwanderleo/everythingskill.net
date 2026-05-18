@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-05-11",
+  "scannedAt": "2026-05-18",
   "source": "https://raw.githubusercontent.com/xixu-me/awesome-persona-distill-skills/main/README.md",
-  "totalInSource": 69,
+  "totalInSource": 71,
   "totalInDatabase": 77,
-  "missingCount": 16,
+  "missingCount": 18,
   "missing": [
     {
       "github": "https://github.com/cantian-ai/bazi-persona-skill",
@@ -66,9 +66,19 @@
       "ownerRepo": "fisher-yu-like/justin-bieber-skill"
     },
     {
+      "github": "https://github.com/youaifuou/karl-marx-skill",
+      "repoName": "karl-marx-skill",
+      "ownerRepo": "youaifuou/karl-marx-skill"
+    },
+    {
       "github": "https://github.com/1sh1ro/liangxi-skills",
       "repoName": "liangxi-skills",
       "ownerRepo": "1sh1ro/liangxi-skills"
+    },
+    {
+      "github": "https://github.com/youaifuou/luxun-skill",
+      "repoName": "luxun-skill",
+      "ownerRepo": "youaifuou/luxun-skill"
     },
     {
       "github": "https://github.com/fisher-yu-like/wang-er-skill",
