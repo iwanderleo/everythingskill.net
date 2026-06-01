@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-25",
+  "scannedAt": "2026-06-01",
   "source": "https://raw.githubusercontent.com/xixu-me/awesome-persona-distill-skills/main/README.md",
   "totalInSource": 71,
   "totalInDatabase": 77,
@@ -16,9 +16,9 @@
       "ownerRepo": "Aar0nPB/curator-skill"
     },
     {
-      "github": "https://github.com/voidborne-d/master-skill",
+      "github": "https://github.com/swaylq/master-skill",
       "repoName": "master-skill",
-      "ownerRepo": "voidborne-d/master-skill"
+      "ownerRepo": "swaylq/master-skill"
     },
     {
       "github": "https://github.com/realteamprinz/midas-skill",
