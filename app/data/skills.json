@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-06-04",
+  "lastSyncedAt": "2026-06-05",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 18962,
+      "stars": 19025,
       "tags": [
         "workplace",
         "distillation",
@@ -131,7 +131,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 848,
+      "stars": 849,
       "tags": [
         "twitter",
         "content",
@@ -179,7 +179,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 22603,
+      "stars": 22758,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +207,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 5406,
+      "stars": 5407,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +230,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 2898,
+      "stars": 2900,
       "tags": [
         "persona",
         "self",
@@ -269,29 +269,6 @@
       ]
     },
     {
-      "id": "anti-distill",
-      "slug": "anti-distill",
-      "name": "Anti-Distill.skill",
-      "nameZh": "反蒸馏.skill",
-      "summary": "Poison your Skill docs when forced to write them — keep your core knowledge safe.",
-      "summaryZh": "公司让你写 Skill 文档时\"投毒\"，核心知识自己留着。",
-      "detailIntroZh": "当公司要求「分享你的工作方法」或「把经验写成 Skill 文档」时，这个 Skill 帮你生成一份貌似完整、实则关键知识被巧妙混淆的文档。表面配合，核心竞争力永远留给自己。\n\n这是一个存在于 .skill 生态灰色地带的防御性 Skill，但它折射出一个真实的职场逻辑：知识的边界即权力的边界。在知识经济时代，保护核心认知资产是一种理性选择。",
-      "category": "defense",
-      "author": "leilei926524-tech",
-      "github": "https://github.com/leilei926524-tech/anti-distill",
-      "stars": 2291,
-      "tags": [
-        "defense",
-        "privacy",
-        "counter"
-      ],
-      "addedAt": "2026-03-06",
-      "updatedAt": "2026-03-06",
-      "readmeLocales": [
-        "zh"
-      ]
-    },
-    {
       "id": "steve-jobs",
       "slug": "steve-jobs-skill",
       "name": "Steve Jobs.skill",
@@ -302,7 +279,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 861,
+      "stars": 860,
       "tags": [
         "celebrity",
         "product",
@@ -326,7 +303,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 343,
+      "stars": 346,
       "tags": [
         "celebrity",
         "tech",
@@ -350,7 +327,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/munger-skill",
-      "stars": 249,
+      "stars": 253,
       "tags": [
         "celebrity",
         "investment",
@@ -373,7 +350,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/feynman-skill",
-      "stars": 171,
+      "stars": 172,
       "tags": [
         "education",
         "teaching",
@@ -442,7 +419,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 7548,
+      "stars": 7570,
       "tags": [
         "education",
         "practical",
@@ -488,7 +465,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhang-yiming-skill",
-      "stars": 117,
+      "stars": 118,
       "tags": [
         "celebrity",
         "tech",
@@ -558,7 +535,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/mrbeast-skill",
-      "stars": 59,
+      "stars": 60,
       "tags": [
         "media",
         "youtube",
@@ -604,7 +581,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 1675,
+      "stars": 1688,
       "tags": [
         "mystical",
         "fortune",
@@ -628,7 +605,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 223,
+      "stars": 224,
       "tags": [
         "mystical",
         "love",
@@ -658,7 +635,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 760,
+      "stars": 766,
       "readmeLocales": [
         "zh"
       ]
@@ -721,7 +698,7 @@
       "category": "workplace",
       "author": "CommitHu502Craft",
       "github": "https://github.com/CommitHu502Craft/professor-skill",
-      "stars": 21,
+      "stars": 22,
       "tags": [
         "workplace",
         "education",
@@ -768,7 +745,7 @@
       "category": "relationship",
       "author": "xiaoheizi8",
       "github": "https://github.com/xiaoheizi8/crush-skills",
-      "stars": 222,
+      "stars": 223,
       "tags": [
         "relationship",
         "persona",
@@ -792,7 +769,7 @@
       "category": "relationship",
       "author": "z969081067-commits",
       "github": "https://github.com/z969081067-commits/first-love-skill",
-      "stars": 10,
+      "stars": 11,
       "tags": [
         "relationship",
         "memory",
@@ -915,7 +892,7 @@
       "category": "persona",
       "author": "wildbyteai",
       "github": "https://github.com/wildbyteai/digital-life",
-      "stars": 48,
+      "stars": 49,
       "tags": [
         "persona",
         "self",
@@ -938,7 +915,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 806,
+      "stars": 809,
       "tags": [
         "persona",
         "self",
@@ -1030,7 +1007,7 @@
       "category": "media",
       "author": "Walshyu",
       "github": "https://github.com/Walshyu/fengge-skill",
-      "stars": 27,
+      "stars": 28,
       "tags": [
         "media",
         "documentary",
@@ -1053,7 +1030,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3202,
+      "stars": 3208,
       "tags": [
         "tool",
         "methodology",
@@ -1107,7 +1084,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 16,
+      "stars": 17,
       "readmeLocales": [
         "en",
         "ja",
@@ -1131,7 +1108,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 821,
+      "stars": 823,
       "readmeLocales": [
         "zh"
       ]
@@ -1152,7 +1129,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 75,
+      "stars": 76,
       "readmeLocales": [
         "en",
         "zh"
@@ -1263,7 +1240,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 9,
+      "stars": 10,
       "readmeLocales": [
         "en",
         "zh"
@@ -1540,7 +1517,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2222,
+      "stars": 2239,
       "readmeLocales": [
         "zh"
       ]

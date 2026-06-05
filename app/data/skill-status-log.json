@@ -23,6 +23,14 @@
       "action": "archived",
       "reason": "github_404",
       "github": "https://github.com/lisi/frontend-skills"
+    },
+    {
+      "date": "2026-06-05",
+      "skillId": "anti-distill",
+      "skillName": "反蒸馏.skill",
+      "action": "archived",
+      "reason": "github_404",
+      "github": "https://github.com/leilei926524-tech/anti-distill"
     }
   ]
 }

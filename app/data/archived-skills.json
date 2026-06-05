@@ -59,6 +59,30 @@
       "updatedAt": "2026-04-12",
       "archivedAt": "2026-04-12",
       "archivedReason": "github_404"
+    },
+    {
+      "id": "anti-distill",
+      "slug": "anti-distill",
+      "name": "Anti-Distill.skill",
+      "nameZh": "反蒸馏.skill",
+      "summary": "Poison your Skill docs when forced to write them — keep your core knowledge safe.",
+      "summaryZh": "公司让你写 Skill 文档时\"投毒\"，核心知识自己留着。",
+      "detailIntroZh": "当公司要求「分享你的工作方法」或「把经验写成 Skill 文档」时，这个 Skill 帮你生成一份貌似完整、实则关键知识被巧妙混淆的文档。表面配合，核心竞争力永远留给自己。\n\n这是一个存在于 .skill 生态灰色地带的防御性 Skill，但它折射出一个真实的职场逻辑：知识的边界即权力的边界。在知识经济时代，保护核心认知资产是一种理性选择。",
+      "category": "defense",
+      "author": "leilei926524-tech",
+      "github": "https://github.com/leilei926524-tech/anti-distill",
+      "tags": [
+        "defense",
+        "privacy",
+        "counter"
+      ],
+      "addedAt": "2026-03-06",
+      "updatedAt": "2026-06-05",
+      "readmeLocales": [
+        "zh"
+      ],
+      "archivedAt": "2026-06-05",
+      "archivedReason": "github_404"
     }
   ]
 }
