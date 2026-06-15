@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-06-08",
+  "scannedAt": "2026-06-15",
   "source": "https://raw.githubusercontent.com/xixu-me/awesome-persona-distill-skills/main/README.md",
   "totalInSource": 71,
   "totalInDatabase": 76,
-  "missingCount": 18,
+  "missingCount": 19,
   "missing": [
     {
       "github": "https://github.com/cantian-ai/bazi-persona-skill",
@@ -24,6 +24,11 @@
       "github": "https://github.com/realteamprinz/midas-skill",
       "repoName": "midas-skill",
       "ownerRepo": "realteamprinz/midas-skill"
+    },
+    {
+      "github": "https://github.com/lcmomo/my-anti-distill",
+      "repoName": "my-anti-distill",
+      "ownerRepo": "lcmomo/my-anti-distill"
     },
     {
       "github": "https://github.com/Tomsawyerhu/Persona-Skill",
