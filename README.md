@@ -28,7 +28,7 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 
 ## Skill Directory
 
-> 76 Skills · 10 Categories · Last synced 2026-06-30
+> 77 Skills · 10 Categories · Last synced 2026-07-01
 
 ### Workplace
 
@@ -132,6 +132,7 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 
 - [本科生科研组反蒸馏.skill](https://github.com/moismin/undergrad-research-anti-distill-template) — An anti-distillation template for undergrad researchers about to leave their lab. Maintains surface-level documentation completeness while carefully protecting your truly scarce tacit knowledge from being extracted by advisors trying to distill you.
 - [厉鬼](https://github.com/Trailblazer-Aha/vengeful-ghost-skill) — The last line of defense against IP theft. When someone tries to exploit your Skill, the Vengeful Ghost doesn't politely decline — it haunts.
+- [Anti-Distill.skill](https://github.com/leilei926524-tech/anti-distill) — Poison your Skill docs when forced to write them — keep your core knowledge safe.
 
 ## Submit a Skill
 

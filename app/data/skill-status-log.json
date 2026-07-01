@@ -31,6 +31,13 @@
       "action": "archived",
       "reason": "github_404",
       "github": "https://github.com/leilei926524-tech/anti-distill"
+    },
+    {
+      "date": "2026-07-01",
+      "skillId": "anti-distill",
+      "skillName": "反蒸馏.skill",
+      "action": "restored",
+      "github": "https://github.com/leilei926524-tech/anti-distill"
     }
   ]
 }

@@ -28,7 +28,7 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 
 ## Skill 目录
 
-> 76 个 Skill · 10 个分类 · 最后同步 2026-06-30
+> 77 个 Skill · 10 个分类 · 最后同步 2026-07-01
 
 ### 职场
 
@@ -132,6 +132,7 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 
 - [本科生科研组反蒸馏.skill](https://github.com/moismin/undergrad-research-anti-distill-template) — 面向「本科生在大学科研组」场景的反蒸馏模板。 在即将离开科研组、导师试图蒸馏你的场景中，保留文档表面完整性，同时避免无意暴露你真正稀缺的隐性资产。
 - [厉鬼](https://github.com/Trailblazer-Aha/vengeful-ghost-skill) — IP 侵权的最后防线。当有人试图滥用或盗用你的 Skill， 厉鬼会以更激烈的方式宣示边界——不是礼貌拒绝，是震慑。
+- [反蒸馏.skill](https://github.com/leilei926524-tech/anti-distill) — 公司让你写 Skill 文档时"投毒"，核心知识自己留着。
 
 ## 提交 Skill
 
