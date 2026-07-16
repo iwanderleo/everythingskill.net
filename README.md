@@ -28,7 +28,7 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 
 ## Skill Directory
 
-> 77 Skills · 10 Categories · Last synced 2026-07-15
+> 77 Skills · 10 Categories · Last synced 2026-07-16
 
 ### Workplace
 
