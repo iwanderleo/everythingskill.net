@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-07-24",
+  "lastSyncedAt": "2026-07-25",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 20478,
+      "stars": 20494,
       "tags": [
         "workplace",
         "distillation",
@@ -108,7 +108,7 @@
       "category": "workplace",
       "author": "vogtsw",
       "github": "https://github.com/vogtsw/boss-skills",
-      "stars": 228,
+      "stars": 229,
       "tags": [
         "workplace",
         "management"
@@ -131,7 +131,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1083,
+      "stars": 1084,
       "tags": [
         "twitter",
         "content",
@@ -162,7 +162,7 @@
       ],
       "addedAt": "2026-03-01",
       "updatedAt": "2026-03-01",
-      "stars": 78,
+      "stars": 79,
       "readmeLocales": [
         "en",
         "zh"
@@ -179,7 +179,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 28656,
+      "stars": 28717,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +207,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 5881,
+      "stars": 5885,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +230,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3201,
+      "stars": 3204,
       "tags": [
         "persona",
         "self",
@@ -255,7 +255,7 @@
       "category": "tool",
       "author": "YIKUAIBANZI",
       "github": "https://github.com/YIKUAIBANZI/forge-skill",
-      "stars": 101,
+      "stars": 102,
       "tags": [
         "distillation",
         "engine"
@@ -279,7 +279,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 911,
+      "stars": 913,
       "tags": [
         "celebrity",
         "product",
@@ -419,7 +419,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 9980,
+      "stars": 9987,
       "tags": [
         "education",
         "practical",
@@ -581,7 +581,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 2268,
+      "stars": 2278,
       "tags": [
         "mystical",
         "fortune",
@@ -605,7 +605,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 255,
+      "stars": 256,
       "tags": [
         "mystical",
         "love",
@@ -635,7 +635,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 883,
+      "stars": 885,
       "readmeLocales": [
         "zh"
       ]
@@ -651,7 +651,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 309,
+      "stars": 310,
       "tags": [
         "mystical",
         "buddhism",
@@ -675,7 +675,7 @@
       "category": "workplace",
       "author": "ybq22",
       "github": "https://github.com/ybq22/supervisor",
-      "stars": 171,
+      "stars": 172,
       "tags": [
         "workplace",
         "academia",
@@ -698,7 +698,7 @@
       "category": "workplace",
       "author": "CommitHu502Craft",
       "github": "https://github.com/CommitHu502Craft/professor-skill",
-      "stars": 58,
+      "stars": 60,
       "tags": [
         "workplace",
         "education",
@@ -915,7 +915,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 918,
+      "stars": 922,
       "tags": [
         "persona",
         "self",
@@ -1030,7 +1030,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3620,
+      "stars": 3624,
       "tags": [
         "tool",
         "methodology",
@@ -1108,7 +1108,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 986,
+      "stars": 987,
       "readmeLocales": [
         "zh"
       ]
@@ -1193,7 +1193,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 4,
+      "stars": 5,
       "readmeLocales": [
         "de",
         "en",
@@ -1517,7 +1517,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2509,
+      "stars": 2513,
       "readmeLocales": [
         "zh"
       ]
@@ -1835,7 +1835,7 @@
       "readmeLocales": [
         "zh"
       ],
-      "stars": 2330
+      "stars": 2332
     }
   ]
 }
