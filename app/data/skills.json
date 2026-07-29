@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-07-28",
+  "lastSyncedAt": "2026-07-29",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 20551,
+      "stars": 20576,
       "tags": [
         "workplace",
         "distillation",
@@ -108,7 +108,7 @@
       "category": "workplace",
       "author": "vogtsw",
       "github": "https://github.com/vogtsw/boss-skills",
-      "stars": 232,
+      "stars": 233,
       "tags": [
         "workplace",
         "management"
@@ -131,7 +131,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1088,
+      "stars": 1106,
       "tags": [
         "twitter",
         "content",
@@ -179,7 +179,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 28934,
+      "stars": 29054,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +207,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 5899,
+      "stars": 5908,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +230,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3219,
+      "stars": 3222,
       "tags": [
         "persona",
         "self",
@@ -255,7 +255,7 @@
       "category": "tool",
       "author": "YIKUAIBANZI",
       "github": "https://github.com/YIKUAIBANZI/forge-skill",
-      "stars": 102,
+      "stars": 103,
       "tags": [
         "distillation",
         "engine"
@@ -303,7 +303,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 457,
+      "stars": 458,
       "tags": [
         "celebrity",
         "tech",
@@ -373,7 +373,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/naval-skill",
-      "stars": 217,
+      "stars": 218,
       "tags": [
         "celebrity",
         "philosophy",
@@ -396,7 +396,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/taleb-skill",
-      "stars": 108,
+      "stars": 110,
       "tags": [
         "celebrity",
         "risk",
@@ -419,7 +419,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10018,
+      "stars": 10029,
       "tags": [
         "education",
         "practical",
@@ -465,7 +465,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhang-yiming-skill",
-      "stars": 148,
+      "stars": 149,
       "tags": [
         "celebrity",
         "tech",
@@ -535,7 +535,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/mrbeast-skill",
-      "stars": 93,
+      "stars": 94,
       "tags": [
         "media",
         "youtube",
@@ -581,7 +581,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 2299,
+      "stars": 2304,
       "tags": [
         "mystical",
         "fortune",
@@ -635,7 +635,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 893,
+      "stars": 894,
       "readmeLocales": [
         "zh"
       ]
@@ -651,7 +651,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 312,
+      "stars": 313,
       "tags": [
         "mystical",
         "buddhism",
@@ -915,7 +915,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 929,
+      "stars": 934,
       "tags": [
         "persona",
         "self",
@@ -1007,7 +1007,7 @@
       "category": "media",
       "author": "Walshyu",
       "github": "https://github.com/Walshyu/fengge-skill",
-      "stars": 41,
+      "stars": 42,
       "tags": [
         "media",
         "documentary",
@@ -1030,7 +1030,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3646,
+      "stars": 3650,
       "tags": [
         "tool",
         "methodology",
@@ -1108,7 +1108,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 991,
+      "stars": 996,
       "readmeLocales": [
         "zh"
       ]
@@ -1240,7 +1240,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 17,
+      "stars": 18,
       "readmeLocales": [
         "en",
         "zh"
@@ -1367,7 +1367,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 282,
+      "stars": 283,
       "readmeLocales": [
         "en",
         "zh"
@@ -1453,7 +1453,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 130,
+      "stars": 132,
       "readmeLocales": [
         "zh"
       ]
@@ -1517,7 +1517,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2523,
+      "stars": 2526,
       "readmeLocales": [
         "zh"
       ]
@@ -1835,7 +1835,7 @@
       "readmeLocales": [
         "zh"
       ],
-      "stars": 2335
+      "stars": 2337
     }
   ]
 }
