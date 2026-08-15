@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-08-14",
+  "lastSyncedAt": "2026-08-15",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 21459,
+      "stars": 22084,
       "tags": [
         "workplace",
         "distillation",
@@ -108,7 +108,7 @@
       "category": "workplace",
       "author": "vogtsw",
       "github": "https://github.com/vogtsw/boss-skills",
-      "stars": 235,
+      "stars": 236,
       "tags": [
         "workplace",
         "management"
@@ -131,7 +131,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1151,
+      "stars": 1152,
       "tags": [
         "twitter",
         "content",
@@ -179,7 +179,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 30539,
+      "stars": 30613,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +207,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 5994,
+      "stars": 6001,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +230,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3289,
+      "stars": 3294,
       "tags": [
         "persona",
         "self",
@@ -303,7 +303,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 476,
+      "stars": 480,
       "tags": [
         "celebrity",
         "tech",
@@ -327,7 +327,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/munger-skill",
-      "stars": 337,
+      "stars": 338,
       "tags": [
         "celebrity",
         "investment",
@@ -350,7 +350,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/feynman-skill",
-      "stars": 244,
+      "stars": 246,
       "tags": [
         "education",
         "teaching",
@@ -373,7 +373,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/naval-skill",
-      "stars": 224,
+      "stars": 226,
       "tags": [
         "celebrity",
         "philosophy",
@@ -396,7 +396,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/taleb-skill",
-      "stars": 114,
+      "stars": 115,
       "tags": [
         "celebrity",
         "risk",
@@ -419,7 +419,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10128,
+      "stars": 10134,
       "tags": [
         "education",
         "practical",
@@ -488,7 +488,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/karpathy-skill",
-      "stars": 291,
+      "stars": 292,
       "tags": [
         "education",
         "AI",
@@ -581,7 +581,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 2509,
+      "stars": 2524,
       "tags": [
         "mystical",
         "fortune",
@@ -635,7 +635,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 933,
+      "stars": 932,
       "readmeLocales": [
         "zh"
       ]
@@ -915,7 +915,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 978,
+      "stars": 980,
       "tags": [
         "persona",
         "self",
@@ -1030,7 +1030,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3707,
+      "stars": 3706,
       "tags": [
         "tool",
         "methodology",
@@ -1346,7 +1346,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 116,
+      "stars": 115,
       "readmeLocales": [
         "zh"
       ]
@@ -1517,7 +1517,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2567,
+      "stars": 2568,
       "readmeLocales": [
         "zh"
       ]
@@ -1835,7 +1835,7 @@
       "readmeLocales": [
         "zh"
       ],
-      "stars": 2371
+      "stars": 2372
     }
   ]
 }
