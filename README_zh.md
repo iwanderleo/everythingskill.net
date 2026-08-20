@@ -28,7 +28,7 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 
 ## Skill 目录
 
-> 77 个 Skill · 10 个分类 · 最后同步 2026-08-19
+> 77 个 Skill · 10 个分类 · 最后同步 2026-08-20
 
 ### 职场
 
