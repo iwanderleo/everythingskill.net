@@ -28,7 +28,7 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 
 ## Skill Directory
 
-> 77 Skills · 10 Categories · Last synced 2026-09-12
+> 76 Skills · 10 Categories · Last synced 2026-09-13
 
 ### Workplace
 
@@ -126,7 +126,6 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 - [Qiushi.skill](https://github.com/HughYau/qiushi-skill) — One guiding principle + nine methodology weapons distilled from Mao's thought — arm your AI's brain.
 - [Taotie.skill](https://github.com/binggandata/bggg-skill-taotie) — Feed excellent Skills to Taotie and let your Skill evolve on its own.
 - [四绝客奇卷・暗行秘典](https://github.com/prog-le/penetration-team) — The Four Wanderers' Secret Penetration Manual. For authorized security testing only — four virtual specialists covering different attack surfaces, working together within sanctioned scope.
-- [骂人求职信.skill](https://github.com/Schlaflied/roast-cold-email-skill) — For companies that preach "AI transformation" but filter candidates with ATS and list "AI" 17 times in a JD written by someone who's never opened a GCP console. No flattery. No begging. Just facts — then leave.
 
 ### Defense
 

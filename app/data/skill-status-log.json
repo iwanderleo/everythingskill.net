@@ -38,6 +38,14 @@
       "skillName": "反蒸馏.skill",
       "action": "restored",
       "github": "https://github.com/leilei926524-tech/anti-distill"
+    },
+    {
+      "date": "2026-09-13",
+      "skillId": "roast-cold-email",
+      "skillName": "骂人求职信.skill",
+      "action": "archived",
+      "reason": "github_404",
+      "github": "https://github.com/Schlaflied/roast-cold-email-skill"
     }
   ]
 }

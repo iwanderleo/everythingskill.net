@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-12",
+  "lastSyncedAt": "2026-09-13",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 24640,
+      "stars": 24666,
       "tags": [
         "workplace",
         "distillation",
@@ -131,7 +131,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1207,
+      "stars": 1208,
       "tags": [
         "twitter",
         "content",
@@ -179,7 +179,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 32467,
+      "stars": 32522,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +207,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6301,
+      "stars": 6307,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +230,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3364,
+      "stars": 3366,
       "tags": [
         "persona",
         "self",
@@ -350,7 +350,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/feynman-skill",
-      "stars": 269,
+      "stars": 270,
       "tags": [
         "education",
         "teaching",
@@ -373,7 +373,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/naval-skill",
-      "stars": 245,
+      "stars": 246,
       "tags": [
         "celebrity",
         "philosophy",
@@ -419,7 +419,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10269,
+      "stars": 10273,
       "tags": [
         "education",
         "practical",
@@ -581,7 +581,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 3017,
+      "stars": 3019,
       "tags": [
         "mystical",
         "fortune",
@@ -635,7 +635,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 1179,
+      "stars": 1180,
       "readmeLocales": [
         "zh"
       ]
@@ -915,7 +915,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 1034,
+      "stars": 1036,
       "tags": [
         "persona",
         "self",
@@ -1007,7 +1007,7 @@
       "category": "media",
       "author": "Walshyu",
       "github": "https://github.com/Walshyu/fengge-skill",
-      "stars": 45,
+      "stars": 46,
       "tags": [
         "media",
         "documentary",
@@ -1030,7 +1030,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3774,
+      "stars": 3776,
       "tags": [
         "tool",
         "methodology",
@@ -1108,7 +1108,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1135,
+      "stars": 1137,
       "readmeLocales": [
         "zh"
       ]
@@ -1219,7 +1219,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 1,
+      "stars": 2,
       "readmeLocales": [
         "zh"
       ]
@@ -1367,7 +1367,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 307,
+      "stars": 308,
       "readmeLocales": [
         "en",
         "zh"
@@ -1480,28 +1480,6 @@
       ]
     },
     {
-      "id": "roast-cold-email",
-      "slug": "roast-cold-email-skill",
-      "name": "骂人求职信.skill",
-      "nameZh": "骂人求职信.skill",
-      "summary": "For companies that preach \"AI transformation\" but filter candidates with ATS and list \"AI\" 17 times in a JD written by someone who's never opened a GCP console. No flattery. No begging. Just facts — then leave.",
-      "summaryZh": "专门针对那些\"AI transformation\"但招人靠 ATS、JD 里 AI 出现 17 次但没人摸过 GCP 的公司。 不赞美，不求职，只陈述事实——然后离开。Senior Director 级别的人会在 24 分钟内回复并说\"condescending\"，说明戳到了。",
-      "detailIntroZh": "专门针对那些\"AI transformation\"但招人靠 ATS、JD 里 AI 出现 17 次但没人摸过 GCP 的公司。 不赞美，不求职，只陈述事实——然后离开。Senior Director 级别的人会在 24 分钟内回复并说\"condescending\"，说明戳到了。",
-      "category": "tool",
-      "author": "Schlaflied",
-      "github": "https://github.com/Schlaflied/roast-cold-email-skill",
-      "tags": [
-        "other"
-      ],
-      "addedAt": "2026-04-07",
-      "updatedAt": "2026-04-07",
-      "stars": 4,
-      "readmeLocales": [
-        "en",
-        "zh"
-      ]
-    },
-    {
       "id": "tong-jincheng",
       "slug": "tong-jincheng-skill",
       "name": "童锦程.skill",
@@ -1517,7 +1495,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2612,
+      "stars": 2615,
       "readmeLocales": [
         "zh"
       ]
@@ -1835,7 +1813,7 @@
       "readmeLocales": [
         "zh"
       ],
-      "stars": 2423
+      "stars": 2425
     }
   ]
 }
