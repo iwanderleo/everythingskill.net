@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-09-14",
+  "lastSyncedAt": "2026-09-15",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 24693,
+      "stars": 24744,
       "tags": [
         "workplace",
         "distillation",
@@ -131,7 +131,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1209,
+      "stars": 1211,
       "tags": [
         "twitter",
         "content",
@@ -162,7 +162,7 @@
       ],
       "addedAt": "2026-03-01",
       "updatedAt": "2026-03-01",
-      "stars": 87,
+      "stars": 88,
       "readmeLocales": [
         "en",
         "zh"
@@ -179,7 +179,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 32593,
+      "stars": 32662,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +207,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6311,
+      "stars": 6312,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +230,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3366,
+      "stars": 3372,
       "tags": [
         "persona",
         "self",
@@ -350,7 +350,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/feynman-skill",
-      "stars": 270,
+      "stars": 273,
       "tags": [
         "education",
         "teaching",
@@ -373,7 +373,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/naval-skill",
-      "stars": 246,
+      "stars": 247,
       "tags": [
         "celebrity",
         "philosophy",
@@ -419,7 +419,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10277,
+      "stars": 10282,
       "tags": [
         "education",
         "practical",
@@ -581,7 +581,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 3032,
+      "stars": 3039,
       "tags": [
         "mystical",
         "fortune",
@@ -605,7 +605,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 360,
+      "stars": 361,
       "tags": [
         "mystical",
         "love",
@@ -635,7 +635,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 1184,
+      "stars": 1190,
       "readmeLocales": [
         "zh"
       ]
@@ -651,7 +651,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 393,
+      "stars": 394,
       "tags": [
         "mystical",
         "buddhism",
@@ -745,7 +745,7 @@
       "category": "relationship",
       "author": "xiaoheizi8",
       "github": "https://github.com/xiaoheizi8/crush-skills",
-      "stars": 354,
+      "stars": 355,
       "tags": [
         "relationship",
         "persona",
@@ -793,7 +793,7 @@
       "category": "relationship",
       "author": "NatalieCao323",
       "github": "https://github.com/NatalieCao323/partner-skill",
-      "stars": 49,
+      "stars": 50,
       "tags": [
         "relationship",
         "companion",
@@ -915,7 +915,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 1036,
+      "stars": 1037,
       "tags": [
         "persona",
         "self",
@@ -1108,7 +1108,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1139,
+      "stars": 1145,
       "readmeLocales": [
         "zh"
       ]
@@ -1129,7 +1129,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 114,
+      "stars": 115,
       "readmeLocales": [
         "en",
         "zh"
@@ -1346,7 +1346,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 125,
+      "stars": 127,
       "readmeLocales": [
         "zh"
       ]
@@ -1495,7 +1495,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2615,
+      "stars": 2617,
       "readmeLocales": [
         "zh"
       ]
