@@ -59,29 +59,6 @@
       "updatedAt": "2026-04-12",
       "archivedAt": "2026-04-12",
       "archivedReason": "github_404"
-    },
-    {
-      "id": "roast-cold-email",
-      "slug": "roast-cold-email-skill",
-      "name": "骂人求职信.skill",
-      "nameZh": "骂人求职信.skill",
-      "summary": "For companies that preach \"AI transformation\" but filter candidates with ATS and list \"AI\" 17 times in a JD written by someone who's never opened a GCP console. No flattery. No begging. Just facts — then leave.",
-      "summaryZh": "专门针对那些\"AI transformation\"但招人靠 ATS、JD 里 AI 出现 17 次但没人摸过 GCP 的公司。 不赞美，不求职，只陈述事实——然后离开。Senior Director 级别的人会在 24 分钟内回复并说\"condescending\"，说明戳到了。",
-      "detailIntroZh": "专门针对那些\"AI transformation\"但招人靠 ATS、JD 里 AI 出现 17 次但没人摸过 GCP 的公司。 不赞美，不求职，只陈述事实——然后离开。Senior Director 级别的人会在 24 分钟内回复并说\"condescending\"，说明戳到了。",
-      "category": "tool",
-      "author": "Schlaflied",
-      "github": "https://github.com/Schlaflied/roast-cold-email-skill",
-      "tags": [
-        "other"
-      ],
-      "addedAt": "2026-04-07",
-      "updatedAt": "2026-09-13",
-      "readmeLocales": [
-        "en",
-        "zh"
-      ],
-      "archivedAt": "2026-09-13",
-      "archivedReason": "github_404"
     }
   ]
 }

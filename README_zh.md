@@ -28,7 +28,7 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 
 ## Skill 目录
 
-> 76 个 Skill · 10 个分类 · 最后同步 2026-09-20
+> 77 个 Skill · 10 个分类 · 最后同步 2026-09-21
 
 ### 职场
 
@@ -126,6 +126,7 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 - [求是.skill](https://github.com/HughYau/qiushi-skill) — 从教员思想中提炼一条总原则与九大方法论武器，系统性武装 AI 的大脑。
 - [饕餮.skill](https://github.com/binggandata/bggg-skill-taotie) — 把优秀的 Skill 喂给饕餮，让你的 Skill 自己进化。
 - [四绝客奇卷・暗行秘典](https://github.com/prog-le/penetration-team) — 江湖渗透密卷・四绝客行。仅适用于已获明确授权的安全渗透测试场景， 集四位专精不同方向的虚拟安全专家于一体，协助完成授权范围内的渗透试炼。
+- [骂人求职信.skill](https://github.com/Schlaflied/roast-cold-email-skill) — 专门针对那些"AI transformation"但招人靠 ATS、JD 里 AI 出现 17 次但没人摸过 GCP 的公司。 不赞美，不求职，只陈述事实——然后离开。Senior Director 级别的人会在 24 分钟内回复并说"condescending"，说明戳到了。
 
 ### 防御
 
