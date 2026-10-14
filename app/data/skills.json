@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-10-13",
+  "lastSyncedAt": "2026-10-14",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 25552,
+      "stars": 25590,
       "tags": [
         "workplace",
         "distillation",
@@ -131,7 +131,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1272,
+      "stars": 1275,
       "tags": [
         "twitter",
         "content",
@@ -179,7 +179,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 34222,
+      "stars": 34322,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +207,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6474,
+      "stars": 6481,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +230,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3442,
+      "stars": 3447,
       "tags": [
         "persona",
         "self",
@@ -279,7 +279,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 959,
+      "stars": 961,
       "tags": [
         "celebrity",
         "product",
@@ -303,7 +303,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 539,
+      "stars": 541,
       "tags": [
         "celebrity",
         "tech",
@@ -419,7 +419,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10466,
+      "stars": 10480,
       "tags": [
         "education",
         "practical",
@@ -581,7 +581,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 3461,
+      "stars": 3470,
       "tags": [
         "mystical",
         "fortune",
@@ -605,7 +605,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 447,
+      "stars": 451,
       "tags": [
         "mystical",
         "love",
@@ -635,7 +635,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 1417,
+      "stars": 1423,
       "readmeLocales": [
         "zh"
       ]
@@ -651,7 +651,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 457,
+      "stars": 461,
       "tags": [
         "mystical",
         "buddhism",
@@ -845,7 +845,7 @@
       "category": "relationship",
       "author": "ceetity",
       "github": "https://github.com/ceetity/her-skill",
-      "stars": 93,
+      "stars": 94,
       "tags": [
         "relationship",
         "persona",
@@ -984,7 +984,7 @@
       "category": "celebrity",
       "author": "Janlaywss",
       "github": "https://github.com/Janlaywss/hu-chenfeng-skill",
-      "stars": 244,
+      "stars": 245,
       "tags": [
         "celebrity",
         "consumption",
@@ -1108,7 +1108,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1214,
+      "stars": 1216,
       "readmeLocales": [
         "zh"
       ]
@@ -1453,7 +1453,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 161,
+      "stars": 164,
       "readmeLocales": [
         "zh"
       ]
@@ -1495,7 +1495,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2869,
+      "stars": 2880,
       "readmeLocales": [
         "zh"
       ]
@@ -1813,7 +1813,7 @@
       "readmeLocales": [
         "zh"
       ],
-      "stars": 2441
+      "stars": 2440
     },
     {
       "id": "roast-cold-email",
