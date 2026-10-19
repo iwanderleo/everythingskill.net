@@ -1,10 +1,15 @@
 {
-  "scannedAt": "2026-10-12",
+  "scannedAt": "2026-10-19",
   "source": "https://raw.githubusercontent.com/xixu-me/awesome-persona-distill-skills/main/README.md",
-  "totalInSource": 71,
+  "totalInSource": 72,
   "totalInDatabase": 77,
-  "missingCount": 19,
+  "missingCount": 20,
   "missing": [
+    {
+      "github": "https://github.com/renoise-ai/renoise-plugins-official",
+      "repoName": "renoise-plugins-official",
+      "ownerRepo": "renoise-ai/renoise-plugins-official"
+    },
     {
       "github": "https://github.com/cantian-ai/bazi-persona-skill",
       "repoName": "bazi-persona-skill",
