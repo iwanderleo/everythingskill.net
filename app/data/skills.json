@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-11",
+  "lastSyncedAt": "2026-11-12",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 26509,
+      "stars": 26529,
       "tags": [
         "workplace",
         "distillation",
@@ -94,29 +94,6 @@
       "addedAt": "2026-02-26",
       "updatedAt": "2026-02-26",
       "readmeLocales": [
-        "zh"
-      ]
-    },
-    {
-      "id": "boss",
-      "slug": "boss-skills",
-      "name": "Boss.skill",
-      "nameZh": "老板.skill",
-      "summary": "Distill your boss into tokens — keep the productivity for yourself.",
-      "summaryZh": "把老板炼入 token，把生产力的解放留给自己。",
-      "detailIntroZh": "把你老板的管理风格、沟通偏好、决策习惯炼入 token，让 AI 扮演你的老板。在提交重要报告之前，先跟「AI 老板」演练一遍；在准备晋升谈话时，提前预测老板的关切点；在设计方案时，用老板的视角审视是否经得起质疑。\n\n理解老板，本质上是理解他的决策框架和优先级排序。把这些蒸馏进一个 Skill，你在职场博弈中就永远提前一步。",
-      "category": "workplace",
-      "author": "vogtsw",
-      "github": "https://github.com/vogtsw/boss-skills",
-      "stars": 250,
-      "tags": [
-        "workplace",
-        "management"
-      ],
-      "addedAt": "2026-02-27",
-      "updatedAt": "2026-02-27",
-      "readmeLocales": [
-        "en",
         "zh"
       ]
     },
@@ -131,7 +108,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1333,
+      "stars": 1334,
       "tags": [
         "twitter",
         "content",
@@ -179,7 +156,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 38030,
+      "stars": 38112,
       "tags": [
         "distillation",
         "universal",
@@ -207,7 +184,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6614,
+      "stars": 6615,
       "tags": [
         "persona",
         "relationship"
@@ -230,7 +207,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3526,
+      "stars": 3530,
       "tags": [
         "persona",
         "self",
@@ -279,7 +256,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 978,
+      "stars": 981,
       "tags": [
         "celebrity",
         "product",
@@ -303,7 +280,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 569,
+      "stars": 572,
       "tags": [
         "celebrity",
         "tech",
@@ -419,7 +396,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10742,
+      "stars": 10753,
       "tags": [
         "education",
         "practical",
@@ -581,7 +558,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 3896,
+      "stars": 3907,
       "tags": [
         "mystical",
         "fortune",
@@ -605,7 +582,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 512,
+      "stars": 517,
       "tags": [
         "mystical",
         "love",
@@ -635,7 +612,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 1604,
+      "stars": 1612,
       "readmeLocales": [
         "zh"
       ]
@@ -651,7 +628,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 498,
+      "stars": 501,
       "tags": [
         "mystical",
         "buddhism",
@@ -915,7 +892,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 1144,
+      "stars": 1145,
       "tags": [
         "persona",
         "self",
@@ -1030,7 +1007,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3856,
+      "stars": 3859,
       "tags": [
         "tool",
         "methodology",
@@ -1108,7 +1085,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1291,
+      "stars": 1293,
       "readmeLocales": [
         "zh"
       ]
@@ -1129,7 +1106,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 140,
+      "stars": 141,
       "readmeLocales": [
         "en",
         "zh"
@@ -1367,7 +1344,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 338,
+      "stars": 339,
       "readmeLocales": [
         "en",
         "zh"
@@ -1453,7 +1430,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 191,
+      "stars": 192,
       "readmeLocales": [
         "zh"
       ]
@@ -1685,7 +1662,7 @@
       "category": "celebrity",
       "author": "wwwaapplleecu-source",
       "github": "https://github.com/wwwaapplleecu-source/mao-skill",
-      "stars": 111,
+      "stars": 112,
       "tags": [
         "celebrity",
         "methodology",

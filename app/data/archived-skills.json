@@ -59,6 +59,30 @@
       "updatedAt": "2026-04-12",
       "archivedAt": "2026-04-12",
       "archivedReason": "github_404"
+    },
+    {
+      "id": "boss",
+      "slug": "boss-skills",
+      "name": "Boss.skill",
+      "nameZh": "老板.skill",
+      "summary": "Distill your boss into tokens — keep the productivity for yourself.",
+      "summaryZh": "把老板炼入 token，把生产力的解放留给自己。",
+      "detailIntroZh": "把你老板的管理风格、沟通偏好、决策习惯炼入 token，让 AI 扮演你的老板。在提交重要报告之前，先跟「AI 老板」演练一遍；在准备晋升谈话时，提前预测老板的关切点；在设计方案时，用老板的视角审视是否经得起质疑。\n\n理解老板，本质上是理解他的决策框架和优先级排序。把这些蒸馏进一个 Skill，你在职场博弈中就永远提前一步。",
+      "category": "workplace",
+      "author": "vogtsw",
+      "github": "https://github.com/vogtsw/boss-skills",
+      "tags": [
+        "workplace",
+        "management"
+      ],
+      "addedAt": "2026-02-27",
+      "updatedAt": "2026-11-12",
+      "readmeLocales": [
+        "en",
+        "zh"
+      ],
+      "archivedAt": "2026-11-12",
+      "archivedReason": "github_404"
     }
   ]
 }

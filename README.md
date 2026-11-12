@@ -28,12 +28,11 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 
 ## Skill Directory
 
-> 77 Skills · 10 Categories · Last synced 2026-11-11
+> 76 Skills · 10 Categories · Last synced 2026-11-12
 
 ### Workplace
 
 - [Colleague.skill](https://github.com/titanwings/colleague-skill) — Distill your real colleague into AI — the spark that started the .skill revolution.
-- [Boss.skill](https://github.com/vogtsw/boss-skills) — Distill your boss into tokens — keep the productivity for yourself.
 - [Supervisor.skill](https://github.com/ybq22/supervisor) — Distill your academic supervisor into an always-available AI Skill.
 - [Professor.skill](https://github.com/CommitHu502Craft/professor-skill) — Build your own AI teacher who actually highlights the key points.
 - [Senpai.skill](https://github.com/zhanghaichao520/senpai-skill) — Distill your graduated senior into an AI that keeps holding lab meetings and pushing you.

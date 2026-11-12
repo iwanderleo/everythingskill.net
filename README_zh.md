@@ -28,12 +28,11 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 
 ## Skill 目录
 
-> 77 个 Skill · 10 个分类 · 最后同步 2026-11-11
+> 76 个 Skill · 10 个分类 · 最后同步 2026-11-12
 
 ### 职场
 
 - [同事.skill](https://github.com/titanwings/colleague-skill) — 把真实同事蒸馏成 AI，SKILL 运动的爆火起点。
-- [老板.skill](https://github.com/vogtsw/boss-skills) — 把老板炼入 token，把生产力的解放留给自己。
 - [导师.skill](https://github.com/ybq22/supervisor) — 把导师蒸馏成随时可问的 AI Skill。
 - [大学老师.skill](https://github.com/CommitHu502Craft/professor-skill) — 老师不划重点，那就自己造一个会划重点的老师。
 - [师兄.skill](https://github.com/zhanghaichao520/senpai-skill) — 把毕业的大师兄蒸馏成能继续开组会、骂醒你的 AI Skill。
