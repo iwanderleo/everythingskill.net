@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-13",
+  "lastSyncedAt": "2026-11-14",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 26552,
+      "stars": 26563,
       "tags": [
         "workplace",
         "distillation",
@@ -156,7 +156,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 38190,
+      "stars": 38254,
       "tags": [
         "distillation",
         "universal",
@@ -184,7 +184,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6618,
+      "stars": 6619,
       "tags": [
         "persona",
         "relationship"
@@ -207,7 +207,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3530,
+      "stars": 3531,
       "tags": [
         "persona",
         "self",
@@ -280,7 +280,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 572,
+      "stars": 574,
       "tags": [
         "celebrity",
         "tech",
@@ -396,7 +396,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10759,
+      "stars": 10763,
       "tags": [
         "education",
         "practical",
@@ -558,7 +558,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 3919,
+      "stars": 3933,
       "tags": [
         "mystical",
         "fortune",
@@ -722,7 +722,7 @@
       "category": "relationship",
       "author": "xiaoheizi8",
       "github": "https://github.com/xiaoheizi8/crush-skills",
-      "stars": 375,
+      "stars": 376,
       "tags": [
         "relationship",
         "persona",
@@ -1007,7 +1007,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3860,
+      "stars": 3861,
       "tags": [
         "tool",
         "methodology",
@@ -1085,7 +1085,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1295,
+      "stars": 1296,
       "readmeLocales": [
         "zh"
       ]
@@ -1344,7 +1344,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 337,
+      "stars": 338,
       "readmeLocales": [
         "en",
         "zh"
@@ -1472,7 +1472,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2992,
+      "stars": 2995,
       "readmeLocales": [
         "zh"
       ]
