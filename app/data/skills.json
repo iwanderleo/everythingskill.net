@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-17",
+  "lastSyncedAt": "2026-11-18",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 26621,
+      "stars": 26652,
       "tags": [
         "workplace",
         "distillation",
@@ -108,7 +108,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1343,
+      "stars": 1344,
       "tags": [
         "twitter",
         "content",
@@ -156,7 +156,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 38471,
+      "stars": 38544,
       "tags": [
         "distillation",
         "universal",
@@ -184,7 +184,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6621,
+      "stars": 6619,
       "tags": [
         "persona",
         "relationship"
@@ -256,7 +256,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 980,
+      "stars": 982,
       "tags": [
         "celebrity",
         "product",
@@ -280,7 +280,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 577,
+      "stars": 579,
       "tags": [
         "celebrity",
         "tech",
@@ -304,7 +304,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/munger-skill",
-      "stars": 404,
+      "stars": 405,
       "tags": [
         "celebrity",
         "investment",
@@ -327,7 +327,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/feynman-skill",
-      "stars": 321,
+      "stars": 322,
       "tags": [
         "education",
         "teaching",
@@ -350,7 +350,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/naval-skill",
-      "stars": 275,
+      "stars": 276,
       "tags": [
         "celebrity",
         "philosophy",
@@ -396,7 +396,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10790,
+      "stars": 10797,
       "tags": [
         "education",
         "practical",
@@ -465,7 +465,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/karpathy-skill",
-      "stars": 329,
+      "stars": 330,
       "tags": [
         "education",
         "AI",
@@ -558,7 +558,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 3973,
+      "stars": 4006,
       "tags": [
         "mystical",
         "fortune",
@@ -582,7 +582,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 526,
+      "stars": 537,
       "tags": [
         "mystical",
         "love",
@@ -612,7 +612,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 1629,
+      "stars": 1657,
       "readmeLocales": [
         "zh"
       ]
@@ -628,7 +628,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 509,
+      "stars": 517,
       "tags": [
         "mystical",
         "buddhism",
@@ -1085,7 +1085,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1300,
+      "stars": 1302,
       "readmeLocales": [
         "zh"
       ]
@@ -1106,7 +1106,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 141,
+      "stars": 142,
       "readmeLocales": [
         "en",
         "zh"
@@ -1217,7 +1217,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 29,
+      "stars": 30,
       "readmeLocales": [
         "en",
         "zh"
@@ -1344,7 +1344,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 338,
+      "stars": 340,
       "readmeLocales": [
         "en",
         "zh"
@@ -1472,7 +1472,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 2999,
+      "stars": 3000,
       "readmeLocales": [
         "zh"
       ]
@@ -1790,7 +1790,7 @@
       "readmeLocales": [
         "zh"
       ],
-      "stars": 2487
+      "stars": 2488
     },
     {
       "id": "roast-cold-email",
