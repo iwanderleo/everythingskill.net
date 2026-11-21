@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-20",
+  "lastSyncedAt": "2026-11-21",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 26691,
+      "stars": 26732,
       "tags": [
         "workplace",
         "distillation",
@@ -156,7 +156,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 38683,
+      "stars": 38718,
       "tags": [
         "distillation",
         "universal",
@@ -184,7 +184,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6622,
+      "stars": 6625,
       "tags": [
         "persona",
         "relationship"
@@ -280,7 +280,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 580,
+      "stars": 581,
       "tags": [
         "celebrity",
         "tech",
@@ -396,7 +396,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10800,
+      "stars": 10805,
       "tags": [
         "education",
         "practical",
@@ -558,7 +558,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 4178,
+      "stars": 4203,
       "tags": [
         "mystical",
         "fortune",
@@ -582,7 +582,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 622,
+      "stars": 637,
       "tags": [
         "mystical",
         "love",
@@ -612,7 +612,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 2059,
+      "stars": 2127,
       "readmeLocales": [
         "zh"
       ]
@@ -628,7 +628,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 579,
+      "stars": 588,
       "tags": [
         "mystical",
         "buddhism",
@@ -892,7 +892,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 1152,
+      "stars": 1154,
       "tags": [
         "persona",
         "self",
@@ -1007,7 +1007,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3894,
+      "stars": 3895,
       "tags": [
         "tool",
         "methodology",
@@ -1032,7 +1032,7 @@
       "category": "tool",
       "author": "binggandata",
       "github": "https://github.com/binggandata/bggg-skill-taotie",
-      "stars": 99,
+      "stars": 100,
       "tags": [
         "tool",
         "meta",
@@ -1085,7 +1085,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1308,
+      "stars": 1310,
       "readmeLocales": [
         "zh"
       ]
@@ -1472,7 +1472,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 3001,
+      "stars": 3004,
       "readmeLocales": [
         "zh"
       ]
