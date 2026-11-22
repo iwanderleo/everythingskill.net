@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-21",
+  "lastSyncedAt": "2026-11-22",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 26732,
+      "stars": 26768,
       "tags": [
         "workplace",
         "distillation",
@@ -156,7 +156,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 38718,
+      "stars": 38782,
       "tags": [
         "distillation",
         "universal",
@@ -184,7 +184,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6625,
+      "stars": 6635,
       "tags": [
         "persona",
         "relationship"
@@ -207,7 +207,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3540,
+      "stars": 3541,
       "tags": [
         "persona",
         "self",
@@ -256,7 +256,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 982,
+      "stars": 984,
       "tags": [
         "celebrity",
         "product",
@@ -280,7 +280,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 581,
+      "stars": 582,
       "tags": [
         "celebrity",
         "tech",
@@ -396,7 +396,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10805,
+      "stars": 10811,
       "tags": [
         "education",
         "practical",
@@ -465,7 +465,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/karpathy-skill",
-      "stars": 331,
+      "stars": 332,
       "tags": [
         "education",
         "AI",
@@ -558,7 +558,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 4203,
+      "stars": 4219,
       "tags": [
         "mystical",
         "fortune",
@@ -582,7 +582,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 637,
+      "stars": 641,
       "tags": [
         "mystical",
         "love",
@@ -612,7 +612,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 2127,
+      "stars": 2160,
       "readmeLocales": [
         "zh"
       ]
@@ -628,7 +628,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 588,
+      "stars": 589,
       "tags": [
         "mystical",
         "buddhism",
@@ -770,7 +770,7 @@
       "category": "relationship",
       "author": "NatalieCao323",
       "github": "https://github.com/NatalieCao323/partner-skill",
-      "stars": 61,
+      "stars": 62,
       "tags": [
         "relationship",
         "companion",
@@ -892,7 +892,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 1154,
+      "stars": 1155,
       "tags": [
         "persona",
         "self",
@@ -1007,7 +1007,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3895,
+      "stars": 3899,
       "tags": [
         "tool",
         "methodology",
@@ -1085,7 +1085,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1310,
+      "stars": 1309,
       "readmeLocales": [
         "zh"
       ]
@@ -1344,7 +1344,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 340,
+      "stars": 341,
       "readmeLocales": [
         "en",
         "zh"
@@ -1366,7 +1366,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 8,
+      "stars": 9,
       "readmeLocales": [
         "zh"
       ]
@@ -1472,7 +1472,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 3004,
+      "stars": 3006,
       "readmeLocales": [
         "zh"
       ]
