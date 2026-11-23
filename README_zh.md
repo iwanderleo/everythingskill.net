@@ -28,7 +28,7 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 
 ## Skill 目录
 
-> 76 个 Skill · 10 个分类 · 最后同步 2026-11-22
+> 75 个 Skill · 10 个分类 · 最后同步 2026-11-23
 
 ### 职场
 
@@ -97,7 +97,6 @@ EverythingSkill 是一个开源 AI Skill 目录站，收录 GitHub 上分散的 
 - [常熟阿诺.skill](https://github.com/Ricardo-Vv/changshu-anuo) — 提炼常熟阿诺「左右脑互搏」的表达与分析视角，形成可复用的方法论框架。
 - [郭德纲.skill](https://github.com/ByteRax/guodegang-skills) — 提炼郭德纲的表达结构、处世判断与职业方法，形成可复用的方法论视角。
 - [毛泽东.skill](https://github.com/wwwaapplleecu-source/mao-skill) — 基于公开著作提炼毛泽东的思想框架与方法论视角。
-- [米塞斯方法论](https://github.com/LijiayuDeng/mises-perspective) — 提炼路德维希·冯·米塞斯的人类行为学、经济计算与干预主义批判框架，形成可复用的政治经济学分析视角。
 - [罗布派克.skill](https://github.com/smallnest/rob-pike-skill) — 提炼 Rob Pike 在 Unix、Go 与工程设计中的技术判断与表达风格，形成可复用的方法论视角。
 - [齐泽克.skill](https://github.com/JikunR/zizek-skill) — 以齐泽克式的问题意识整理前提追问、欲望追踪与矛盾揭示方法，形成可复用的分析工具。
 

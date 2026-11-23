@@ -83,6 +83,30 @@
       ],
       "archivedAt": "2026-11-12",
       "archivedReason": "github_404"
+    },
+    {
+      "id": "mises",
+      "slug": "mises-perspective",
+      "name": "Mises.skill",
+      "nameZh": "米塞斯方法论",
+      "summary": "Distill Ludwig von Mises' praxeology, economic calculation, and institutional analysis framework.",
+      "summaryZh": "提炼路德维希·冯·米塞斯的人类行为学、经济计算与干预主义批判框架，形成可复用的政治经济学分析视角。",
+      "detailIntroZh": "路德维希·冯·米塞斯是奥地利经济学派的核心人物，以人类行为学（Praxeology）为基础，构建了一套从个体行动出发的经济理论体系。这个 Skill 提炼他对经济计算问题、自发秩序与干预主义批判的分析工具，帮助你用奥派视角审视政策、市场与制度问题。\n\n适合对政治经济学、自由主义思想感兴趣的用户。",
+      "category": "celebrity",
+      "author": "LijiayuDeng",
+      "github": "https://github.com/LijiayuDeng/mises-perspective",
+      "tags": [
+        "celebrity",
+        "economics",
+        "methodology"
+      ],
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-11-23",
+      "readmeLocales": [
+        "zh"
+      ],
+      "archivedAt": "2026-11-23",
+      "archivedReason": "github_404"
     }
   ]
 }

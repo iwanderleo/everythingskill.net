@@ -28,7 +28,7 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 
 ## Skill Directory
 
-> 76 Skills · 10 Categories · Last synced 2026-11-22
+> 75 Skills · 10 Categories · Last synced 2026-11-23
 
 ### Workplace
 
@@ -97,7 +97,6 @@ The `.skill` ecosystem is scattered across personal repos, trending threads, and
 - [Changshu Anuo.skill](https://github.com/Ricardo-Vv/changshu-anuo) — Extract Changshu Anuo's 'left-right brain battle' analytical perspective into a reusable framework.
 - [Guo Degang.skill](https://github.com/ByteRax/guodegang-skills) — Distill Guo Degang's expression structure, worldview and professional methodology.
 - [Mao Zedong.skill](https://github.com/wwwaapplleecu-source/mao-skill) — Distill Mao Zedong's thought framework and methodology from public works.
-- [Mises.skill](https://github.com/LijiayuDeng/mises-perspective) — Distill Ludwig von Mises' praxeology, economic calculation, and institutional analysis framework.
 - [Rob Pike.skill](https://github.com/smallnest/rob-pike-skill) — Distill Rob Pike's technical judgment and expression style from Unix, Go and engineering design.
 - [Zizek.skill](https://github.com/JikunR/zizek-skill) — Premise-questioning, desire-tracking and contradiction-revealing tools in the Zizekian mode.
 

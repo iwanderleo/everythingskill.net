@@ -61,6 +61,14 @@
       "action": "archived",
       "reason": "github_404",
       "github": "https://github.com/vogtsw/boss-skills"
+    },
+    {
+      "date": "2026-11-23",
+      "skillId": "mises",
+      "skillName": "米塞斯方法论",
+      "action": "archived",
+      "reason": "github_404",
+      "github": "https://github.com/LijiayuDeng/mises-perspective"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-22",
+  "lastSyncedAt": "2026-11-23",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 26768,
+      "stars": 26794,
       "tags": [
         "workplace",
         "distillation",
@@ -108,7 +108,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1346,
+      "stars": 1348,
       "tags": [
         "twitter",
         "content",
@@ -156,7 +156,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 38782,
+      "stars": 38863,
       "tags": [
         "distillation",
         "universal",
@@ -184,7 +184,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6635,
+      "stars": 6639,
       "tags": [
         "persona",
         "relationship"
@@ -207,7 +207,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3541,
+      "stars": 3545,
       "tags": [
         "persona",
         "self",
@@ -232,7 +232,7 @@
       "category": "tool",
       "author": "YIKUAIBANZI",
       "github": "https://github.com/YIKUAIBANZI/forge-skill",
-      "stars": 136,
+      "stars": 137,
       "tags": [
         "distillation",
         "engine"
@@ -256,7 +256,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/steve-jobs-skill",
-      "stars": 984,
+      "stars": 985,
       "tags": [
         "celebrity",
         "product",
@@ -280,7 +280,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/elon-musk-skill",
-      "stars": 582,
+      "stars": 583,
       "tags": [
         "celebrity",
         "tech",
@@ -304,7 +304,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/munger-skill",
-      "stars": 405,
+      "stars": 407,
       "tags": [
         "celebrity",
         "investment",
@@ -327,7 +327,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/feynman-skill",
-      "stars": 322,
+      "stars": 323,
       "tags": [
         "education",
         "teaching",
@@ -396,7 +396,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10811,
+      "stars": 10814,
       "tags": [
         "education",
         "practical",
@@ -419,7 +419,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/paul-graham-skill",
-      "stars": 107,
+      "stars": 108,
       "tags": [
         "celebrity",
         "startup",
@@ -442,7 +442,7 @@
       "category": "celebrity",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhang-yiming-skill",
-      "stars": 182,
+      "stars": 183,
       "tags": [
         "celebrity",
         "tech",
@@ -558,7 +558,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 4219,
+      "stars": 4227,
       "tags": [
         "mystical",
         "fortune",
@@ -582,7 +582,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 641,
+      "stars": 642,
       "tags": [
         "mystical",
         "love",
@@ -612,7 +612,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 2160,
+      "stars": 2178,
       "readmeLocales": [
         "zh"
       ]
@@ -628,7 +628,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 589,
+      "stars": 592,
       "tags": [
         "mystical",
         "buddhism",
@@ -799,7 +799,7 @@
       "category": "relationship",
       "author": "xiaoheizi8",
       "github": "https://github.com/xiaoheizi8/parents-skills",
-      "stars": 58,
+      "stars": 59,
       "tags": [
         "relationship",
         "family",
@@ -984,7 +984,7 @@
       "category": "media",
       "author": "Walshyu",
       "github": "https://github.com/Walshyu/fengge-skill",
-      "stars": 53,
+      "stars": 54,
       "tags": [
         "media",
         "documentary",
@@ -1007,7 +1007,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3899,
+      "stars": 3901,
       "tags": [
         "tool",
         "methodology",
@@ -1085,7 +1085,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1309,
+      "stars": 1310,
       "readmeLocales": [
         "zh"
       ]
@@ -1217,7 +1217,7 @@
       ],
       "addedAt": "2026-04-09",
       "updatedAt": "2026-04-09",
-      "stars": 30,
+      "stars": 31,
       "readmeLocales": [
         "en",
         "zh"
@@ -1344,7 +1344,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 341,
+      "stars": 342,
       "readmeLocales": [
         "en",
         "zh"
@@ -1472,8 +1472,9 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 3006,
+      "stars": 3008,
       "readmeLocales": [
+        "en",
         "zh"
       ]
     },
@@ -1677,29 +1678,6 @@
       ]
     },
     {
-      "id": "mises",
-      "slug": "mises-perspective",
-      "name": "Mises.skill",
-      "nameZh": "米塞斯方法论",
-      "summary": "Distill Ludwig von Mises' praxeology, economic calculation, and institutional analysis framework.",
-      "summaryZh": "提炼路德维希·冯·米塞斯的人类行为学、经济计算与干预主义批判框架，形成可复用的政治经济学分析视角。",
-      "detailIntroZh": "路德维希·冯·米塞斯是奥地利经济学派的核心人物，以人类行为学（Praxeology）为基础，构建了一套从个体行动出发的经济理论体系。这个 Skill 提炼他对经济计算问题、自发秩序与干预主义批判的分析工具，帮助你用奥派视角审视政策、市场与制度问题。\n\n适合对政治经济学、自由主义思想感兴趣的用户。",
-      "category": "celebrity",
-      "author": "LijiayuDeng",
-      "github": "https://github.com/LijiayuDeng/mises-perspective",
-      "stars": 5,
-      "tags": [
-        "celebrity",
-        "economics",
-        "methodology"
-      ],
-      "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-10",
-      "readmeLocales": [
-        "zh"
-      ]
-    },
-    {
       "id": "rob-pike",
       "slug": "rob-pike-skill",
       "name": "Rob Pike.skill",
@@ -1790,7 +1768,7 @@
       "readmeLocales": [
         "zh"
       ],
-      "stars": 2490
+      "stars": 2492
     },
     {
       "id": "roast-cold-email",
