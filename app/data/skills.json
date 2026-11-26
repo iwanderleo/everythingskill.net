@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-25",
+  "lastSyncedAt": "2026-11-26",
   "categories": [
     {
       "key": "workplace",
@@ -84,7 +84,7 @@
       "category": "workplace",
       "author": "titanwings",
       "github": "https://github.com/titanwings/colleague-skill",
-      "stars": 26852,
+      "stars": 26883,
       "tags": [
         "workplace",
         "distillation",
@@ -108,7 +108,7 @@
       "category": "media",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/x-mentor-skill",
-      "stars": 1351,
+      "stars": 1353,
       "tags": [
         "twitter",
         "content",
@@ -156,7 +156,7 @@
       "category": "tool",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/nuwa-skill",
-      "stars": 39009,
+      "stars": 39065,
       "tags": [
         "distillation",
         "universal",
@@ -184,7 +184,7 @@
       "category": "relationship",
       "author": "therealXiaomanChu",
       "github": "https://github.com/therealXiaomanChu/ex-skill",
-      "stars": 6638,
+      "stars": 6640,
       "tags": [
         "persona",
         "relationship"
@@ -207,7 +207,7 @@
       "category": "persona",
       "author": "notdog1998",
       "github": "https://github.com/notdog1998/yourself-skill",
-      "stars": 3554,
+      "stars": 3553,
       "tags": [
         "persona",
         "self",
@@ -327,7 +327,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/feynman-skill",
-      "stars": 323,
+      "stars": 324,
       "tags": [
         "education",
         "teaching",
@@ -396,7 +396,7 @@
       "category": "education",
       "author": "alchaincyf",
       "github": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "stars": 10824,
+      "stars": 10832,
       "tags": [
         "education",
         "practical",
@@ -558,7 +558,7 @@
       "category": "mystical",
       "author": "jinchenma94",
       "github": "https://github.com/jinchenma94/bazi-skill",
-      "stars": 4259,
+      "stars": 4272,
       "tags": [
         "mystical",
         "fortune",
@@ -582,7 +582,7 @@
       "category": "mystical",
       "author": "Ming-H",
       "github": "https://github.com/Ming-H/yinyuan-skills",
-      "stars": 652,
+      "stars": 654,
       "tags": [
         "mystical",
         "love",
@@ -612,7 +612,7 @@
       ],
       "addedAt": "2026-03-22",
       "updatedAt": "2026-03-22",
-      "stars": 2216,
+      "stars": 2224,
       "readmeLocales": [
         "zh"
       ]
@@ -628,7 +628,7 @@
       "category": "mystical",
       "author": "xr843",
       "github": "https://github.com/xr843/Master-skill",
-      "stars": 602,
+      "stars": 603,
       "tags": [
         "mystical",
         "buddhism",
@@ -675,7 +675,7 @@
       "category": "workplace",
       "author": "CommitHu502Craft",
       "github": "https://github.com/CommitHu502Craft/professor-skill",
-      "stars": 66,
+      "stars": 67,
       "tags": [
         "workplace",
         "education",
@@ -892,7 +892,7 @@
       "category": "persona",
       "author": "agenmod",
       "github": "https://github.com/agenmod/immortal-skill",
-      "stars": 1157,
+      "stars": 1160,
       "tags": [
         "persona",
         "self",
@@ -1007,7 +1007,7 @@
       "category": "tool",
       "author": "HughYau",
       "github": "https://github.com/HughYau/qiushi-skill",
-      "stars": 3904,
+      "stars": 3918,
       "tags": [
         "tool",
         "methodology",
@@ -1085,7 +1085,7 @@
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
       "featured": true,
-      "stars": 1313,
+      "stars": 1314,
       "readmeLocales": [
         "zh"
       ]
@@ -1344,7 +1344,7 @@
       ],
       "addedAt": "2026-04-08",
       "updatedAt": "2026-04-08",
-      "stars": 347,
+      "stars": 348,
       "readmeLocales": [
         "en",
         "zh"
@@ -1472,7 +1472,7 @@
       ],
       "addedAt": "2026-04-07",
       "updatedAt": "2026-04-07",
-      "stars": 3011,
+      "stars": 3012,
       "readmeLocales": [
         "en",
         "zh"
